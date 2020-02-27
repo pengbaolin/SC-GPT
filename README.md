@@ -4,7 +4,7 @@ This repository contains the dataset, source code and trained model for the foll
 
 [Few-shot Natural Language Generation for Task-Oriented Dialog](http://google.com)
 Baolin Peng, Chenguang Zhu, Chunyuan Li, Xiujun Li, Jinchao Li, Michael Zeng and Jianfeng Gao
-Arxiv
+ArXiv paper: [https://arxiv.org/](https://arxiv.org/)
 
 This repository is based on hugginface transformer package and OpenAI GPT-2, containing model training code and pretrained medium model checkpoint. Some evaluation scripts are adapted from [RNNLG]([https://github.com/shawnwun/RNNLG](https://github.com/shawnwun/RNNLG)). The results indicate that with minimal training examples, SC-GPT is able to generate natural language response given dialog acts naturally and adequately. It can be used to train an NLG model in new domains with very limited examples.
 
@@ -25,9 +25,9 @@ Project and demo webpage: [https://aka.ms/scgpt](https://aka.ms/scgpt)
 **Data format**
 ```json
 [
-"inform(name='hakka restaurant';pricerange=moderate)", ##dialog act
-"hakka restaurant is moderate -ly priced", ## corresponding natural language description
-"hakka restaurant is moderate -ly priced" ## repeated for evaluation script
+"inform(name='hakka restaurant';pricerange=moderate)", //dialog act
+"hakka restaurant is moderate -ly priced", // corresponding natural language description
+"hakka restaurant is moderate -ly priced" // repeated for evaluation script
 ]
 
 Linearized as:
@@ -90,6 +90,6 @@ if you use this code and data in your research, please cite our arxiv paper:
       author={Baolin Peng, Chenguang Zhu, Chunyuan Li, Xiujun Li, Jinchao Li, Michael Zeng, Jianfeng Gao},
       booktitle ={Arxiv},
       year={2020}
-      }
+}
 ```
 
