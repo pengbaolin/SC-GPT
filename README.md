@@ -25,10 +25,14 @@ Project and demo webpage: [https://aka.ms/scgpt](https://aka.ms/scgpt)
 **Data format**
 ```json
 [
-"inform(name='hakka restaurant';pricerange=moderate)", //dialog act
-"hakka restaurant is moderate -ly priced", // corresponding natural language description
-"hakka restaurant is moderate -ly priced" // repeated for evaluation script
+"inform(name='hakka restaurant';pricerange=moderate)", 
+"hakka restaurant is moderate -ly priced", 
+"hakka restaurant is moderate -ly priced" 
 ]
+
+First item: dialog act
+Second item: corresponding natural language description
+Thrid item: repeated for evaluation script
 
 Linearized as:
 inform ( name = hakka restaurant ; pricerange = moderate ) & hakka restaurant is moderate -ly priced
