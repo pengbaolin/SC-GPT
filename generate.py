@@ -9,9 +9,6 @@ import torch.nn.functional as F
 import numpy as np
 
 import sys
-sys.path.append('.')
-sys.path.append('./transformers')
-sys.path.append('./transformers/')
 
 from transformers import GPT2Config, OpenAIGPTConfig, XLNetConfig, TransfoXLConfig, XLMConfig, CTRLConfig
 

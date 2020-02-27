@@ -10,9 +10,6 @@ import re
 import shutil
 
 import sys
-sys.path.append('.')
-sys.path.append('./transformers')
-sys.path.append('./transformers/')
 
 import numpy as np
 import torch
