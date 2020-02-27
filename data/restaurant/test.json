@@ -1,0 +1,647 @@
+[
+  [
+    "inform(name='arabian nights restaurant';food=arabian;goodformeal=dinner)",
+    "arabian nights restaurant serves arabian and is good for dinner",
+    "arabian nights restaurant serves arabian and is good for dinner"
+  ],
+  [
+    "inform(name='chenery park';area='hayes valley or glen park';address='683 chenery street')",
+    "chenery park is in the hayes valley and glen park area and it is address is 683 chenery street",
+    "chenery park is in the hayes valley and glen park area and it is address is 683 chenery street"
+  ],
+  [
+    "goodbye()",
+    "good bye",
+    "good bye"
+  ],
+  [
+    "inform_no_match(area='bayview heights')",
+    "there are no restaurant -s in bayview heights . please try another location",
+    "there are no restaurant -s in bayview heights . please try another location"
+  ],
+  [
+    "inform(name=eiji;area=mastro;kidsallowed=no;goodformeal=dinner)",
+    "eiji is a nice restaurant in the mastro area that allows child -s and is good for dinner",
+    "eiji is a nice restaurant in the mastro area that allows child -s and is good for dinner"
+  ],
+  [
+    "inform(name='red door cafe';address='1608 bush street')",
+    "the address for the red door cafe is 1608 bush street",
+    "the address for the red door cafe is 1608 bush street"
+  ],
+  [
+    "inform(name=chow;phone='4155522469')",
+    "chow 's number is 4155522469",
+    "chow 's number is 4155522469"
+  ],
+  [
+    "inform(name=canteen;pricerange=moderate)",
+    "the price range of canteen is moderate",
+    "the price range of canteen is moderate"
+  ],
+  [
+    "inform(name='lime tree southeast asian kitchen';near='inner sunset')",
+    "lime tree southeast asian kitchen is near inner sunset",
+    "lime tree southeast asian kitchen is near inner sunset"
+  ],
+  [
+    "inform(name='beijing restaurant';near='outer mission';pricerange=cheap)",
+    "beijing restaurant is a nice restaurant near outer mission , with cheap price -s",
+    "beijing restaurant is a nice restaurant near outer mission , with cheap price -s"
+  ],
+  [
+    "inform(name=spruce;goodformeal=dinner)",
+    "spruce is a good restaurant for dinner",
+    "spruce is a good restaurant for dinner"
+  ],
+  [
+    "inform(name=piperade;food=spanish)",
+    "there is a spanish restaurant called piperade that may interest you",
+    "there is a spanish restaurant called piperade that may interest you"
+  ],
+  [
+    "inform_no_match(kidsallowed=no;area='opera plaza')",
+    "there are 0 restaurant -s where kid -s are allowed in the opera plaza area",
+    "there are 0 restaurant -s where kid -s are allowed in the opera plaza area"
+  ],
+  [
+    "inform_no_match(near=chinatown;area='opera plaza')",
+    "unfortunately there are 0 restaurant -s near chinatown in the opera plaza area",
+    "unfortunately there are 0 restaurant -s near chinatown in the opera plaza area"
+  ],
+  [
+    "inform(name='seoul garden';area='hayes valley or little osaka')",
+    "the seoul garden is in the hayes valley or little osaka area",
+    "the seoul garden is in the hayes valley or little osaka area"
+  ],
+  [
+    "inform(name='kappa japanese restaurant';area='lower pacific heights';kidsallowed=no)",
+    "kappa japanese restaurant is the lower pacific heights area does not allow kid -s",
+    "kappa japanese restaurant is the lower pacific heights area does not allow kid -s"
+  ],
+  [
+    "inform(name='assab eritrean restaurant';price='between 7 and 11 euro')",
+    "assab eritrean restaurant meal -s cost between 7 and 11 euro",
+    "assab eritrean restaurant meal -s cost between 7 and 11 euro"
+  ],
+  [
+    "inform_only_match(name='dosa on fillmore and kiss seafood';pricerange='expensive';near='lower pacific heights')",
+    "i apologize , dosa on fillmore and kiss seafood are the only expensive restaurant -s near lower pacific heights",
+    "i apologize , dosa on fillmore and kiss seafood are the only expensive restaurant -s near lower pacific heights"
+  ],
+  [
+    "inform_count(type=restaurant;count='4';goodformeal=dinner;near='potrero hill';pricerange=moderate)",
+    "i found 4 restaurant -s that is moderate -ly priced , near potrero hill and good for dinner",
+    "i found 4 restaurant -s that is moderate -ly priced , near potrero hill and good for dinner"
+  ],
+  [
+    "?request(area)",
+    "thank you good bye",
+    "thank you good bye"
+  ],
+  [
+    "inform(name='franciscan crab restaurant';price='between 29 and 44 euro';phone='4153627733')",
+    "in franciscan crab restaurant price -s range between between 29 and 44 euro and the phone number is 4153627733",
+    "in franciscan crab restaurant price -s range between between 29 and 44 euro and the phone number is 4153627733"
+  ],
+  [
+    "inform(name='marnee thai';near='outer sunset';pricerange=moderate;goodformeal=dinner)",
+    "marnee thai is near outer sunset , with a moderate price for dinner",
+    "marnee thai is near outer sunset , with a moderate price for dinner"
+  ],
+  [
+    "?confirm(kidsallowed=yes)",
+    "kid -s allowed yes or no",
+    "kid -s allowed yes or no"
+  ],
+  [
+    "inform(name='franciscan crab restaurant';pricerange=expensive;kidsallowed=yes)",
+    "the franciscan crab restaurant is in the expensive price range that allows child -s",
+    "the franciscan crab restaurant is in the expensive price range that allows child -s"
+  ],
+  [
+    "inform(name='gracias madre';type=restaurant)",
+    "gracias madre is another restaurant",
+    "gracias madre is another restaurant"
+  ],
+  [
+    "inform_count(type=restaurant;count='2';goodformeal=brunch)",
+    "there are 2 restaurant -s that are good for brunch",
+    "there are 2 restaurant -s that are good for brunch"
+  ],
+  [
+    "?request(food)",
+    "what kind of food",
+    "what kind of food"
+  ],
+  [
+    "inform_count(type=restaurant;count='239';goodformeal=dont_care;food=dont_care)",
+    "there are 239 place -s serve meal food if the food type is not an issue",
+    "there are 239 place -s serve meal food if the food type is not an issue"
+  ],
+  [
+    "?request(pricerange)",
+    "would you like restaurant -s in a particular price range",
+    "would you like restaurant -s in a particular price range"
+  ],
+  [
+    "inform(name='tanuki restaurant';goodformeal=dinner;pricerange=cheap;food=japanese)",
+    "tanuki restaurant serves cheap japanese dinner",
+    "tanuki restaurant serves cheap japanese dinner"
+  ],
+  [
+    "inform(name=chow;address='215 church street';phone='4155522469')",
+    "chows is located at 215 church street and the phone number is 4155522469",
+    "chows is located at 215 church street and the phone number is 4155522469"
+  ],
+  [
+    "inform(name='red door cafe';pricerange=cheap;goodformeal=brunch)",
+    "red door cafe is cheap and good for brunch",
+    "red door cafe is cheap and good for brunch"
+  ],
+  [
+    "inform_only_match(name='red door cafe';pricerange=cheap;goodformeal=brunch)",
+    "i apologize , the red door cafe is the only available restaurant that serves brunch in your cheap price range",
+    "i apologize , the red door cafe is the only available restaurant that serves brunch in your cheap price range"
+  ],
+  [
+    "inform_no_match(food='gluten free';pricerange=cheap)",
+    "unfortunately there is no cheap restaurant that serves gluten free food",
+    "unfortunately there is no cheap restaurant that serves gluten free food"
+  ],
+  [
+    "?confirm(pricerange=dont_care)",
+    "can i confirm that the price does not matter to you",
+    "can i confirm that the price does not matter to you"
+  ],
+  [
+    "inform(name='amber india';phone='4157770500';postcode='94103')",
+    "amber india 's phone number is 4157770500 . their postcode is 94103",
+    "amber india 's phone number is 4157770500 . their postcode is 94103"
+  ],
+  [
+    "inform(name=source;pricerange=cheap;food=pizza;kidsallowed=yes)",
+    "source is a cheap pizza place that allows child -s",
+    "source is a cheap pizza place that allows child -s"
+  ],
+  [
+    "inform(name='fifth floor';kidsallowed=no)",
+    "fifth floor does not allow child -s",
+    "fifth floor does not allow child -s"
+  ],
+  [
+    "inform(name='singapore malaysian restaurant';area='hayes valley or richmond district';phone='4157509518')",
+    "singapore malaysian restaurant is in the hayes valley or richmond district . the phone number is 4157509518",
+    "singapore malaysian restaurant is in the hayes valley or richmond district . the phone number is 4157509518"
+  ],
+  [
+    "inform(name=spruce;goodformeal=dinner;near='presidio heights')",
+    "spruce is good for dinner and it is near presidio heights",
+    "spruce is good for dinner and it is near presidio heights"
+  ],
+  [
+    "inform_count(type=restaurant;count='3';goodformeal=dinner;near='mission bay')",
+    "there are 3 restaurant -s near mission bay that are good for dinner",
+    "there are 3 restaurant -s near mission bay that are good for dinner"
+  ],
+  [
+    "?select(kidsallowed='yes';kidsallowed='no')",
+    "yes , child -s are allowed",
+    "yes , child -s are allowed"
+  ],
+  [
+    "inform(name='taiwan restaurant';goodformeal=lunch;kidsallowed=yes;near='inner richmond')",
+    "taiwan restaurant is a good lunch place that allows kid -s near inner richmond",
+    "taiwan restaurant is a good lunch place that allows kid -s near inner richmond"
+  ],
+  [
+    "inform(name=fresca;kidsallowed=no;pricerange=moderate;near='pacific heights')",
+    "the restaurant i recommend is fresca . it is moderate -ly priced , does not allow kid -s , and is near pacific heights",
+    "the restaurant i recommend is fresca . it is moderate -ly priced , does not allow kid -s , and is near pacific heights"
+  ],
+  [
+    "?reqmore()",
+    "can i help you with anything else",
+    "can i help you with anything else"
+  ],
+  [
+    "inform(name='fujiyama ya japanese restaurant';food='japanese or sushi';phone='4156651772')",
+    "fujiyama ya japanese restaurant serves japanese or sushi , the phone number is 4156651772",
+    "fujiyama ya japanese restaurant serves japanese or sushi , the phone number is 4156651772"
+  ],
+  [
+    "inform_count(type=restaurant;count='239';pricerange=dont_care)",
+    "there are 239 restaurant -s which include all price range -s",
+    "there are 239 restaurant -s which include all price range -s"
+  ],
+  [
+    "inform(name='angkor borei restaurant';goodformeal=dinner;area='bernal heights';pricerange=cheap)",
+    "angkor borei restaurant is good dinner choice for your cheap range in bernal heights",
+    "angkor borei restaurant is good dinner choice for your cheap range in bernal heights"
+  ],
+  [
+    "inform(name='kiss seafood';near='lower pacific heights or japantown';address='1700 laguna street';phone='4154742866')",
+    "kiss seafood is near the lower pacific heights and japantown area -s . the address is 1700 laguna street . the phone number is 4154742866",
+    "kiss seafood is near the lower pacific heights and japantown area -s . the address is 1700 laguna street . the phone number is 4154742866"
+  ],
+  [
+    "inform_count(type=restaurant;count='11';near='nob hill')",
+    "there are 11 restaurant -s that serve american food near nob hill",
+    "there are 11 restaurant -s that serve american food near nob hill"
+  ],
+  [
+    "inform(name='thai time restaurant';kidsallowed=yes;near='inner richmond')",
+    "thai time restaurant is a nice restaurant that allows child -s near inner richmond",
+    "thai time restaurant is a nice restaurant that allows child -s near inner richmond"
+  ],
+  [
+    "inform_count(type=restaurant;count='229';kidsallowed=dont_care)",
+    "there are 229 restaurant -s do not have any policy about child -s",
+    "there are 229 restaurant -s do not have any policy about child -s"
+  ],
+  [
+    "inform_count(type=restaurant;count='2';goodformeal=dont_care;pricerange=cheap;area='little russia')",
+    "there are 2 restaurant -s that have a cheap price range in little russia if you do not mind what meal they serve",
+    "there are 2 restaurant -s that have a cheap price range in little russia if you do not mind what meal they serve"
+  ],
+  [
+    "?confirm(area='financial district')",
+    "is it the financial district",
+    "is it the financial district"
+  ],
+  [
+    "inform(name='arabian nights restaurant';pricerange='moderate';area='hayes valley or noma')",
+    "arabian nights restaurant has moderate price -s and is in hayes valley or noma",
+    "arabian nights restaurant has moderate price -s and is in hayes valley or noma"
+  ],
+  [
+    "inform_no_match(food=cafes;area='presidio heights')",
+    "there are 0 restaurant -s that are cafes near presidio heights",
+    "there are 0 restaurant -s that are cafes near presidio heights"
+  ],
+  [
+    "?confirm(near='potrero hill')",
+    "are you wondering if it is near potrero hill",
+    "are you wondering if it is near potrero hill"
+  ],
+  [
+    "inform(name='arabian nights restaurant';area='hayes valley or noma';address='2345 mission street';phone='4156481444')",
+    "arabian nights restaurant is in hayes valley or noma at 2345 mission street , you can call at 4156481444",
+    "arabian nights restaurant is in hayes valley or noma at 2345 mission street , you can call at 4156481444"
+  ],
+  [
+    "inform_no_match(goodformeal=breakfast;food=shanghainese)",
+    "there are no restaurant -s serving shanghainese food for breakfast",
+    "there are no restaurant -s serving shanghainese food for breakfast"
+  ],
+  [
+    "inform_only_match(name='bund shanghai restaurant';food=shanghainese)",
+    "bund shanghai restaurant is the only place serving shanghainese food",
+    "bund shanghai restaurant is the only place serving shanghainese food"
+  ],
+  [
+    "inform(name=mozzeria;kidsallowed=yes;food=pizza)",
+    "the mozzeria pizza place definitely allows kid -s",
+    "the mozzeria pizza place definitely allows kid -s"
+  ],
+  [
+    "inform(name='chez maman';food='burgers or creperies';address='1453 18th street')",
+    "burgers or creperies are served at chez maman which is located at 1453 18th street",
+    "burgers or creperies are served at chez maman which is located at 1453 18th street"
+  ],
+  [
+    "inform_count(type=restaurant;count='239';area=dont_care)",
+    "i have found 239 restaurant -s around if the area does not matter",
+    "i have found 239 restaurant -s around if the area does not matter"
+  ],
+  [
+    "inform_no_match(pricerange=expensive;area='bernal heights')",
+    "there are no expensive restaurant -s in bernal heights",
+    "there are no expensive restaurant -s in bernal heights"
+  ],
+  [
+    "inform_count(type=restaurant;count='6';food=korean;kidsallowed=yes;pricerange=dont_care)",
+    "there are 6 restaurant -s that serves korean food , allows kid -s and is in various price range -s",
+    "there are 6 restaurant -s that serves korean food , allows kid -s and is in various price range -s"
+  ],
+  [
+    "?request(near)",
+    "what is the location of the restaurant you are looking for",
+    "what is the location of the restaurant you are looking for"
+  ],
+  [
+    "inform_no_match(food=french;kidsallowed=yes)",
+    "sorry but i could not find a french restaurant that allows kid -s",
+    "sorry but i could not find a french restaurant that allows kid -s"
+  ],
+  [
+    "inform_count(type=restaurant;count='17';food=french)",
+    "there are 17 restaurant -s that serve french food",
+    "there are 17 restaurant -s that serve french food"
+  ],
+  [
+    "?request(goodformeal)",
+    "are you looking for breakfast , brunch , lunch , or dinner",
+    "are you looking for breakfast , brunch , lunch , or dinner"
+  ],
+  [
+    "inform(name=mozzeria;pricerange=moderate;address='3228 16th street';phone='4154890963')",
+    "mozzeria is in the moderate range and is located at 3228 16th street . the phone number is 4154890963",
+    "mozzeria is in the moderate range and is located at 3228 16th street . the phone number is 4154890963"
+  ],
+  [
+    "inform_no_match(food=cafes;near='russian hill')",
+    "0 restaurant -s close to russian hill that serve cafes food",
+    "0 restaurant -s close to russian hill that serve cafes food"
+  ],
+  [
+    "inform(name='aux delices restaurant';food=vietnamese;near='russian hill')",
+    "aux delices restaurant serves vietnamese food near russian hill",
+    "aux delices restaurant serves vietnamese food near russian hill"
+  ],
+  [
+    "inform(name='house of nanking';goodformeal=lunch;kidsallowed=no)",
+    "house of nanking is good for lunch and does not allow child -s",
+    "house of nanking is good for lunch and does not allow child -s"
+  ],
+  [
+    "inform_count(type=restaurant;count='89';goodformeal=dinner;kidsallowed=yes)",
+    "there are 89 restaurant -s that allow child -s for dinner",
+    "there are 89 restaurant -s that allow child -s for dinner"
+  ],
+  [
+    "inform(name=sanjalisco;goodformeal=breakfast;food=mexican;kidsallowed=yes)",
+    "i see . sanjalisco is a mexican restaurant that allows kid -s and is good for breakfast",
+    "i see . sanjalisco is a mexican restaurant that allows kid -s and is good for breakfast"
+  ],
+  [
+    "inform(name='enjoy vegetarian restaurant';food=chinese;near=chinatown;goodformeal=dinner;kidsallowed=yes)",
+    "enjoy vegetarian restaurant serves chinese food for dinner and allows kid -s . it is near to chinatown",
+    "enjoy vegetarian restaurant serves chinese food for dinner and allows kid -s . it is near to chinatown"
+  ],
+  [
+    "inform(name='thep phanom thai restaurant';address='400 waller street';phone='4154312526';postcode='94117')",
+    "thep phanom thai restaurant 's address is 400 waller street , its phone number is 4154312526 , and the postcode is 94117",
+    "thep phanom thai restaurant 's address is 400 waller street , its phone number is 4154312526 , and the postcode is 94117"
+  ],
+  [
+    "inform_no_match(near=chinatown;pricerange=expensive)",
+    "there are 0 expensive restaurant -s near chinatown",
+    "there are 0 expensive restaurant -s near chinatown"
+  ],
+  [
+    "?select(food='new american or thai')",
+    "are you looking for new american or thai food",
+    "are you looking for new american or thai food"
+  ],
+  [
+    "inform_no_match(food=chinese;near=chinatown;pricerange=moderate)",
+    "there are no moderate -ly priced chinese restaurant -s near chinatown",
+    "there are no moderate -ly priced chinese restaurant -s near chinatown"
+  ],
+  [
+    "inform(name='assab eritrean restaurant';pricerange=cheap;address='2845 geary blvd')",
+    "assab eritrean restaurant is cheap and the address is 2845 geary blvd",
+    "assab eritrean restaurant is cheap and the address is 2845 geary blvd"
+  ],
+  [
+    "inform_only_match(name='restaurant ducroix';kidsallowed=no;food=french;goodformeal=lunch)",
+    "no place except for restaurant ducroix does not allow child -s and serves french food good for lunch",
+    "no place except for restaurant ducroix does not allow child -s and serves french food good for lunch"
+  ],
+  [
+    "inform(name='restaurant ducroix';kidsallowed=no;address='690 sacramento street';phone='4153917195';postcode='94111')",
+    "restaurant ducroix does not allow kid -s and their address is 690 sacramento street , their phone number is 4153917195 and their postcode is 94111",
+    "restaurant ducroix does not allow kid -s and their address is 690 sacramento street , their phone number is 4153917195 and their postcode is 94111"
+  ],
+  [
+    "inform_only_match(name='marnee thai and thanh long';pricerange='moderate';near='outer sunset';goodformeal='dinner')",
+    "marnee thai and thanh long are the only 2 moderate -ly priced restaurant -s near outer sunset that are good for dinner",
+    "marnee thai and thanh long are the only 2 moderate -ly priced restaurant -s near outer sunset that are good for dinner"
+  ],
+  [
+    "inform(name='thanh long';address='4101 judah street';postcode='94122')",
+    "thanh long is located at 4101 judah street . the postcode is 94122",
+    "thanh long is located at 4101 judah street . the postcode is 94122"
+  ],
+  [
+    "inform_count(type=restaurant;count='4';kidsallowed=yes;pricerange=expensive)",
+    "i found 4 expensive restaurant -s that allow child -s",
+    "i found 4 expensive restaurant -s that allow child -s"
+  ],
+  [
+    "inform(name='burma superstar';near='inner richmond';price='between 15 and 22 euro')",
+    "the restaurant burma superstar is near inner richmond and is priced between 15 and 22 euro",
+    "the restaurant burma superstar is near inner richmond and is priced between 15 and 22 euro"
+  ],
+  [
+    "inform_no_match(near='inner richmond';goodformeal=lunch;kidsallowed=no)",
+    "i am sorry i did not find any restaurant -s near inner richmond and good for lunch with kid -s not allowed",
+    "i am sorry i did not find any restaurant -s near inner richmond and good for lunch with kid -s not allowed"
+  ],
+  [
+    "inform(name='franciscan crab restaurant';pricerange=expensive;kidsallowed=yes;goodformeal=dinner)",
+    "franciscan crab restaurant has expensive price -s range and it allows kid -s and it is good for dinner",
+    "franciscan crab restaurant has expensive price -s range and it allows kid -s and it is good for dinner"
+  ],
+  [
+    "inform(name=zadin;pricerange=moderate;food='gluten free')",
+    "zadin restaurant offer gluten free food of moderate price -s",
+    "zadin restaurant offer gluten free food of moderate price -s"
+  ],
+  [
+    "inform(name='the big 4 restaurant';postcode='94108')",
+    "the postcode of the big 4 restaurant is 94108",
+    "the postcode of the big 4 restaurant is 94108"
+  ],
+  [
+    "inform_no_match(area=embarcadero;kidsallowed=yes;pricerange=expensive)",
+    "there are no expensive restaurant -s that allow child -s near the embarcadero",
+    "there are no expensive restaurant -s that allow child -s near the embarcadero"
+  ],
+  [
+    "inform(name='red door cafe';pricerange=cheap;phone='4152828283')",
+    "the red door cafe is cheap . their phone number is 4152828283",
+    "the red door cafe is cheap . their phone number is 4152828283"
+  ],
+  [
+    "inform_count(type=restaurant;count='2';kidsallowed=dont_care;area='golden gate park')",
+    "i know of 2 restaurant -s in the golden gate park area if you do not care whether kid -s are allowed or not",
+    "i know of 2 restaurant -s in the golden gate park area if you do not care whether kid -s are allowed or not"
+  ],
+  [
+    "inform(name=fresca;food=peruvian;area='pacific heights';kidsallowed=no)",
+    "there is a nice restaurant named fresca that serves peruvian food near the pacific heights area that does not allow kid -s",
+    "there is a nice restaurant named fresca that serves peruvian food near the pacific heights area that does not allow kid -s"
+  ],
+  [
+    "?confirm(food='comfort food')",
+    "just to double check , you would like a restaurant that serves comfort food",
+    "just to double check , you would like a restaurant that serves comfort food"
+  ],
+  [
+    "inform(name=chow;food='comfort food';goodformeal=dinner;near=castro)",
+    "there is a nice restaurant called chow near castro , which serves comfort food and is good for dinner",
+    "there is a nice restaurant called chow near castro , which serves comfort food and is good for dinner"
+  ],
+  [
+    "?select(goodformeal='lunch or dinner')",
+    "would you like a restaurant that is good for lunch or dinner",
+    "would you like a restaurant that is good for lunch or dinner"
+  ],
+  [
+    "?select(pricerange='expensive or cheap')",
+    "are you looking for and expensive or cheap restaurant",
+    "are you looking for and expensive or cheap restaurant"
+  ],
+  [
+    "inform_count(type=restaurant;count='4';food=japanese;pricerange=expensive)",
+    "there are 4 other restaurant -s that are expensive japanese restaurant -s",
+    "there are 4 other restaurant -s that are expensive japanese restaurant -s"
+  ],
+  [
+    "inform(name=hakkasan;area='financial district';food=cantonese)",
+    "i would recommend hakkasan , as they serve cantonese food , allow child -s , and in the financial district",
+    "i would recommend hakkasan , as they serve cantonese food , allow child -s , and in the financial district"
+  ],
+  [
+    "inform_only_match(name='thep phanom thai restaurant';goodformeal=dinner;near='lower haight';kidsallowed=no)",
+    "i am sorry but there is no place other than thep phanom thai restaurant that is good for dinner , does not allow child -s , and is near lower haight",
+    "i am sorry but there is no place other than thep phanom thai restaurant that is good for dinner , does not allow child -s , and is near lower haight"
+  ],
+  [
+    "inform(name=benu;pricerange=expensive;near='financial district';food=asian)",
+    "benu has an expensive price range . it is close to the financial district and serves asian food",
+    "benu has an expensive price range . it is close to the financial district and serves asian food"
+  ],
+  [
+    "inform(name='original us restaurant';near='russian hill';kidsallowed=yes;pricerange=moderate;food='new american')",
+    "original us restaurant is in nearby russian hill , it is new american food in the moderate price range and allows kid -s",
+    "original us restaurant is in nearby russian hill , it is new american food in the moderate price range and allows kid -s"
+  ],
+  [
+    "inform_only_match(name='beijing restaurant';near='mission terrace')",
+    "the beijing restaurant is the only place near the mission terrace",
+    "the beijing restaurant is the only place near the mission terrace"
+  ],
+  [
+    "?select(near='marina cow hollow or japantown')",
+    "sorry would you like a restaurant near marina cow hollow or japantown",
+    "sorry would you like a restaurant near marina cow hollow or japantown"
+  ],
+  [
+    "inform(name='dosa on valencia';near=mission;phone='4156423672')",
+    "dosa on valencia is near mission , phone number is 4156423672",
+    "dosa on valencia is near mission , phone number is 4156423672"
+  ],
+  [
+    "inform_only_match(name='aperto restaurant and pera';near='potrero hill';kidsallowed='yes';pricerange='moderate')",
+    "just aperto restaurant and pera near potrero hill that allow kid -s and are moderate -ly priced",
+    "just aperto restaurant and pera near potrero hill that allow kid -s and are moderate -ly priced"
+  ],
+  [
+    "inform_count(type=restaurant;count='2';food=pizza;kidsallowed=yes)",
+    "there are 2 restaurant -s that serve pizza and allow kid -s",
+    "there are 2 restaurant -s that serve pizza and allow kid -s"
+  ],
+  [
+    "inform_count(type=restaurant;count='2';goodformeal=dont_care;food=pizza;kidsallowed=yes)",
+    "there are 2 restaurant -s that serve pizza and allow kid -s if you do not mind what meal the serve",
+    "there are 2 restaurant -s that serve pizza and allow kid -s if you do not mind what meal the serve"
+  ],
+  [
+    "?confirm(goodformeal=dont_care)",
+    "are you looking for restaurant -s that are good for any meal",
+    "are you looking for restaurant -s that are good for any meal"
+  ],
+  [
+    "inform(name=source;goodformeal=lunch;pricerange=cheap;kidsallowed=yes;food=pizza)",
+    "source is good for lunch in the cheap price range and allows child -s , that serves pizza",
+    "source is good for lunch in the cheap price range and allows child -s , that serves pizza"
+  ],
+  [
+    "inform_count(type=restaurant;count='4';goodformeal=dont_care;kidsallowed=yes;pricerange=expensive)",
+    "there are 4 expensive restaurant -s that allows child -s if you do not mind what meal they serve",
+    "there are 4 expensive restaurant -s that allows child -s if you do not mind what meal they serve"
+  ],
+  [
+    "inform_only_match(name='jasmine garden';kidsallowed=yes;pricerange=expensive;food=vietnamese)",
+    "jasmine garden is the only expensive vietnamese restaurant that allows kid -s",
+    "jasmine garden is the only expensive vietnamese restaurant that allows kid -s"
+  ],
+  [
+    "inform_no_match(food=thai;near='inner richmond';kidsallowed=no)",
+    "there are 0 restaurant -s near inner richmond that serve thai and do not allow child -s",
+    "there are 0 restaurant -s near inner richmond that serve thai and do not allow child -s"
+  ],
+  [
+    "inform(name=marlowe;goodformeal=dinner;area='mission bay')",
+    "marlowe serves dinner in the mission bay area",
+    "marlowe serves dinner in the mission bay area"
+  ],
+  [
+    "inform(name='fresca';area='hayes valley or pacific heights';price='between 15 and 26 euro';phone='4154472668')",
+    "fresca is in hayes valley or pacific heights , with price -s between 15 and 26 euro . their phone number is 4154472668",
+    "fresca is in hayes valley or pacific heights , with price -s between 15 and 26 euro . their phone number is 4154472668"
+  ],
+  [
+    "inform_no_match(pricerange=expensive;goodformeal=breakfast)",
+    "there's no place serves expensive breakfast",
+    "there's no place serves expensive breakfast"
+  ],
+  [
+    "inform(name=betelnut;area='cow hollow';kidsallowed=no;pricerange=expensive)",
+    "betelnut is an expensive restaurant that does not allow kid -s in the cow hollow area",
+    "betelnut is an expensive restaurant that does not allow kid -s in the cow hollow area"
+  ],
+  [
+    "inform(name='betelnut';near='marina cow hollow';area='cow hollow or hayes valley';phone='4159298855')",
+    "betelnut is near the marina cow hollow and in the cow hollow or hayes valley area . the phone number is 4159298855",
+    "betelnut is near the marina cow hollow and in the cow hollow or hayes valley area . the phone number is 4159298855"
+  ],
+  [
+    "inform_only_match(name='la ciccia';kidsallowed=no;area='bernal heights';pricerange=moderate)",
+    "la ciccia is the only restaurant of moderate -ly priced where kid -s are allowed located in the bernal heights area",
+    "la ciccia is the only restaurant of moderate -ly priced where kid -s are allowed located in the bernal heights area"
+  ],
+  [
+    "inform(name=chow;address='215 church street';price='22 euro')",
+    "chow food is located at 215 church street . it costs 22 euro",
+    "chow food is located at 215 church street . it costs 22 euro"
+  ],
+  [
+    "?select(area='mission bay or victoria mews')",
+    "would you like to find restaurant -s in the mission bay or victoria mews area",
+    "would you like to find restaurant -s in the mission bay or victoria mews area"
+  ],
+  [
+    "inform_count(type=restaurant;count='2';pricerange=cheap;area='mission dolores')",
+    "i have 2 restaurant -s listed in the cheap range in mission dolores",
+    "i have 2 restaurant -s listed in the cheap range in mission dolores"
+  ],
+  [
+    "inform_no_match(area='lower pacific heights';goodformeal=brunch)",
+    "0 restaurant -s in lower pacific heights are good for brunch",
+    "0 restaurant -s in lower pacific heights are good for brunch"
+  ],
+  [
+    "inform(name='campton place restaurant';area=downtown;food=indian;goodformeal=dinner)",
+    "campton place restaurant a good downtown place for an indian dinner",
+    "campton place restaurant a good downtown place for an indian dinner"
+  ],
+  [
+    "inform(name='city view restaurant';food='dim sum';address='662 commercial street';phone='4153982838')",
+    "city view restaurant serves dim sum . address is 662 commercial street and phone number 4153982838",
+    "city view restaurant serves dim sum . address is 662 commercial street and phone number 4153982838"
+  ],
+  [
+    "inform(name=skool;area='hayes valley';pricerange=expensive;food=japanese)",
+    "skool is an expensive japanese restaurant in hayes valley",
+    "skool is an expensive japanese restaurant in hayes valley"
+  ],
+  [
+    "inform_count(type=restaurant;count='51';goodformeal=dinner;pricerange=expensive)",
+    "there are 51 expensive restaurant -s serving dinner",
+    "there are 51 expensive restaurant -s serving dinner"
+  ]
+]

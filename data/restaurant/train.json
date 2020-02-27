@@ -1,0 +1,252 @@
+[
+  [
+    "inform(name='hakka restaurant';pricerange=moderate)",
+    "hakka restaurant is moderate -ly priced",
+    "hakka restaurant is moderate -ly priced"
+  ],
+  [
+    "inform(name='kappa japanese restaurant';area='lower pacific heights';pricerange=moderate)",
+    "we have a moderate -ly priced kappa japanese restaurant in the lower pacific heights area",
+    "we have a moderate -ly priced kappa japanese restaurant in the lower pacific heights area"
+  ],
+  [
+    "inform(name='u lee restaurant';address='1468 hyde street')",
+    "u lee restaurant 's address is 1468 hyde street",
+    "u lee restaurant 's address is 1468 hyde street"
+  ],
+  [
+    "inform(name='fog harbor fish house';phone='4154212442')",
+    "you can talk to the fine folks at fog harbor fish house at 4154212442",
+    "you can talk to the fine folks at fog harbor fish house at 4154212442"
+  ],
+  [
+    "inform(name='thai idea vegetarian';area='hayes valley or civic center')",
+    "thai idea vegetarian is in the hayes valley or civic center area",
+    "thai idea vegetarian is in the hayes valley or civic center area"
+  ],
+  [
+    "goodbye()",
+    "goodbye",
+    "goodbye"
+  ],
+  [
+    "inform(name='franciscan crab restaurant';pricerange=expensive;kidsallowed=yes)",
+    "franciscan crab restaurant is expensive and allows child -s",
+    "franciscan crab restaurant is expensive and allows child -s"
+  ],
+  [
+    "inform(name='great eastern restaurant';near='chinatown';area='hayes valley or chinatown';phone='4159862500')",
+    "great eastern restaurant is near chinatown and in the hayes valley or chinatown area . it is phone number is 4159862500",
+    "great eastern restaurant is near chinatown and in the hayes valley or chinatown area . it is phone number is 4159862500"
+  ],
+  [
+    "inform(name='helmand palace';pricerange=expensive;goodformeal=dinner)",
+    "helmand palace is an expensive restaurant and good for dinner",
+    "helmand palace is an expensive restaurant and good for dinner"
+  ],
+  [
+    "inform(name='bar crudo';kidsallowed=no)",
+    "bar crudo does not allow child -s",
+    "bar crudo does not allow child -s"
+  ],
+  [
+    "inform(name='poc chuc';type=restaurant)",
+    "poc chuc and it is a nice restaurant",
+    "poc chuc and it is a nice restaurant"
+  ],
+  [
+    "?reqmore()",
+    "is there anything else i can do for you",
+    "is there anything else i can do for you"
+  ],
+  [
+    "inform(name=chow;kidsallowed=yes;goodformeal=lunch;pricerange=moderate)",
+    "chow is a nice restaurant that allows kid -s , is good for lunch , and is a moderate price range",
+    "chow is a nice restaurant that allows kid -s , is good for lunch , and is a moderate price range"
+  ],
+  [
+    "inform(name='shangri la vegetarian restaurant';address='2026 irving street';phone='4157312548')",
+    "the phone number for shangri la vegetarian restaurant , located at 2026 irving street , is 4157312548",
+    "the phone number for shangri la vegetarian restaurant , located at 2026 irving street , is 4157312548"
+  ],
+  [
+    "inform(name='mission chinese food';kidsallowed=no;food=chinese;pricerange=expensive)",
+    "mission chinese food does not allow child -s and serves chinese food in the expensive price range",
+    "mission chinese food does not allow child -s and serves chinese food in the expensive price range"
+  ],
+  [
+    "inform_count(type=restaurant;count='2';food='new american';kidsallowed=yes;pricerange=moderate)",
+    "there are 2 other restaurant -s that serve new american food in the moderate price range and allows kid -s",
+    "there are 2 other restaurant -s that serve new american food in the moderate price range and allows kid -s"
+  ],
+  [
+    "?request(near)",
+    "please specify the location you want to be near",
+    "please specify the location you want to be near"
+  ],
+  [
+    "?request(food)",
+    "what type of food are you interested in",
+    "what type of food are you interested in"
+  ],
+  [
+    "inform(name=piperade;food=basque;near='north beach telegraph hill';kidsallowed=no;pricerange=moderate)",
+    "i have a restaurant for you . it is called piperade serves basque near the north beach telegraph hill area , child -s are not allowed and the price range is moderate",
+    "i have a restaurant for you . it is called piperade serves basque near the north beach telegraph hill area , child -s are not allowed and the price range is moderate"
+  ],
+  [
+    "inform(name='a la turca restaurant';food=turkish)",
+    "there is a turkish restaurant called a la turca restaurant",
+    "there is a turkish restaurant called a la turca restaurant"
+  ],
+  [
+    "inform_only_match(name=sanjalisco;goodformeal=breakfast;food=mexican)",
+    "sanjalisco is the only restaurant that serves mexican and good breakfast",
+    "sanjalisco is the only restaurant that serves mexican and good breakfast"
+  ],
+  [
+    "inform(name='alamo square seafood grill';area='hayes valley or friendship village';address='803 fillmore street')",
+    "alamo square seafood grill 's address is 803 fillmore street located in hayes valley or friendship village",
+    "alamo square seafood grill 's address is 803 fillmore street located in hayes valley or friendship village"
+  ],
+  [
+    "inform_no_match(pricerange=expensive;goodformeal=breakfast)",
+    "there is no restaurant good for eat expensive breakfast",
+    "there is no restaurant good for eat expensive breakfast"
+  ],
+  [
+    "inform_no_match(area='outer mission')",
+    "there are no restaurant -s in the outer mission area",
+    "there are no restaurant -s in the outer mission area"
+  ],
+  [
+    "?request(area)",
+    "what is the area you looking for",
+    "what is the area you looking for"
+  ],
+  [
+    "inform(name='enjoy vegetarian restaurant';goodformeal=lunch;kidsallowed=yes)",
+    "enjoy vegetarian restaurant serves lunch and allows kid -s",
+    "enjoy vegetarian restaurant serves lunch and allows kid -s"
+  ],
+  [
+    "inform_no_match(kidsallowed=yes;area='outer richmond')",
+    "sorry i cannot find any restaurant in the outer richmond with kid -s allowed",
+    "sorry i cannot find any restaurant in the outer richmond with kid -s allowed"
+  ],
+  [
+    "inform(name=source;near=soma)",
+    "source is near soma",
+    "source is near soma"
+  ],
+  [
+    "inform_no_match(near='civic center';goodformeal=breakfast)",
+    "unfortunately there are no restaurant -s near civic center that are good for breakfast",
+    "unfortunately there are no restaurant -s near civic center that are good for breakfast"
+  ],
+  [
+    "inform(name='shangri la vegetarian restaurant';food=vegetarian;goodformeal=dinner)",
+    "there is a restaurant called shangri la vegetarian restaurant that serves vegetarian food that make a good meal for dinner",
+    "there is a restaurant called shangri la vegetarian restaurant that serves vegetarian food that make a good meal for dinner"
+  ],
+  [
+    "?select(near='civic center';near=dont_care)",
+    "would you prefer it near the civic center or does it not matter",
+    "would you prefer it near the civic center or does it not matter"
+  ],
+  [
+    "inform(name='red door cafe';near='lower pacific heights';price='between 13 and 18 euro';phone='4152828283')",
+    "red door cafe near lower pacific heights is priced between 13 and 18 euro . phone number is 4152828283",
+    "red door cafe near lower pacific heights is priced between 13 and 18 euro . phone number is 4152828283"
+  ],
+  [
+    "inform_no_match(kidsallowed=yes;food=lounge)",
+    "there are not lounge restaurant -s that allow child -s",
+    "there are not lounge restaurant -s that allow child -s"
+  ],
+  [
+    "inform(name='dosa on valencia';food=indpak;pricerange=moderate)",
+    "dosa on valencia serves indpak food and is moderate -ly priced",
+    "dosa on valencia serves indpak food and is moderate -ly priced"
+  ],
+  [
+    "inform_no_match(food=cambodian;goodformeal=breakfast)",
+    "i cannot find any cambodian restaurant -s that are good for breakfast",
+    "i cannot find any cambodian restaurant -s that are good for breakfast"
+  ],
+  [
+    "inform(name='zen yai thai restaurant';kidsallowed=yes;phone='4158850725')",
+    "zen yai thai restaurant allows child -s , the phone number is 4158850725",
+    "zen yai thai restaurant allows child -s , the phone number is 4158850725"
+  ],
+  [
+    "inform(name='lime tree southeast asian kitchen';address='450 a irving street';price='between 5 and 10 euro')",
+    "lime tree southeast asian kitchen is located at 450 a irving street and costs between 5 and 10 euro",
+    "lime tree southeast asian kitchen is located at 450 a irving street and costs between 5 and 10 euro"
+  ],
+  [
+    "?request(pricerange)",
+    "what price range are you looking for",
+    "what price range are you looking for"
+  ],
+  [
+    "?request(goodformeal)",
+    "i am sorry , do you want breakfast , brunch , lunch , or dinner food",
+    "i am sorry , do you want breakfast , brunch , lunch , or dinner food"
+  ],
+  [
+    "inform_count(type=restaurant;count='2';goodformeal=brunch)",
+    "there are 2 restaurant -s that are good for brunch",
+    "there are 2 restaurant -s that are good for brunch"
+  ],
+  [
+    "inform_count(type=restaurant;count='2';goodformeal=dont_care;food=basque)",
+    "there is a 2 restaurant -s good for any meal and serves basque food",
+    "there is a 2 restaurant -s good for any meal and serves basque food"
+  ],
+  [
+    "?confirm(goodformeal=dinner)",
+    "you want to find a good restaurant for dinner",
+    "you want to find a good restaurant for dinner"
+  ],
+  [
+    "inform(name='borobudur restaurant';kidsallowed=yes;area=downtown;pricerange=moderate)",
+    "the borobudur restaurant , in the downtown area , allows child -s and is moderate -ly priced",
+    "the borobudur restaurant , in the downtown area , allows child -s and is moderate -ly priced"
+  ],
+  [
+    "inform(name='thai time restaurant';kidsallowed=yes;near='inner richmond')",
+    "thai time restaurant is a nice restaurant that allows child -s near inner richmond",
+    "thai time restaurant is a nice restaurant that allows child -s near inner richmond"
+  ],
+  [
+    "inform(name='house of nanking';area='hayes valley or chinatown';phone='4154211429')",
+    "the house of nanking is in hayes valley or chinatown . the phone number is 4154211429",
+    "the house of nanking is in hayes valley or chinatown . the phone number is 4154211429"
+  ],
+  [
+    "?confirm(area=dont_care)",
+    "the area does not matter",
+    "the area does not matter"
+  ],
+  [
+    "inform_no_match(pricerange=moderate;near='laurel heights')",
+    "unfortunately there is no moderate priced restaurant near laurel heights",
+    "unfortunately there is no moderate priced restaurant near laurel heights"
+  ],
+  [
+    "?select(food='burgers or korean')",
+    "would you prefer burgers or korean food",
+    "would you prefer burgers or korean food"
+  ],
+  [
+    "inform_no_match(food=chinese;near=chinatown;pricerange=moderate)",
+    "there are 0 chinese restaurant -s near chinatown in the moderate price range",
+    "there are 0 chinese restaurant -s near chinatown in the moderate price range"
+  ],
+  [
+    "inform(name='oyaji restaurant';postcode='94121')",
+    "oyaji restaurant postcode is 94121",
+    "oyaji restaurant postcode is 94121"
+  ]
+]

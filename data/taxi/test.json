@@ -1,0 +1,237 @@
+[
+  [
+    "taxi { inform ( phone = 07601547949 ; type = white volvo ) } ",
+    "i was able to book your taxi . be expecting a white volvo . if you need to reach them , please call 07601547949 .",
+    "i was able to book your taxi . be expecting a white volvo . if you need to reach them , please call 07601547949 ."
+  ],
+  [
+    "taxi { request ( leaveat = ? ; arriveby = ? ) } ",
+    "i 'll need to know when you need to be picked up or dropped off .",
+    "i 'll need to know when you need to be picked up or dropped off ."
+  ],
+  [
+    "taxi { inform ( departure = primavera ; leaveat = 16:45 ; phone = 07439377051 ; type = grey tesla ) } ",
+    "okay , i have booked a taxi for you departing from primavera at 16:45. the car will be a grey tesla and the contact number is 07439377051 .",
+    "okay , i have booked a taxi for you departing from primavera at 16:45. the car will be a grey tesla and the contact number is 07439377051 ."
+  ],
+  [
+    "taxi { request ( leaveat = ? ) } ",
+    "sure no worries , what time do you want to leave ?",
+    "sure no worries , what time do you want to leave ?"
+  ],
+  [
+    "taxi { request ( destination = ? ) } ",
+    "what is your destination ?",
+    "what is your destination ?"
+  ],
+  [
+    "taxi { request ( departure = ? ) } ",
+    "certainly . what side of town will you be leaving from ?",
+    "certainly . what side of town will you be leaving from ?"
+  ],
+  [
+    "taxi { request ( arriveby = ? ) } ",
+    "and what time do you wish to arrive by ?",
+    "and what time do you wish to arrive by ?"
+  ],
+  [
+    "taxi { request ( leaveat = ? ; departure = ? ) } ",
+    "when and where would you like to be picked up ?",
+    "when and where would you like to be picked up ?"
+  ],
+  [
+    "taxi { inform ( departure = hotel ; phone = 07462131215 ; destination = concert hall ; type = red skoda ) } ",
+    "okay , i have red skoda booked to pick you up from the hotel and take you to the concert hall . the contact number is 07462131215 .",
+    "okay , i have red skoda booked to pick you up from the hotel and take you to the concert hall . the contact number is 07462131215 ."
+  ],
+  [
+    "taxi { request ( leaveat = ? ; departure = ? ; destination = ? ) } ",
+    "sure ! can you confirm your departure and arrival locations and a time frame , please ?",
+    "sure ! can you confirm your departure and arrival locations and a time frame , please ?"
+  ],
+  [
+    "taxi { inform ( departure = acorn guest house ; arriveby = 05:15 ; phone = 07854671215 ; destination = traveller's rest ; type = white honda ) } ",
+    "a white honda will pick you up at acorn guest house and take you to traveller 's rest so that you arrive by 05:15. the driver 's phone number is 07854671215",
+    "a white honda will pick you up at acorn guest house and take you to traveller 's rest so that you arrive by 05:15. the driver 's phone number is 07854671215"
+  ],
+  [
+    "taxi { inform ( destination = restaurant ) } ",
+    "yes , it 's picking you up there and taking you to the restaurant in time for your reservation .",
+    "yes , it 's picking you up there and taking you to the restaurant in time for your reservation ."
+  ],
+  [
+    "taxi { inform ( arriveby = 12:00 ; phone = 07880874608 ; type = blue toyota ) @ request ( arriveby = ? ) } ",
+    "a blue toyota will be picking you up . their contact number is 07880874608. just to confirm you wanted to arrive by 12:00 , correct ?",
+    "a blue toyota will be picking you up . their contact number is 07880874608. just to confirm you wanted to arrive by 12:00 , correct ?"
+  ],
+  [
+    "taxi { request ( departure = ? ; destination = ? ) } ",
+    "where is your departure site and destination ?",
+    "where is your departure site and destination ?"
+  ],
+  [
+    "taxi { inform ( type = red volvo ) } ",
+    "great news ! i was able to book a red volvo for you .",
+    "great news ! i was able to book a red volvo for you ."
+  ],
+  [
+    "taxi { request ( leaveat = ? ; departure = ? ; arriveby = ? ; destination = ? ) } ",
+    "i can do that ! i just need your departure and arrival sites and the time you need the taxi .",
+    "i can do that ! i just need your departure and arrival sites and the time you need the taxi ."
+  ],
+  [
+    "taxi { inform ( none = none ) } ",
+    "sure ! do you have a time preference ?",
+    "sure ! do you have a time preference ?"
+  ],
+  [
+    "taxi { inform ( phone = 07841875956 ) } ",
+    "the number is 07841875956 , is that all you need ?",
+    "the number is 07841875956 , is that all you need ?"
+  ],
+  [
+    "taxi { request ( leaveat = ? ; destination = ? ; arriveby = ? ) } ",
+    "no problem . we can get that booked for you . can you let me know where you will be going and what time you would like to leave or arrive ?",
+    "no problem . we can get that booked for you . can you let me know where you will be going and what time you would like to leave or arrive ?"
+  ],
+  [
+    "taxi { inform ( departure = 16:45 ; phone = 07524587523 ; type = blue toyota ) } ",
+    "okay , i 've booked you a taxi leaving your hotel at 16:45. look for a blue toyota , and if you need to contact them their number is 07524587523 .",
+    "okay , i 've booked you a taxi leaving your hotel at 16:45. look for a blue toyota , and if you need to contact them their number is 07524587523 ."
+  ],
+  [
+    "taxi { request ( destination = ? ; arriveby = ? ) } ",
+    "i would be happy to book your taxi but i will need your destination and preferred arrival time as well .",
+    "i would be happy to book your taxi but i will need your destination and preferred arrival time as well ."
+  ],
+  [
+    "taxi { inform ( leaveat = 17:30 ; phone = 07655989652 ; type = white ford ) } ",
+    "all right , a white ford will arrive by 17:30. the contact number is 07655989652 .",
+    "all right , a white ford will arrive by 17:30. the contact number is 07655989652 ."
+  ],
+  [
+    "taxi { inform ( arriveby = 16:00 ) } ",
+    "yes , the taxi is due to arrive at 16:00 .",
+    "yes , the taxi is due to arrive at 16:00 ."
+  ],
+  [
+    "taxi { inform ( destination = a and b guesthouse ; type = black bmw ) } ",
+    "congrats you got the black bmw enjoy your ride to a and b guesthouse .",
+    "congrats you got the black bmw enjoy your ride to a and b guesthouse ."
+  ],
+  [
+    "taxi { request ( leaveat = ? ; destination = ? ) } ",
+    "where would you like to go and what time would you like to travel ?",
+    "where would you like to go and what time would you like to travel ?"
+  ],
+  [
+    "taxi { request ( departure = ? ; arriveby = ? ) } ",
+    "no , problem , i just need to know what time you wish to get there and where you 'll be arriving from .",
+    "no , problem , i just need to know what time you wish to get there and where you 'll be arriving from ."
+  ],
+  [
+    "taxi { inform ( arriveby = 13:30 ; phone = 07542624633 ; type = grey toyota ) } ",
+    "okay i was able to secure you a grey toyota that will make sure you arrive by 13:30 and their contact number is 07542624633 .",
+    "okay i was able to secure you a grey toyota that will make sure you arrive by 13:30 and their contact number is 07542624633 ."
+  ],
+  [
+    "taxi { inform ( departure = the restaurant ; leaveat = 17:00 ; destination = the hotel ; type = blue honda ) } ",
+    "ok , we can get you a blue honda at 17:00 from the restaurant to the hotel .",
+    "ok , we can get you a blue honda at 17:00 from the restaurant to the hotel ."
+  ],
+  [
+    "taxi { inform ( departure = your hotel ; phone = 07124495603 ; destination = the cambridge chop house ) } ",
+    "i have booked you a taxi to take from your hotel to the cambridge chop house . contact number : 07124495603",
+    "i have booked you a taxi to take from your hotel to the cambridge chop house . contact number : 07124495603"
+  ],
+  [
+    "taxi { inform ( departure = finches ; leaveat = 22:15 ; phone = 07655072535 ; destination = pizza hut fen ditton ; type = white toyota ) } ",
+    "ok , i have a white toyota picking you up at finches at 22:15 and traveling to the pizza hut fen ditton . contact number is 07655072535 .",
+    "ok , i have a white toyota picking you up at finches at 22:15 and traveling to the pizza hut fen ditton . contact number is 07655072535 ."
+  ],
+  [
+    "taxi { request ( leaveat = ? ) @ inform ( leaveat = 1:00pm ) } ",
+    "i have ordered one for you their pick up time is 1:00pm . is this time okay or do you need a different time ?",
+    "i have ordered one for you their pick up time is 1:00pm . is this time okay or do you need a different time ?"
+  ],
+  [
+    "taxi { request ( arriveby = ? ; leaveat = ? ; destination = ? ; departure = ? ) @ inform ( phone = 07792065670 ; type = black ford ) } ",
+    "please modifiy the following answers based on the latest customer response : what does the user want ? where is the departure site ? arbury lodge guesthouse where is the destination ? the varsity restaurant when does the user want to leave ? 01:00 when does the user want to arrive by ? 01:30 booking completed ! booked car type : black ford contact number : 07792065670",
+    "please modifiy the following answers based on the latest customer response : what does the user want ? where is the departure site ? arbury lodge guesthouse where is the destination ? the varsity restaurant when does the user want to leave ? 01:00 when does the user want to arrive by ? 01:30 booking completed ! booked car type : black ford contact number : 07792065670"
+  ],
+  [
+    "taxi { request ( leaveat = ? ; departure = ? ; arriveby = ? ) } ",
+    "i certainly can help you with that . what time would you like to leave or arrive by ?",
+    "i certainly can help you with that . what time would you like to leave or arrive by ?"
+  ],
+  [
+    "taxi { request ( departure = ? ; arriveby = ? ; destination = ? ) } ",
+    "you will be going to cote by 19:00 , will you be departing from your hotel ?",
+    "you will be going to cote by 19:00 , will you be departing from your hotel ?"
+  ],
+  [
+    "taxi { inform ( leaveat = 16:15 ; type = volvo ; phone = 07193127325 ; arriveby = 16:45 ) } ",
+    "i have you leaving at 16:15 and arriving at 16:45. it 'll be a white volvo and the number is 07193127325",
+    "i have you leaving at 16:15 and arriving at 16:45. it 'll be a white volvo and the number is 07193127325"
+  ],
+  [
+    "taxi { request ( leaveat = ? ) @ inform ( phone = 07935 536 503 ; type = white skoda ) } ",
+    "you 'll be in a white skoda and the contact number is 07935 536 503. can i confirm , though , that you wish to leave the restaurant at 5:15 in the morning ?",
+    "you 'll be in a white skoda and the contact number is 07935 536 503. can i confirm , though , that you wish to leave the restaurant at 5:15 in the morning ?"
+  ],
+  [
+    "taxi { inform ( arriveby = 15:30 ; phone = 07554978717 ; destination = williams art and antiques ; type = red tesla ) } ",
+    "booking completed and corrected . you will get to williams art and antiques by 15:30. booked car type : red tesla contact number : 07554978717",
+    "booking completed and corrected . you will get to williams art and antiques by 15:30. booked car type : red tesla contact number : 07554978717"
+  ],
+  [
+    "taxi { inform ( departure = emmanuel college ; arriveby = 19:15 ; phone = 07103614017 ; type = grey lexus ) } ",
+    "i 've successfully booked a taxi leaving emmanuel college at 19:15 -- it 'll be a grey lexus . the contact number is 07103614017 if you have any issues .",
+    "i 've successfully booked a taxi leaving emmanuel college at 19:15 -- it 'll be a grey lexus . the contact number is 07103614017 if you have any issues ."
+  ],
+  [
+    "taxi { inform ( arriveby = 18:30 ; type = blue tesla ) } ",
+    "i have confirmed your taxi , a blue tesla will be picking you up at 18:30 .",
+    "i have confirmed your taxi , a blue tesla will be picking you up at 18:30 ."
+  ],
+  [
+    "taxi { inform ( arriveby = 12:30 ) @ request ( arriveby = ? ) } ",
+    "i have scheduled the arrival at 12:30. if you would like me to change the time , i can certainly do that .",
+    "i have scheduled the arrival at 12:30. if you would like me to change the time , i can certainly do that ."
+  ],
+  [
+    "taxi { inform ( arriveby = 15:30 ; destination = india house ) } ",
+    "booking was successful . you will arrive at the india house by 15:30 .",
+    "booking was successful . you will arrive at the india house by 15:30 ."
+  ],
+  [
+    "taxi { inform ( departure = rajmahal ; arriveby = 16:15 ; destination = worth house ) } ",
+    "that 's correct . the taxi will depart rajmahal and take you to worth house by 16:15 .",
+    "that 's correct . the taxi will depart rajmahal and take you to worth house by 16:15 ."
+  ],
+  [
+    "taxi { inform ( departure = curry garden ; leaveat = 23:30 ; destination = acorn guest house ) } ",
+    "alright , you 're all booked . your taxi will pick you up at curry garden at 23:30 and take you to acorn guest house .",
+    "alright , you 're all booked . your taxi will pick you up at curry garden at 23:30 and take you to acorn guest house ."
+  ],
+  [
+    "taxi { inform ( leaveat = 13:00 ) } ",
+    "13:00 can i do anything else ?",
+    "13:00 can i do anything else ?"
+  ],
+  [
+    "taxi { inform ( phone = 07608033696 ; destination = rajmahal ; type = black honda ) } ",
+    "a black honda will pick you up and get to you to the rajmahal in time for that reservation . the contact number is 07608033696 .",
+    "a black honda will pick you up and get to you to the rajmahal in time for that reservation . the contact number is 07608033696 ."
+  ],
+  [
+    "taxi { inform ( leaveat = 24:15 ; type = yellow volkswagen ) } ",
+    "the taxi is booked for 24:15. it is a yellow volkswagen .",
+    "the taxi is booked for 24:15. it is a yellow volkswagen ."
+  ],
+  [
+    "taxi { inform ( leaveat = 14:00 ; phone = 07563800570 ; destination = milton county park ; type = black volkswagen ) } ",
+    "it is a black volkswagen . the number is 07563800570. it will be there at 14:00 to take you to milton county park",
+    "it is a black volkswagen . the number is 07563800570. it will be there at 14:00 to take you to milton county park"
+  ]
+]

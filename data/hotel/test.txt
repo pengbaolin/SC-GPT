@@ -1,0 +1,78 @@
+inform ( name = hotel stratford ; dogsallowed = no ) & thank you . the hotel stratford does not allow dogs
+inform ( name = super 8 san francisco funion square area ; phone = 8005369326 ) & the phone number of the super 8 san francisco funion square area is 8005369326
+inform ( name = the carriage inn ; hasinternet = yes ; dogsallowed = no ) & the carriage inn has internet and does not allow dogs
+goodbye (  = ? ) & goodbye
+select ( dogsallowed = yes ; dogsallowed = no ) & would you like dogs allowed , yeas or no
+inform_count ( type = hotel ; count = 182 ; dogsallowed = dont_care ) & there are 182 different hotel -s available if you do not care whether or not they allow dogs
+request ( area = ? ) & where are you looking
+inform ( name = the tuscan best western plus ; area = north beach ) & the tuscan best western plus is a hotel in north beach
+inform ( name = red victorian bed breakfast and arts cafe ; address = 1665 haight street ; phone = 4158641978 ) & sure the address of the red victorian bed breakfast and arts cafe is 1665 haight street and the phone number is 4158641978
+inform_count ( type = hotel ; count = 3 ; area = mission dolores ) & there are 3 hotel -s in the mission dolores area
+request ( near = ? ) & can i help you find one near you
+inform ( name = w san francisco ; pricerange = pricey ; phone = 4157775300 ) & w san francisco is pricey . the phone number is 4157775300
+inform ( name = civic center motor inn ; near = soma ) & the civic center motor inn is near soma
+inform ( name = red victorian bed breakfast and arts cafe ; near = haight ; hasinternet = yes ) & the red victorian bed breakfast and arts cafe is near haight and has internet
+inform_count ( type = hotel ; count = 4 ; hasinternet = yes ; near = japantown ) & there are 4 hotel -s neat japantown with internet
+inform ( name = hotel kabuki ; dogsallowed = yes ; hasinternet = yes ; near = japantown ) & yes , hotel kabuki near japantown allows dogs and has available internet
+inform ( name = noe 7s nest bed and breakfast ; dogsallowed = none ; hasinternet = yes ; near = mission ; acceptscreditcards = yes ) & noe 7s nest bed and breakfast near mission does not allow dogs . it has internet access and accepts credit card -s
+inform ( name = chateau tivoli bed and breakfast inn ; address = 1057 steiner street ) & the chateau tivoli bed and breakfast inn address is 1057 steiner st
+request ( pricerange = ? ) & what price range would you like
+inform ( name = holiday inn express hotel san francisco fishermans wharf ; pricerange = moderate ) & holiday inn express hotel san francisco fishermans wharf is in the moderate price range
+inform ( name = inn at the presidio ; area = presidio ; dogsallowed = yes ) & dogs are allowed at the inn at the presidio , which is located in presidio area
+inform_no_match ( pricerange = inexpensive ; dogsallowed = yes ) & i am sorry but there are no inexpensive hotel -s that allow dogs
+inform ( name = buena vista motor inn ; area = fort mason ; hasinternet = yes ) & buena vista motor inn in fort mason has internet
+confirm ( hasinternet = yes ) & can i confirm that you are looking for a hotel with internet
+reqmore (  = ? ) & would you like more information
+inform ( name = inn at the presidio ; area = presidio ; dogsallowed = yes ; hasinternet = yes ) & the inn at the presidio in presidio area allows dogs and has internet service
+inform_count ( type = hotel ; count = 105 ; pricerange = moderate ) & 105 hotel -s are moderate -ly priced
+confirm ( near = soma ) & would you like a hotel near soma
+inform ( name = red victorian bed breakfast and arts cafe ; near = haight ; pricerange = moderate ) & the red victorian bed breakfast and arts cafe is available near haight at the moderate price
+inform ( name = hotel drisco ; type = hotel ) & the hotel 's name is hotel drisco
+inform ( name = seal rock inn ; address = 545 point lobos avenue ; postcode = 94121 ) & seal rock inn 's address is 545 point lobos avenue . the postcode is 94121
+inform ( name = hotel boheme ; hasinternet = yes ) & yes , the hotel boheme has internet
+inform_no_match ( pricerange = pricey ; near = mission ) & no , no pricey hotel near the mission
+inform_no_match ( area = parkmerced ) & i am sorry , but there is no hotel in the parkmerced area
+inform_no_match ( area = pacific heights ; dogsallowed = yes ) & i am sorry , but there are no hotel -s in pacific heights that allow dogs
+inform_count ( type = hotel ; count = 2 ; near = marina cow hollow ; pricerange = inexpensive ) & there are 2 other hotel -s near marina cow hollow that fit inexpensive your price range
+select ( acceptscreditcards = yes ; acceptscreditcards = no ) & sorry , i misunderstood . would you like a hotel that does or does not accept credit card -s
+inform ( name = marina inn ; acceptscreditcards = yes ; near = marina cow hollow ; pricerange = inexpensive ) & the inexpensive marina inn near marina cow hollow accepts credit card -s
+inform ( name = seal rock inn ; pricerange = moderate ; address = 545 point lobos avenue ; phone = 4157528000 ) & sure . the seal rock inn is moderate -ly priced and their address is 545 point lobos avenue and their phone number is 4157528000
+inform_count ( type = hotel ; count = 182 ; acceptscreditcards = dont_care ) & i found 182 hotel -s if you do not care about credit card -s
+inform_count ( type = hotel ; count = 182 ; hasinternet = dont_care ) & there are 182 hotel -s if it does not matter if they have internet or not
+inform ( name = ocean park motel ; dogsallowed = none ; phone = 4155667020 ) & the phone number for ocean park motel is 4155667020 . no dogs are allowed there
+inform ( name = casa melissa ; postcode = 94133 ) & casa melissa postcode is 94133
+inform ( name = grant hotel ; pricerange = inexpensive ; dogsallowed = no ) & the grant hotel does not allow dogs and is inexpensive
+select ( hasinternet = yes ; hasinternet = no ) & do you wish to have internet
+inform_only_match ( name = inn at the presidio ; near = presidio ) & the inn at the presidio is the only hotel close to presidio
+inform ( name = washington square inn ; acceptscreditcards = yes ; area = little italy ) & washington square inn is in little italy and accepts credit card -s
+inform_no_match ( pricerange = pricey ; acceptscreditcards = no ) & you are looking for a hotel in the pricey range and does not accept credit card -s
+confirm ( pricerange = pricey ) & i would like to confirm that you are looking for a pricey hotel
+confirm ( area = dont_care ) & to confirm , you do not care what area the hotel is in
+inform_no_match ( near = haight ; dogsallowed = yes ) & i am sorry there is no match near haight that does not allow dogs
+inform ( name = chateau tivoli bed and breakfast inn ; acceptscreditcards = yes ) & chateau tivoli bed and breakfast inn accepts credit card -s
+inform ( name = seal rock inn ; acceptscreditcards = yes ; near = outer richmond ) & the seal rock inn near outer richmond accepts credit card -s
+inform ( name = red victorian bed breakfast and arts cafe ; acceptscreditcards = yes ; near = haight ; hasinternet = yes ) & the hotel is named the red victorian bed breakfast and arts cafe and is in the haight area and you can use your credit card there
+inform_only_match ( name = red victorian bed breakfast and arts cafe ; acceptscreditcards = yes ; near = haight ; hasinternet = yes ) & the red victorian bed breakfast and arts cafe in the haight area are the only hotel that accepts credit card -s and has internet
+inform ( name = hotel north beach ; address = 935 kearny street ; phone = 4159869911 ; postcode = 94133 ) & the address of the hotel north beach is 935 kearny street . , 94133 , and the phone number is 4159869911
+inform_count ( type = hotel ; count = 182 ; dogsallowed = dont_care ; acceptscreditcards = dont_care ) & i found 182 hotel -s if you do not care about dogs or credit card -s
+inform ( name = fairmont heritage place c ghirardelli square ; area = russian hill ; pricerange = ultra high end ) & the fairmont heritage place c ghirardelli square is in the russian hill area and is in the ultra high end price range
+inform_count ( type = hotel ; count = 2 ; acceptscreditcards = yes ; pricerange = pricey ; area = nob hill ) & 2 nob hill hotel -s are pricey and accept credit card -s
+inform ( name = hotel kabuki ; pricerange = moderate ; address = 1625 post street ) & the price range for the hotel kabuki is moderate , the address is 1625 post st
+inform ( name = inn at the presidio ; hasinternet = yes ; address = 42 moraga avenue and presidio main post ; phone = 4158007356 ) & inn at the presidio has internet . the address is 42 moraga avenue and presidio main post , and the phone number is 4158007356
+inform_count ( type = hotel ; count = 2 ; near = cole valley ) & there are 2 hotel -s near cole valley
+inform ( name = the tuscan best western plus ; hasinternet = yes ; phone = 4155611100 ) & the tuscan best western plus has internet . the phone number is 4155611100
+inform_count ( type = hotel ; count = 2 ; area = north beach ; dogsallowed = dont_care ) & the are 2 hotel -s in the area of north beach available if you do not care whether or not they allow dogs
+inform_no_match ( area = noma ; pricerange = ultra high end ) & no match on noma area and price range of ultra high end
+inform ( name = the powell hotel ; hasinternet = yes ; acceptscreditcards = yes ) & the powell hotel has internet and accepts credit card -s
+inform_count ( type = hotel ; count = 169 ; hasinternet = yes ; dogsallowed = dont_care ) & i found 169 hotel -s that have internet if you have no dog preference
+inform_only_match ( name = hotel drisco ; area = pacific heights ) & hotel drisco is in pacific heights
+confirm ( dogsallowed = dont_care ) & i am sorry . is it true that you do not care if dogs are allowed
+inform ( name = hotel majestic ; phone = 4154411100 ; postcode = 94109 ) & the phone number for hotel majestic is 4154411100 . its postal code is 94109
+inform ( name = the wharf inn ; near = north beach telegraph hill ; dogsallowed = yes ) & the wharf inn near north beach telegraph hill allows dogs
+select ( pricerange = pricey or inexpensive ) & are you looking for a pricey or inexpensive hotel
+inform ( name = balmoral hotel north no 2 ; acceptscreditcards = no ; pricerange = inexpensive ) & balmoral hotel north no 2 does not accept price card -s and is in the inexpensive price range
+inform ( name = nob hill motor inn ; acceptscreditcards = yes ; dogsallowed = no ; near = nob hill ) & nob hill motor inn accepts credit card -s near nob hill and does not allow dogs
+inform ( name = the regency inn ; hasinternet = yes ; pricerange = inexpensive ; dogsallowed = no ) & the regency inn has internet , is inexpensive and does not allow dogs
+inform_no_match ( near = soma ; area = civic center ) & there is no match in the civic center area near soma
+inform ( name = san francisco marriott marquis ; dogsallowed = none ; acceptscreditcards = yes ) & san francisco marriott marquis accepts credit card -s and does not allow dogs
+inform ( name = parker guest house ; area = mastro ; address = 520 church street ; phone = 4156213222 ) & parker guest house is near mastro at 520 church street . their phone number is 4156213222

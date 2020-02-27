@@ -1,0 +1,252 @@
+[
+  [
+    "train { request ( departure = ? ) } ",
+    "from what location ?",
+    "from what location ?"
+  ],
+  [
+    "train { request ( day = ? ; destination = ? ) } ",
+    "what day would you like to depart ? and where will you be heading ?",
+    "what day would you like to depart ? and where will you be heading ?"
+  ],
+  [
+    "train { request ( day = ? ) } ",
+    "sure what day will you be travelling ?",
+    "sure what day will you be travelling ?"
+  ],
+  [
+    "train { request ( departure = ? ; day = ? ) } ",
+    "there are many trains available . where will you be departing from and what day do you prefer ?",
+    "there are many trains available . where will you be departing from and what day do you prefer ?"
+  ],
+  [
+    "train { inform ( leaveat = 13:11 ; id = tr8494 ) @ book ( none = none ) } ",
+    "tr8494 leaves at 13:11. want to book ?",
+    "tr8494 leaves at 13:11. want to book ?"
+  ],
+  [
+    "train { request ( departure = ? ; leaveat = ? ) } ",
+    "where and when are you departing from ?",
+    "where and when are you departing from ?"
+  ],
+  [
+    "train { inform ( choice = the closest one ; arriveby = 13:51 ; leaveat = 13:00 ; destination = london kings cross ) @ sorry ( leaveat = 12:15 ) @ book ( none = none ) } ",
+    "there is n't a train that leaves at 12:15. the closest one leaves at 13:00 and arrives in london kings cross at 13:51. shall i book it for you ?",
+    "there is n't a train that leaves at 12:15. the closest one leaves at 13:00 and arrives in london kings cross at 13:51. shall i book it for you ?"
+  ],
+  [
+    "train { book ( none = none ) } ",
+    "should i make reservations ?",
+    "should i make reservations ?"
+  ],
+  [
+    "train { book ( people = 1 ) @ inform ( leaveat = 19:54 ; id = tr4969 ) } ",
+    "the earliest train after your specified time is tr4969 that departs at 19:54. if this is acceptable , shall i book just 1 seat ?",
+    "the earliest train after your specified time is tr4969 that departs at 19:54. if this is acceptable , shall i book just 1 seat ?"
+  ],
+  [
+    "train { inform ( choice = over 200 possibilities ) @ request ( destination = ? ) } ",
+    "there are over 200 possibilities . where will you be traveling to from cambridge ?",
+    "there are over 200 possibilities . where will you be traveling to from cambridge ?"
+  ],
+  [
+    "train { inform ( leaveat = 12:40 ; id = tr0188 ; arriveby = 13:08 ) } ",
+    "i have train tr0188 that leaves at 12:40 and arrives at 13:08 , will that work for you ?",
+    "i have train tr0188 that leaves at 12:40 and arrives at 13:08 , will that work for you ?"
+  ],
+  [
+    "train { book ( reference = mmhron1t ; price = 118 gbp ) } ",
+    "booking was successful , the total fee is 118 gbp payable at the station .reference number is : mmhron1t .",
+    "booking was successful , the total fee is 118 gbp payable at the station .reference number is : mmhron1t ."
+  ],
+  [
+    "train { inform ( choice = 150 ) @ request ( departure = ? ; destination = ? ) } ",
+    "there are 150 trains that match your requirements . what is your destination , and from where are you traveling ?",
+    "there are 150 trains that match your requirements . what is your destination , and from where are you traveling ?"
+  ],
+  [
+    "train { request ( day = ? ; leaveat = ? ; arriveby = ? ) } ",
+    "and what day and time would you like to travel ?",
+    "and what day and time would you like to travel ?"
+  ],
+  [
+    "train { inform ( leaveat = 19:40 ; arriveby = 20:08 ) @ request ( people = ? ) } ",
+    "yes , the 19:40 train will arrive at 20:08. how many tickets would you like ?",
+    "yes , the 19:40 train will arrive at 20:08. how many tickets would you like ?"
+  ],
+  [
+    "train { request ( destination = ? ) } ",
+    "okay ! where would you like to go ?",
+    "okay ! where would you like to go ?"
+  ],
+  [
+    "train { request ( arriveby = ? ) } ",
+    "what time would you like to arrive by ?",
+    "what time would you like to arrive by ?"
+  ],
+  [
+    "train { book ( none = none ) @ inform ( id = tr4748 ; arriveby = 14:08 ) } ",
+    "tr4748 arrives at 14:08. can i book it for you ?",
+    "tr4748 arrives at 14:08. can i book it for you ?"
+  ],
+  [
+    "train { request ( leaveat = ? ; arriveby = ? ) } ",
+    "what time would you like to arrive or leave by ?",
+    "what time would you like to arrive or leave by ?"
+  ],
+  [
+    "train { book ( id = tr3128 ; leaveat = 20:40 ) } ",
+    "ok , i could book the tr3128 which leaves at 20:40 .",
+    "ok , i could book the tr3128 which leaves at 20:40 ."
+  ],
+  [
+    "train { inform ( leaveat = 06:01 ; id = tr4249 ; arriveby = 07:01 ) @ book ( none = none ) } ",
+    "tr4249 leaves at 06:01 and arrives at 07:01 giving you plenty of time . can i book that for you ?",
+    "tr4249 leaves at 06:01 and arrives at 07:01 giving you plenty of time . can i book that for you ?"
+  ],
+  [
+    "train { request ( departure = ? ; destination = ? ) } ",
+    "i 'd like to confirm that you want a train leaving cambridge and arriving at peterborough .",
+    "i 'd like to confirm that you want a train leaving cambridge and arriving at peterborough ."
+  ],
+  [
+    "train { inform ( choice = 91 ; departure = leicaster ; leaveat = the specified time ; destination = cambridge ) @ select ( day = friday ; leaveat = 11:09 ) } ",
+    "there are 91 trains leaving leicaster to cambridge after the specified time . how does friday 11:09 sound ?",
+    "there are 91 trains leaving leicaster to cambridge after the specified time . how does friday 11:09 sound ?"
+  ],
+  [
+    "train { inform ( choice = 202 ) @ request ( leaveat = ? ; arriveby = ? ) } ",
+    "there are 202 options that day ! do you know what time you want to leave or arrive ?",
+    "there are 202 options that day ! do you know what time you want to leave or arrive ?"
+  ],
+  [
+    "train { book ( reference = 3tf3uigp ) } ",
+    "great , i have booked your ticket . your reference number is : 3tf3uigp .",
+    "great , i have booked your ticket . your reference number is : 3tf3uigp ."
+  ],
+  [
+    "train { inform ( choice = 7 ; leaveat = 08:19 ) @ request ( leaveat = ? ) } ",
+    "there are 7 trains that can get you there , the earliest is levaing at 05:19 , the latest at 08:19. do you have a time you 'd like to leave the station ?",
+    "there are 7 trains that can get you there , the earliest is levaing at 05:19 , the latest at 08:19. do you have a time you 'd like to leave the station ?"
+  ],
+  [
+    "train { inform ( choice = two ; leaveat = 23:54 ) } ",
+    "there are two . one leaving at 21:54 and the other leaving at 23:54 .",
+    "there are two . one leaving at 21:54 and the other leaving at 23:54 ."
+  ],
+  [
+    "train { inform ( id = tr1704 ) } ",
+    "the train id is tr1704 .",
+    "the train id is tr1704 ."
+  ],
+  [
+    "train { inform ( price = 23.60 pounds ; leaveat = 17:17 ; id = tr0835 ; time = 51 minutes ; arriveby = 18:08 ) } ",
+    "i have tr0835 leaving at 17:17 and arriving at 18:08. that has a travel time of 51 minutes and a price of 23.60 pounds .",
+    "i have tr0835 leaving at 17:17 and arriving at 18:08. that has a travel time of 51 minutes and a price of 23.60 pounds ."
+  ],
+  [
+    "train { inform ( id = tr7094 ; arriveby = 08:09 ) @ request ( people = ? ) } ",
+    "i have the tr7094 which will get you there by 08:09 , how many ticket please ?",
+    "i have the tr7094 which will get you there by 08:09 , how many ticket please ?"
+  ],
+  [
+    "train { request ( leaveat = ? ) } ",
+    "what time would you like to leave by ?",
+    "what time would you like to leave by ?"
+  ],
+  [
+    "train { request ( people = ? ) } ",
+    "how many tickets will you need ?",
+    "how many tickets will you need ?"
+  ],
+  [
+    "train { inform ( price = 13.28 pounds ) @ book ( none = none ) } ",
+    "the cost per ticket is 13.28 pounds . can i assist you in booking a ticket ?",
+    "the cost per ticket is 13.28 pounds . can i assist you in booking a ticket ?"
+  ],
+  [
+    "train { inform ( price = 10.10 pounds ; leaveat = 15:24 ) } ",
+    "it will cost 10.10 pounds per ticket and leaves at 15:24 .",
+    "it will cost 10.10 pounds per ticket and leaves at 15:24 ."
+  ],
+  [
+    "train { book ( day = friday ; id = tr9900 ; leaveat = 05:16 ; departure = norwich ; arriveby = 06:35 ; time = 79 minutes ; price = 17.60 pounds ; destination = cambridge ) } ",
+    "ive boked that for you trainid departure destination day leaveat arriveby price duration book ( optional ) tr9900 norwich cambridge friday 05:16 06:35 17.60 pounds 79 minutes",
+    "ive boked that for you trainid departure destination day leaveat arriveby price duration book ( optional ) tr9900 norwich cambridge friday 05:16 06:35 17.60 pounds 79 minutes"
+  ],
+  [
+    "train { inform ( choice = five ) } ",
+    "i have five trains that meet your criteria .",
+    "i have five trains that meet your criteria ."
+  ],
+  [
+    "train { inform ( choice = several ; destination = boxbourne ) @ request ( departure = ? ; day = ? ) } ",
+    "i have several trains going to boxbourne . what day do you want to leave ? where are you leaving from ?",
+    "i have several trains going to boxbourne . what day do you want to leave ? where are you leaving from ?"
+  ],
+  [
+    "train { inform ( leaveat = 14:01 ; id = tr9033 ; destination = broxbourne ; arriveby = 15:01 ) } ",
+    "i have train tr9033 that leaves at 14:01 and arrives in broxbourne at 15:01. would that work for you ?",
+    "i have train tr9033 that leaves at 14:01 and arrives in broxbourne at 15:01. would that work for you ?"
+  ],
+  [
+    "train { inform ( day = friday ; leaveat = 15:39 ) @ sorry ( leaveat = 15:15 ) } ",
+    "there is no train leaving at 15:15. however there is leaving at 15:39 on friday , would you like that one ?",
+    "there is no train leaving at 15:15. however there is leaving at 15:39 on friday , would you like that one ?"
+  ],
+  [
+    "train { inform ( leaveat = 5:36 ) } ",
+    "the first train leaves at 5:36 .",
+    "the first train leaves at 5:36 ."
+  ],
+  [
+    "train { inform ( time = 163 minutes ; leaveat = 18:01 ; id = tr5867 ; arriveby = 20:44 ) @ book ( none = none ) } ",
+    "the train you may prefer is the tr5867 that leaves at 18:01 and arrives by 20:44. it takes 163 minutes . would you like that one ?",
+    "the train you may prefer is the tr5867 that leaves at 18:01 and arrives by 20:44. it takes 163 minutes . would you like that one ?"
+  ],
+  [
+    "train { inform ( day = monday ; destination = ely ; leaveat = 17:50 ) @ book ( none = none ) } ",
+    "there is a train to ely that leaves at 17:50 on monday . would you like me to book it ?",
+    "there is a train to ely that leaves at 17:50 on monday . would you like me to book it ?"
+  ],
+  [
+    "train { inform ( id = tr2941 ; arriveby = 10:01 ) } ",
+    "tr2941 arrives at 10:01 .",
+    "tr2941 arrives at 10:01 ."
+  ],
+  [
+    "train { inform ( id = tr1328 ; departure = birmingham new street ; arriveby = 16:23 ; leaveat = 13:40 ; destination = cambridge ) @ book ( none = none ) } ",
+    "tr1328 leaves birmingham new street at 13:40 and arrives in cambridge at 16:23. would you like to purchase a ticket ?",
+    "tr1328 leaves birmingham new street at 13:40 and arrives in cambridge at 16:23. would you like to purchase a ticket ?"
+  ],
+  [
+    "train { request ( day = ? ; destination = ? ; people = ? ) } ",
+    "what day will you need the train and where are you traveling to and how many people will be traveling ?",
+    "what day will you need the train and where are you traveling to and how many people will be traveling ?"
+  ],
+  [
+    "train { inform ( day = tuesday ; id = tr2098 ; destination = cambridge ; arriveby = 14:35 ) @ book ( none = none ) } ",
+    "tr2098 will arrive in cambridge at 14:35 on tuesday . would you like to book passage on that train ?",
+    "tr2098 will arrive in cambridge at 14:35 on tuesday . would you like to book passage on that train ?"
+  ],
+  [
+    "train { inform ( day = friday ; leaveat = 5:36 ) @ book ( none = none ) } ",
+    "of course . there is a train leaving friday at 5:36. would you like me to book it for you ?",
+    "of course . there is a train leaving friday at 5:36. would you like me to book it for you ?"
+  ],
+  [
+    "train { inform ( price = 17.60 pounds ) @ book ( none = none ) @ request ( people = ? ) } ",
+    "yes ! the price is 17.60 pounds . how many tickets would you like to book ?",
+    "yes ! the price is 17.60 pounds . how many tickets would you like to book ?"
+  ],
+  [
+    "train { request ( day = ? ; leaveat = ? ) } ",
+    "what day and time would you like to travel ?",
+    "what day and time would you like to travel ?"
+  ],
+  [
+    "train { inform ( day = tuesday ; leaveat = 05:17 ; departure = london kings cross ) } ",
+    "yes i have a train leaving on tuesday at 05:17 from london kings cross .",
+    "yes i have a train leaving on tuesday at 05:17 from london kings cross ."
+  ]
+]

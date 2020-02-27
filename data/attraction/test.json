@@ -1,0 +1,1702 @@
+[
+  [
+    "attraction { inform ( area = centre ; type = cinemas ; choice = other ) @ select ( none = none ) } ",
+    "i have 2 cinemas . one is in the south . the other is in the centre of town . which do you prefer ?",
+    "i have 2 cinemas . one is in the south . the other is in the centre of town . which do you prefer ?"
+  ],
+  [
+    "attraction { recommend ( name = byard art ; price = free admission ) } ",
+    "sure thing , i reccomend byard art it has free admission .",
+    "sure thing , i reccomend byard art it has free admission ."
+  ],
+  [
+    "attraction { inform ( address = storey's way ; price = no entrance fee ; name = churchill college ; phone = 01223336233 ) } ",
+    "churchill college is located on storey 's way . there is no entrance fee . the phone number is 01223336233 .",
+    "churchill college is located on storey 's way . there is no entrance fee . the phone number is 01223336233 ."
+  ],
+  [
+    "attraction { inform ( area = that area ; choice = 10 ) @ request ( type = ? ) } ",
+    "i 'd be happy to help you with that . we have 10 attractions in that area . is there a specific type of attraction you would like to visit ?",
+    "i 'd be happy to help you with that . we have 10 attractions in that area . is there a specific type of attraction you would like to visit ?"
+  ],
+  [
+    "attraction { inform ( address = 14 king's parade ; name = byard art ) } ",
+    "sure , the byard art 's address is 14 king 's parade",
+    "sure , the byard art 's address is 14 king 's parade"
+  ],
+  [
+    "attraction { inform ( area = centre ; price = free ) } ",
+    "it is in the centre and it 's free .",
+    "it is in the centre and it 's free ."
+  ],
+  [
+    "attraction { recommend ( name = cambridge museum of technology ) } ",
+    "i would recommend the cambridge museum of technology .",
+    "i would recommend the cambridge museum of technology ."
+  ],
+  [
+    "attraction { inform ( price = 4 pounds ) } ",
+    "yes as a matter of fact it does and this is 4 pounds .",
+    "yes as a matter of fact it does and this is 4 pounds ."
+  ],
+  [
+    "attraction { inform ( phone = 01223333516 ) } ",
+    "sure , their number is 01223333516 .",
+    "sure , their number is 01223333516 ."
+  ],
+  [
+    "attraction { sorry ( area = north ; type = museums ) @ request ( area = ? ) } ",
+    "i 'm sorry there are no museums in the north . would you like me to check a different area ?",
+    "i 'm sorry there are no museums in the north . would you like me to check a different area ?"
+  ],
+  [
+    "attraction { recommend ( name = cambridge artworks ; type = museums ; choice = 4 ; area = east ) } ",
+    "i can recommend four different museums in the east area . how about cambridge artworks ? it is popular .",
+    "i can recommend four different museums in the east area . how about cambridge artworks ? it is popular ."
+  ],
+  [
+    "attraction { inform ( phone = 01223332320 ; postcode = cb21tt ) } ",
+    "the phone number is 01223332320 and post code is cb21tt .",
+    "the phone number is 01223332320 and post code is cb21tt ."
+  ],
+  [
+    "attraction { request ( area = ? ; name = ? ) } ",
+    "can you tell me the name of the college ? and the city it is located ?",
+    "can you tell me the name of the college ? and the city it is located ?"
+  ],
+  [
+    "attraction { sorry ( area = north ) @ inform ( area = cambridge ; type = colleges ; choice = many ) @ request ( area = ? ) } ",
+    "cambridge has many different colleges , but none are in the north . would you be interested in a different area , perhaps ?",
+    "cambridge has many different colleges , but none are in the north . would you be interested in a different area , perhaps ?"
+  ],
+  [
+    "attraction { inform ( address = storey's way ; area = west ; name = churchill college ; type = colleges ; choice = 4 ) } ",
+    "there are 4 colleges in the west . churchill college is located at storey 's way . it 's entrance fee is free .",
+    "there are 4 colleges in the west . churchill college is located at storey 's way . it 's entrance fee is free ."
+  ],
+  [
+    "attraction { recommend ( name = people's portraits exhibition ; address = girton college ) } ",
+    "how about people 's portraits exhibition at girton college ?",
+    "how about people 's portraits exhibition at girton college ?"
+  ],
+  [
+    "attraction { inform ( address = jesus lane ; postcode = cb58bs ) } ",
+    "they are located at jesus lane , and their postcode is cb58bs",
+    "they are located at jesus lane , and their postcode is cb58bs"
+  ],
+  [
+    "attraction { recommend ( name = cambridge artworks ; price = no entrance fee ; area = east ; address = 5 greens road ) } ",
+    "then i would definitely recommend cambridge artworks in the east . their address is 5 greens road and there is no entrance fee .",
+    "then i would definitely recommend cambridge artworks in the east . their address is 5 greens road and there is no entrance fee ."
+  ],
+  [
+    "attraction { sorry ( none = none ) } ",
+    "there does n't seem to be anything matching your specifications .",
+    "there does n't seem to be anything matching your specifications ."
+  ],
+  [
+    "attraction { inform ( price = do not know ; phone = 01223300085 ) } ",
+    "i do not know the entrance fee but the phone number is 01223300085 .",
+    "i do not know the entrance fee but the phone number is 01223300085 ."
+  ],
+  [
+    "attraction { request ( area = ? ) @ inform ( type = pool ) } ",
+    "we didnt pick out a pool yet , any preference in area ?",
+    "we didnt pick out a pool yet , any preference in area ?"
+  ],
+  [
+    "attraction { inform ( area = east ; name = the cherry hinton village centre ) } ",
+    "the the cherry hinton village centre is in the east area . would you like information on it ?",
+    "the the cherry hinton village centre is in the east area . would you like information on it ?"
+  ],
+  [
+    "attraction { inform ( type = etc. ) @ request ( type = ? ) } ",
+    "what are you interested in ? there 's architecture , colleges , cinemas , etc .",
+    "what are you interested in ? there 's architecture , colleges , cinemas , etc ."
+  ],
+  [
+    "attraction { select ( name = the fez club ) @ inform ( choice = five ) } ",
+    "i have five . would you like to try club salsa or the fez club ?",
+    "i have five . would you like to try club salsa or the fez club ?"
+  ],
+  [
+    "attraction { select ( name = tenpin ) } ",
+    "just so i can get you the right information , are you interested in byard art or tenpin ?",
+    "just so i can get you the right information , are you interested in byard art or tenpin ?"
+  ],
+  [
+    "attraction { inform ( address = 13 magdalene street ; choice = 7 ; name = cafe jello gallery ; phone = 01223312112 ) @ select ( none = none ) } ",
+    "there are 7 options , the first is cafe jello gallery located at 13 magdalene street , phone number 01223312112. would that work ?",
+    "there are 7 options , the first is cafe jello gallery located at 13 magdalene street , phone number 01223312112. would that work ?"
+  ],
+  [
+    "attraction { sorry ( area = centre ; type = multiple sports attraction ) @ inform ( area = east ; choice = one ) } ",
+    "there is no multiple sports attraction in the centre but there is one in the east . are you interested ?",
+    "there is no multiple sports attraction in the centre but there is one in the east . are you interested ?"
+  ],
+  [
+    "attraction { inform ( name = broughton house gallery ) } ",
+    "ok , how about the broughton house gallery ?",
+    "ok , how about the broughton house gallery ?"
+  ],
+  [
+    "attraction { inform ( address = cheddars lane ; price = 5 pounds ; phone = 01223368650 ) } ",
+    "it 's 5 pounds for the entrance fee . their address is the old pumping station , cheddars lane , and phone number is 01223368650",
+    "it 's 5 pounds for the entrance fee . their address is the old pumping station , cheddars lane , and phone number is 01223368650"
+  ],
+  [
+    "attraction { inform ( type = swimming pool ; area = north of town ; name = the kings hedges learner pool ; choice = two ) @ select ( none = none ) } ",
+    "i have two swimming pools listed north of town . the jesus green outdoor pool and the kings hedges learner pool . do you have a preference ?",
+    "i have two swimming pools listed north of town . the jesus green outdoor pool and the kings hedges learner pool . do you have a preference ?"
+  ],
+  [
+    "attraction { request ( area = ? ) @ inform ( choice = multiple ) } ",
+    "what area would you prefer ? i have multiple venues for you .",
+    "what area would you prefer ? i have multiple venues for you ."
+  ],
+  [
+    "attraction { inform ( area = west ; type = museums ; choice = 7 ) } ",
+    "there are 7 museums in the west .",
+    "there are 7 museums in the west ."
+  ],
+  [
+    "attraction { request ( type = ? ) @ inform ( type = historic sites ; choice = many ) } ",
+    "cambridge has many important and historic sites to visit , can you tell me what types of attractions interest you most ?",
+    "cambridge has many important and historic sites to visit , can you tell me what types of attractions interest you most ?"
+  ],
+  [
+    "attraction { recommend ( name = old schools ; phone = 01223332320 ; address = trinity lane ) } ",
+    "i recommend old schools . their address is trinity lane , and their phone number is 01223332320 .",
+    "i recommend old schools . their address is trinity lane , and their phone number is 01223332320 ."
+  ],
+  [
+    "attraction { inform ( address = saint andrew's street ; price = free ; name = emmanuel college ) } ",
+    "the emmanuel college is free and it is on saint andrew 's street . how does that sound ?",
+    "the emmanuel college is free and it is on saint andrew 's street . how does that sound ?"
+  ],
+  [
+    "attraction { request ( type = ? ) } ",
+    "is there a specific type of attraction you 're looking for ?",
+    "is there a specific type of attraction you 're looking for ?"
+  ],
+  [
+    "attraction { inform ( area = centre ; price = free ; type = museum ) } ",
+    "it is a museum located in the centre . admission is free .",
+    "it is a museum located in the centre . admission is free ."
+  ],
+  [
+    "attraction { inform ( address = jesus lane ; price = free ) } ",
+    "they have free entrance and their address is jesus lane",
+    "they have free entrance and their address is jesus lane"
+  ],
+  [
+    "attraction { inform ( name = nusha ; postcode = cb17dy ) } ",
+    "the post code for nusha is cb17dy . i 'm checking on your taxi reservation .",
+    "the post code for nusha is cb17dy . i 'm checking on your taxi reservation ."
+  ],
+  [
+    "attraction { inform ( address = regent street ) } ",
+    "sure , it 's located at regent street .",
+    "sure , it 's located at regent street ."
+  ],
+  [
+    "attraction { request ( area = ? ) } ",
+    "which side of town do you prefer ?",
+    "which side of town do you prefer ?"
+  ],
+  [
+    "attraction { recommend ( name = ruskin gallery ; price = free ) @ inform ( choice = 11 ) } ",
+    "i have 11 museums in the centre . i would suggest the ruskin gallery . they have free entrance .",
+    "i have 11 museums in the centre . i would suggest the ruskin gallery . they have free entrance ."
+  ],
+  [
+    "attraction { recommend ( name = hughes hall ; price = free ; address = wollaston road ) @ inform ( area = centre ; type = colleges ; choice = 13 ) } ",
+    "there are 13 colleges in the centre . if you are looking for a recommendation , i would definitely suggest hughes hall . they have free admission and are located on wollaston road .",
+    "there are 13 colleges in the centre . if you are looking for a recommendation , i would definitely suggest hughes hall . they have free admission and are located on wollaston road ."
+  ],
+  [
+    "attraction { inform ( address = king's parade ; area = centre ; price = free ; type = college ; choice = several ; name = saint catharine's college ) } ",
+    "there are several college 's in the centre . how about saint catharine 's college ? it is on king 's parade and has free admission .",
+    "there are several college 's in the centre . how about saint catharine 's college ? it is on king 's parade and has free admission ."
+  ],
+  [
+    "attraction { select ( none = none ) @ inform ( type = colleges ; choice = a lot of ) } ",
+    "yes i have many options . you could visit architecture , a museum , the theater or the cinema . which do you prefer ? there are also a lot of famous colleges to see .",
+    "yes i have many options . you could visit architecture , a museum , the theater or the cinema . which do you prefer ? there are also a lot of famous colleges to see ."
+  ],
+  [
+    "attraction { inform ( address = gonville place ; phone = 01223446100 ; price = do not have the entrance fee available ; name = parkside pools ; postcode = cb11ly ) } ",
+    "parkside pools is located at gonville place . i do not have the entrance fee available , but the phone number is 01223446100 and the postcode is cb11ly",
+    "parkside pools is located at gonville place . i do not have the entrance fee available , but the phone number is 01223446100 and the postcode is cb11ly"
+  ],
+  [
+    "attraction { request ( name = ? ) @ inform ( type = museum ; choice = 10 ) } ",
+    "yes i have 10 other museums listed in my database for that area . would you like more information regarding one in particular ?",
+    "yes i have 10 other museums listed in my database for that area . would you like more information regarding one in particular ?"
+  ],
+  [
+    "attraction { inform ( name = churchill college ; phone = 01223336233 ) } ",
+    "churchill college 's phone number is 01223336233 .",
+    "churchill college 's phone number is 01223336233 ."
+  ],
+  [
+    "attraction { inform ( area = centre of town ; price = free to visit ; type = museums ; choice = all ) @ select ( name = broughton house gallery ) } ",
+    "there are 5 museums in the centre of town . they are all free to visit . how about broughton house gallery ?",
+    "there are 5 museums in the centre of town . they are all free to visit . how about broughton house gallery ?"
+  ],
+  [
+    "attraction { inform ( address = clifton road ; area = south of town ; postcode = cb17dy ) } ",
+    "sure , the area is just known as the south of town , but the address is unit g6 , cambridge leisure park , clifton road and the postcode is cb17dy . does that help ?",
+    "sure , the area is just known as the south of town , but the address is unit g6 , cambridge leisure park , clifton road and the postcode is cb17dy . does that help ?"
+  ],
+  [
+    "attraction { recommend ( name = christi's college ; address = saint andrew's street ) @ inform ( area = centre ; type = churches ; choice = 13 ) } ",
+    "there are 13 churches in the centre . how about christi 's college ? the address is saint andrew 's street .",
+    "there are 13 churches in the centre . how about christi 's college ? the address is saint andrew 's street ."
+  ],
+  [
+    "attraction { recommend ( name = museum of archaelogy and anthropology ; price = free ; address = downing street ) } ",
+    "i would suggest the museum of archaelogy and anthropology . it is located at university of cambridge , downing street and has free admission .",
+    "i would suggest the museum of archaelogy and anthropology . it is located at university of cambridge , downing street and has free admission ."
+  ],
+  [
+    "attraction { inform ( area = centre of town ; name = old schools ; type = architecture ) } ",
+    "all architecture is in the centre of town . your options are all saints church , great saint mary 's church , holy trinity church , little saint mary 's church , and old schools .",
+    "all architecture is in the centre of town . your options are all saints church , great saint mary 's church , holy trinity church , little saint mary 's church , and old schools ."
+  ],
+  [
+    "attraction { inform ( postcode = cb23hg ) } ",
+    "their postcode is cb23hg",
+    "their postcode is cb23hg"
+  ],
+  [
+    "attraction { inform ( address = wheeler street ; area = centre ; type = theatre ) } ",
+    "it is a theatre located in the centre on wheeler street .",
+    "it is a theatre located in the centre on wheeler street ."
+  ],
+  [
+    "attraction { inform ( address = cambridge leisure park ; phone = 00872208000 ) } ",
+    "yes , their address is cambridge leisure park , clifton way and their phone number is 00872208000 .",
+    "yes , their address is cambridge leisure park , clifton way and their phone number is 00872208000 ."
+  ],
+  [
+    "attraction { inform ( price = no entrance fee ; postcode = cb13ef ) } ",
+    "no entrance fee and the post code is cb13ef .",
+    "no entrance fee and the post code is cb13ef ."
+  ],
+  [
+    "attraction { recommend ( name = adc theatre ; postcode = cb58as ; address = park street ) } ",
+    "sure , the adc theatre is on park street , postcode cb58as .",
+    "sure , the adc theatre is on park street , postcode cb58as ."
+  ],
+  [
+    "attraction { recommend ( name = cambridge artworks ; type = museum ) @ inform ( address = 5 greens road ; price = free ; postcode = cb12ef ) } ",
+    "cambridge artworks is a great museum ! the address is 5 greens road . the postcode is cb12ef . it 's also free to enter .",
+    "cambridge artworks is a great museum ! the address is 5 greens road . the postcode is cb12ef . it 's also free to enter ."
+  ],
+  [
+    "attraction { sorry ( area = your desired location ) } ",
+    "i am sorry , i am unable to locate an attraction in your desired location ?",
+    "i am sorry , i am unable to locate an attraction in your desired location ?"
+  ],
+  [
+    "attraction { inform ( address = between victoria road and the river ; name = jesus green outdoor pool ; phone = 01223302579 ) } ",
+    "sure ! the jesus green outdoor pool is located between victoria road and the river and the phone number is 01223302579 .",
+    "sure ! the jesus green outdoor pool is located between victoria road and the river and the phone number is 01223302579 ."
+  ],
+  [
+    "attraction { select ( type = museum ) @ inform ( choice = a lot ) } ",
+    "i have a lot of different attractions . would you like a college or museum ?",
+    "i have a lot of different attractions . would you like a college or museum ?"
+  ],
+  [
+    "attraction { recommend ( name = whipple museum of the history of science ) @ inform ( type = museums ; choice = 11 ) } ",
+    "there are 11 museums in the area , would you be interested in the whipple museum of the history of science ?",
+    "there are 11 museums in the area , would you be interested in the whipple museum of the history of science ?"
+  ],
+  [
+    "attraction { inform ( area = east side of town ; name = funky fun house ) @ request ( area = ? ; type = ? ) } ",
+    "do you have an area or type of attraction in mind ? funky fun house on the east side of town is fun for kids .",
+    "do you have an area or type of attraction in mind ? funky fun house on the east side of town is fun for kids ."
+  ],
+  [
+    "attraction { recommend ( name = queen's college ) @ inform ( address = silver street ; area = west side of town ; phone = 01223335511 ) } ",
+    "how about queen 's college ? it is on the west side of town . the phone number is 01223335511 and address is silver street .",
+    "how about queen 's college ? it is on the west side of town . the phone number is 01223335511 and address is silver street ."
+  ],
+  [
+    "attraction { inform ( price = free ; name = cherry hinton water play ) } ",
+    "cambridge artworks , gallery at twelve a high street , saint barnabas press gallery and cherry hinton water play are all free .",
+    "cambridge artworks , gallery at twelve a high street , saint barnabas press gallery and cherry hinton water play are all free ."
+  ],
+  [
+    "attraction { recommend ( name = cambridge artworks ; type = museum ; price = free ; address = 5 greens road ) } ",
+    "you should definitely check out cambridge artworks . it 's a museum with free entrance at 5 greens road . would that work for you ?",
+    "you should definitely check out cambridge artworks . it 's a museum with free entrance at 5 greens road . would that work for you ?"
+  ],
+  [
+    "attraction { inform ( area = centre ; price = 5 pounds ; name = club salsa ; phone = 07782218745 ) } ",
+    "sure , there 's club salsa in the centre , their phone number is 07782218745 and the entrance fee is 5 pounds .",
+    "sure , there 's club salsa in the centre , their phone number is 07782218745 and the entrance fee is 5 pounds ."
+  ],
+  [
+    "attraction { inform ( type = museums ) } ",
+    "there are churches , colleges , and museums .",
+    "there are churches , colleges , and museums ."
+  ],
+  [
+    "attraction { inform ( choice = 13 ) } ",
+    "i have 13 on the list , do you have any other preferences ? fees , no fees ?",
+    "i have 13 on the list , do you have any other preferences ? fees , no fees ?"
+  ],
+  [
+    "attraction { sorry ( none = none ) @ request ( area = ? ; type = ? ) } ",
+    "i have nothing matching what you are looking for . perhaps another area or another attraction ?",
+    "i have nothing matching what you are looking for . perhaps another area or another attraction ?"
+  ],
+  [
+    "attraction { inform ( phone = 01223334900 ; price = free ; name = christ's college ; postcode = cb23u ) } ",
+    "christ 's college is free . the phone number is 01223334900 and the postcode is cb23u .",
+    "christ 's college is free . the phone number is 01223334900 and the postcode is cb23u ."
+  ],
+  [
+    "attraction { inform ( address = little saint mary's lane ; area = centre of town ; price = free ; name = little saint mary's church ) } ",
+    "little saint mary 's church is a great place to visit . it is located on little saint mary 's lane in the centre of town and its free to get it .",
+    "little saint mary 's church is a great place to visit . it is located on little saint mary 's lane in the centre of town and its free to get it ."
+  ],
+  [
+    "attraction { recommend ( name = clare college ; price = free ; area = west ) @ inform ( choice = 5 ) } ",
+    "there are 5 in town , but i recommend clare college in the west . it 's free to visit . does that sound good ?",
+    "there are 5 in town , but i recommend clare college in the west . it 's free to visit . does that sound good ?"
+  ],
+  [
+    "attraction { recommend ( name = cafe jello gallery ; area = west ) } ",
+    "if you 'd like to be in the west , i recommend cafe jello gallery .",
+    "if you 'd like to be in the west , i recommend cafe jello gallery ."
+  ],
+  [
+    "attraction { recommend ( name = nusha ; postcode = cb17dy ; phone = 01223902158 ; address = clifton road ) @ inform ( price = i'm not sure if there is an entrance fee ; name = tenpin ; phone = 08715501010 ) } ",
+    "i suggest nusha , unit g6 , cambridge leisure park , clifton road . phone 01223902158 , postcode cb17dy . i 'm not sure if there is an entrance fee another one is tenpin phone 08715501010 .",
+    "i suggest nusha , unit g6 , cambridge leisure park , clifton road . phone 01223902158 , postcode cb17dy . i 'm not sure if there is an entrance fee another one is tenpin phone 08715501010 ."
+  ],
+  [
+    "attraction { inform ( type = boating ; choice = many ) } ",
+    "there are many things to do in cambridge ; clubs , museums , churches , boating etc . what would you like to do ?",
+    "there are many things to do in cambridge ; clubs , museums , churches , boating etc . what would you like to do ?"
+  ],
+  [
+    "attraction { recommend ( name = cineworld cinema ) @ inform ( choice = 7 ) } ",
+    "ok , there is cineworld cinema or 7 other places i can tell you about .",
+    "ok , there is cineworld cinema or 7 other places i can tell you about ."
+  ],
+  [
+    "attraction { inform ( area = centre ; type = pools ) } ",
+    "in the centre there is architecture , boats , cinemas , colleges , museums , nightclubs , theatres , parks , and pools .",
+    "in the centre there is architecture , boats , cinemas , colleges , museums , nightclubs , theatres , parks , and pools ."
+  ],
+  [
+    "attraction { sorry ( area = the west end ; type = concert halls ) } ",
+    "unfortunately there are no concert halls in the west end .",
+    "unfortunately there are no concert halls in the west end ."
+  ],
+  [
+    "attraction { recommend ( name = christ's college ; postcode = cb23bu ; price = free ; phone = 01223334900 ; address = at saint andrew's street ) @ inform ( choice = 13 ) } ",
+    "there are 13 colleges in the center , but i would recommend christ 's college . it 's at saint andrew 's street , postcode cb23bu , phone number 01223334900 , and the entrance fee is free !",
+    "there are 13 colleges in the center , but i would recommend christ 's college . it 's at saint andrew 's street , postcode cb23bu , phone number 01223334900 , and the entrance fee is free !"
+  ],
+  [
+    "attraction { sorry ( none = none ) @ request ( area = ? ) } ",
+    "we currently do not show any locations that fit that criteria . would like me to look in a different area ?",
+    "we currently do not show any locations that fit that criteria . would like me to look in a different area ?"
+  ],
+  [
+    "attraction { inform ( address = downing street ; phone = 01223333516 ; name = museum of archaelogy and anthropology ; postcode = cb23dz ) } ",
+    "we can do museum of archaelogy and anthropology , it is in university of cambridge , downing street . code number cb23dz . their phone number is 01223333516",
+    "we can do museum of archaelogy and anthropology , it is in university of cambridge , downing street . code number cb23dz . their phone number is 01223333516"
+  ],
+  [
+    "attraction { inform ( address = 22 sidney street ; name = the place ; choice = one ) } ",
+    "there is one , and it 's called the place . they 're located at 22 sidney street .",
+    "there is one , and it 's called the place . they 're located at 22 sidney street ."
+  ],
+  [
+    "attraction { inform ( address = clifton way ; area = south ; name = tenpin ; type = entertainment ; phone = 08715501010 ) } ",
+    "tenpin is an entertainment attraction in the south part of town their phone number is 08715501010 , and address is cambridge leisure park , clifton way",
+    "tenpin is an entertainment attraction in the south part of town their phone number is 08715501010 , and address is cambridge leisure park , clifton way"
+  ],
+  [
+    "attraction { inform ( address = sidgwick avenue ; area = west ; price = free ; name = the museum of classical archaeology ; postcode = cb39da ; phone = 01223335153 ) } ",
+    "sure , the museum of classical archaeology is in the west , phone 01223335153 , postcode cb39da , address sidgwick avenue , free to enter .",
+    "sure , the museum of classical archaeology is in the west , phone 01223335153 , postcode cb39da , address sidgwick avenue , free to enter ."
+  ],
+  [
+    "attraction { sorry ( area = centre of town ) @ request ( area = ? ) } ",
+    "i did not find any places in the centre of town . would you like to try another area ?",
+    "i did not find any places in the centre of town . would you like to try another area ?"
+  ],
+  [
+    "attraction { inform ( area = the centre of town ; type = colleges ; choice = 13 ) @ request ( name = ? ) } ",
+    "there are 13 colleges in the centre of town . do you have a specific one you like to check out ?",
+    "there are 13 colleges in the centre of town . do you have a specific one you like to check out ?"
+  ],
+  [
+    "attraction { inform ( name = the cambridge corn exchange ; choice = four ) } ",
+    "there are four theatres in centre : adc theatre , cambridge arts theatre , mumford theatre and the cambridge corn exchange . would you be interested in any of these ?",
+    "there are four theatres in centre : adc theatre , cambridge arts theatre , mumford theatre and the cambridge corn exchange . would you be interested in any of these ?"
+  ],
+  [
+    "attraction { inform ( area = center ; choice = 79 ) @ request ( name = ? ) } ",
+    "there are 79 attractions in the center . are you looking for something in particular ?",
+    "there are 79 attractions in the center . are you looking for something in particular ?"
+  ],
+  [
+    "attraction { recommend ( name = whale of a time ; type = entertainment ; address = bar hill ) } ",
+    "i do have one entertainment venue . it is called whale of a time . from what i hear , it is very popular . they are located at unit 8 , viking way , bar hill .",
+    "i do have one entertainment venue . it is called whale of a time . from what i hear , it is very popular . they are located at unit 8 , viking way , bar hill ."
+  ],
+  [
+    "attraction { select ( choice = two ; name = the cambridge punter ; type = boating ) } ",
+    "there are two boating places , scudamores punting co and the cambridge punter , which would you like ?",
+    "there are two boating places , scudamores punting co and the cambridge punter , which would you like ?"
+  ],
+  [
+    "attraction { select ( none = none ) } ",
+    "the address and post code is different for each which one would you like please ?",
+    "the address and post code is different for each which one would you like please ?"
+  ],
+  [
+    "attraction { inform ( price = free admission ; name = cambridge folk museum ; choice = all ) } ",
+    "all are free admission , except for cambridge folk museum",
+    "all are free admission , except for cambridge folk museum"
+  ],
+  [
+    "attraction { request ( area = ? ; type = ? ) } ",
+    "i can help with that . is there a certain type or location you are looking for these attractions ?",
+    "i can help with that . is there a certain type or location you are looking for these attractions ?"
+  ],
+  [
+    "attraction { select ( address = park street ; area = centre area ; name = adc theater ) } ",
+    "how about the adc theater located in the centre area at park street ? would you like more information on this theatre ?",
+    "how about the adc theater located in the centre area at park street ? would you like more information on this theatre ?"
+  ],
+  [
+    "attraction { select ( price = entrance fee ) } ",
+    "sorry yes i did , would you prefer free or is a entrance fee okay ?",
+    "sorry yes i did , would you prefer free or is a entrance fee okay ?"
+  ],
+  [
+    "attraction { recommend ( name = christ's college ; postcode = cb23bu ; price = not entrance fee ; address = saint andrew's street ) } ",
+    "sure ! christ 's college is located at saint andrew 's street with a postcode of cb23bu , there is not entrance fee .",
+    "sure ! christ 's college is located at saint andrew 's street with a postcode of cb23bu , there is not entrance fee ."
+  ],
+  [
+    "attraction { recommend ( name = christ's college ; price = free ; area = centre ) } ",
+    "i recommend christ 's college in the centre , admission is free .",
+    "i recommend christ 's college in the centre , admission is free ."
+  ],
+  [
+    "attraction { recommend ( name = the byard art museum ; phone = 01223464646 ) } ",
+    "how about the byard art museum the phone number is 01223464646 .",
+    "how about the byard art museum the phone number is 01223464646 ."
+  ],
+  [
+    "attraction { recommend ( type = park ) @ request ( type = ? ) } ",
+    "sure , do you have anything in mind ? perhaps a park ?",
+    "sure , do you have anything in mind ? perhaps a park ?"
+  ],
+  [
+    "attraction { inform ( price = free ; name = broughton house gallery ; phone = 01223314960 ) } ",
+    "i am sorry . there must have been a system glitch . the phone number for the broughton house gallery is 01223314960 and the entrance fee is free .",
+    "i am sorry . there must have been a system glitch . the phone number for the broughton house gallery is 01223314960 and the entrance fee is free ."
+  ],
+  [
+    "attraction { inform ( area = south ; price = free ; name = wandlebury country park ) } ",
+    "wandlebury country park is in the south and has free admission . would you like the address ?",
+    "wandlebury country park is in the south and has free admission . would you like the address ?"
+  ],
+  [
+    "attraction { inform ( name = milton country park ; price = free to visit ; type = north ) } ",
+    "milton country park is in the north and it is free to visit .",
+    "milton country park is in the north and it is free to visit ."
+  ],
+  [
+    "attraction { inform ( address = saint andrew's street ; area = centre ; price = no entrance fee ; phone = 01223334200 ) } ",
+    "the phone number is 01223334200. i can also tell you that there is no entrance fee and its located in centre on saint andrew 's street .",
+    "the phone number is 01223334200. i can also tell you that there is no entrance fee and its located in centre on saint andrew 's street ."
+  ],
+  [
+    "attraction { inform ( address = clifton way ; area = southern cambridge ; name = the junction ; type = theater ; postcode = cb17gx ; choice = one ; phone = 21223511511 ) } ",
+    "there is one theater located in southern cambridge . the junction is located on clifton way , cb17gx . you may can 21223511511 for more information. ,",
+    "there is one theater located in southern cambridge . the junction is located on clifton way , cb17gx . you may can 21223511511 for more information. ,"
+  ],
+  [
+    "attraction { inform ( none = none ) } ",
+    "attractions are one thing we ca n't book for you , unfortunately . is there anything else you need today ?",
+    "attractions are one thing we ca n't book for you , unfortunately . is there anything else you need today ?"
+  ],
+  [
+    "attraction { select ( none = none ) @ inform ( type = and pools ) } ",
+    "okay . there are boats , a park , and pools . would like more information on any of this ?",
+    "okay . there are boats , a park , and pools . would like more information on any of this ?"
+  ],
+  [
+    "attraction { sorry ( type = sports attractions ) @ request ( type = ? ) } ",
+    "i 'm sorry i don ; t have any sports attractions listed can i interest you in another attraction ?",
+    "i 'm sorry i don ; t have any sports attractions listed can i interest you in another attraction ?"
+  ],
+  [
+    "attraction { request ( area = ? ; type = ? ) @ inform ( phone = 07782218745 ; postcode = cb12jb ) } ",
+    "their phone number is 07782218745 and the post code is cb12jb . what sort of hotel are you looking for and in what area ?",
+    "their phone number is 07782218745 and the post code is cb12jb . what sort of hotel are you looking for and in what area ?"
+  ],
+  [
+    "attraction { inform ( name = clare hall ; type = college ) } ",
+    "no , clare hall is a college .",
+    "no , clare hall is a college ."
+  ],
+  [
+    "attraction { recommend ( name = clare hall ; type = college ; area = west ) } ",
+    "clare hall is a college in the west part of town .",
+    "clare hall is a college in the west part of town ."
+  ],
+  [
+    "attraction { recommend ( name = byard art ; area = south ) @ inform ( area = centre ) } ",
+    "we have lovely museums in the east , west , south and centre . i prefer the byard art myself that 's in the south",
+    "we have lovely museums in the east , west , south and centre . i prefer the byard art myself that 's in the south"
+  ],
+  [
+    "attraction { request ( name = ? ) } ",
+    "do you have a specific one in mind ?",
+    "do you have a specific one in mind ?"
+  ],
+  [
+    "attraction { inform ( area = centre ; price = free ; name = scott polar museum ; choice = both ) } ",
+    "the cambridge contemporary art museum , and the scott polar museum are both free and in the centre .",
+    "the cambridge contemporary art museum , and the scott polar museum are both free and in the centre ."
+  ],
+  [
+    "attraction { inform ( address = cambridge leisure park on clifton road ; area = south ; name = nusha ) } ",
+    "i 've located nusha and it 's in the south . it 's located in cambridge leisure park on clifton road .",
+    "i 've located nusha and it 's in the south . it 's located in cambridge leisure park on clifton road ."
+  ],
+  [
+    "attraction { inform ( area = centre ; choice = 2 ) @ select ( none = none ) } ",
+    "there are 2 which would you like ? there is one in the south and the centre",
+    "there are 2 which would you like ? there is one in the south and the centre"
+  ],
+  [
+    "attraction { recommend ( name = saint barnabas press gallery ; price = free ) @ inform ( area = east ; type = museums ; choice = 4 ) } ",
+    "i have 4 museums in the east . may i suggest saint barnabas press gallery ? it 's free admission .",
+    "i have 4 museums in the east . may i suggest saint barnabas press gallery ? it 's free admission ."
+  ],
+  [
+    "attraction { inform ( area = church area ) @ sorry ( type = entertainment ) @ request ( area = ? ) } ",
+    "i apologize but in that area , there are no entertainment spots . that is mainly the church area . perhaps i can look in a different section of the city for you .",
+    "i apologize but in that area , there are no entertainment spots . that is mainly the church area . perhaps i can look in a different section of the city for you ."
+  ],
+  [
+    "attraction { inform ( area = south ; name = wandlebury country park ; choice = 5 ) } ",
+    "there are five , including wandlebury country park in the south .",
+    "there are five , including wandlebury country park in the south ."
+  ],
+  [
+    "attraction { recommend ( name = broughton house gallery ; type = museum ; price = free ; area = centre ) } ",
+    "the broughton house gallery is a fantastic museum in the centre . bonus , it 's free !",
+    "the broughton house gallery is a fantastic museum in the centre . bonus , it 's free !"
+  ],
+  [
+    "attraction { inform ( address = regent street ; phone = 01223334860 ; postcode = cb21dq ) } ",
+    "their phone number is 01223334860 , they are located at regent street , and their postcode is cb21dq .",
+    "their phone number is 01223334860 , they are located at regent street , and their postcode is cb21dq ."
+  ],
+  [
+    "attraction { inform ( name = cambridge museum of technology ; area = east ; price = 5 pounds ; type = museum ; choice = 4 ) } ",
+    "we have 4 museums in the east . cambridge artworks , gallery at twelve a high street , and saint barnabas press gallery are all free . cambridge museum of technology is 5 pounds .",
+    "we have 4 museums in the east . cambridge artworks , gallery at twelve a high street , and saint barnabas press gallery are all free . cambridge museum of technology is 5 pounds ."
+  ],
+  [
+    "attraction { inform ( address = cherry hinton road ; area = east ; price = no entrance fee information listed ; type = entertainment ; postcode = cb18dw ; phone = 01223446104 ) } ",
+    "absolutely ! it is an entertainment attraction in the east . phone is 01223446104. postcode is cb18dw . and address is cherry hinton road . there is no entrance fee information listed .",
+    "absolutely ! it is an entertainment attraction in the east . phone is 01223446104. postcode is cb18dw . and address is cherry hinton road . there is no entrance fee information listed ."
+  ],
+  [
+    "attraction { inform ( price = free ; choice = two ) @ select ( none = none ) } ",
+    "do you want the postcodes for all five college , the two that have an entrance fee or only the free ones ?",
+    "do you want the postcodes for all five college , the two that have an entrance fee or only the free ones ?"
+  ],
+  [
+    "attraction { recommend ( name = clare college ) @ inform ( area = west part of town ; type = colleges ; choice = 5 ) } ",
+    "sure , there are 5 colleges in the west part of town . how about clare college ?",
+    "sure , there are 5 colleges in the west part of town . how about clare college ?"
+  ],
+  [
+    "attraction { inform ( price = free ; name = cafe jello gallery ; postcode = cb30af ) } ",
+    "cafe jello gallery is free . their postcode is cb30af .",
+    "cafe jello gallery is free . their postcode is cb30af ."
+  ],
+  [
+    "attraction { recommend ( name = old schools ; price = free admission ) @ inform ( none = none ) } ",
+    "i would suggest the old schools it 's free admission .",
+    "i would suggest the old schools it 's free admission ."
+  ],
+  [
+    "attraction { inform ( area = centre ; name = the cambridge corn exchange ; type = theatre ; choice = 4 ) } ",
+    "there are 4 theatres in the centre . they are adc theatre , cambridge arts theatre , mumford theatre , and the cambridge corn exchange .",
+    "there are 4 theatres in the centre . they are adc theatre , cambridge arts theatre , mumford theatre , and the cambridge corn exchange ."
+  ],
+  [
+    "attraction { inform ( area = centre of town ; price = free ; type = museums ; choice = eleven ) } ",
+    "there are , surprisingly , eleven museums in the centre of town . looks like all of them are free . is there specific you want to see ?",
+    "there are , surprisingly , eleven museums in the centre of town . looks like all of them are free . is there specific you want to see ?"
+  ],
+  [
+    "attraction { request ( name = ? ) @ inform ( choice = much ) } ",
+    "sure , we have much to offer . did you have anything specific in town ?",
+    "sure , we have much to offer . did you have anything specific in town ?"
+  ],
+  [
+    "attraction { sorry ( type = college ) } ",
+    "i 'm sorry , we do not have any college listings .",
+    "i 'm sorry , we do not have any college listings ."
+  ],
+  [
+    "attraction { inform ( area = south ; choice = 1 ) } ",
+    "yes there 's 6 in the centre and 1 in the south .",
+    "yes there 's 6 in the centre and 1 in the south ."
+  ],
+  [
+    "attraction { inform ( name = the place ; type = nightclub ; postcode = cb23hg ) } ",
+    "the nightclub called the place is located at the postcode cb23hg .",
+    "the nightclub called the place is located at the postcode cb23hg ."
+  ],
+  [
+    "attraction { select ( area = west ) @ inform ( type = colleges ; choice = 18 ) } ",
+    "there are 18 colleges i have found , would you prefer one in town centre or in the west ?",
+    "there are 18 colleges i have found , would you prefer one in town centre or in the west ?"
+  ],
+  [
+    "attraction { recommend ( name = milton country park ; postcode = cb46az ; phone = 01223420060 ; address = milton ) } ",
+    "sure , the milton country park is located at milton country park , milton and the phone number is 01223420060. post code is cb46az .",
+    "sure , the milton country park is located at milton country park , milton and the phone number is 01223420060. post code is cb46az ."
+  ],
+  [
+    "attraction { inform ( address = trinity street ; price = free ; name = cambridge contemporary art ; postcode = cb21su ) } ",
+    "cambridge contemporary art is very edgy . the address is 6 trinity street , postcode cb21su , and it is free . do you need more information ?",
+    "cambridge contemporary art is very edgy . the address is 6 trinity street , postcode cb21su , and it is free . do you need more information ?"
+  ],
+  [
+    "attraction { inform ( area = west ; type = museum ; choice = 7 ) @ request ( price = ? ) } ",
+    "there are 7 museums in the west area , how much did you want to spend to enter ?",
+    "there are 7 museums in the west area , how much did you want to spend to enter ?"
+  ],
+  [
+    "attraction { inform ( address = regent street ; area = centre ; price = free ; name = downing college ; phone = 01223334860 ) } ",
+    "downing college is in the centre on regent street . the number is 01223334860. it is even free !",
+    "downing college is in the centre on regent street . the number is 01223334860. it is even free !"
+  ],
+  [
+    "attraction { inform ( area = city's center ) } ",
+    "yes it is in the city 's center .",
+    "yes it is in the city 's center ."
+  ],
+  [
+    "attraction { inform ( name = the fez club ; address = 8 market passage ; area = centre ; price = 5 pounds ; type = nightclub ) } ",
+    "the fez club is a nightclub located at 8 market passage in the centre area . to enter the club it will cost you 5 pounds .",
+    "the fez club is a nightclub located at 8 market passage in the centre area . to enter the club it will cost you 5 pounds ."
+  ],
+  [
+    "attraction { recommend ( name = wandlebury country park ) @ inform ( area = south ; choice = 2 ) } ",
+    "we have 2 parks in the south . i recommend wandlebury country park .",
+    "we have 2 parks in the south . i recommend wandlebury country park ."
+  ],
+  [
+    "attraction { inform ( name = people's portraits exhibition at girton college ; type = museums ; choice = two ) } ",
+    "there are three galleries , two museums , kettle 's yard , and the people 's portraits exhibition at girton college .",
+    "there are three galleries , two museums , kettle 's yard , and the people 's portraits exhibition at girton college ."
+  ],
+  [
+    "attraction { recommend ( name = broughton house gallery ) @ inform ( price = no entrance fee ) } ",
+    "broughton house gallery was great the last time i was there and i think you 'll enjoy it as well . it even has no entrance fee .",
+    "broughton house gallery was great the last time i was there and i think you 'll enjoy it as well . it even has no entrance fee ."
+  ],
+  [
+    "attraction { sorry ( type = multiple sports event ) @ inform ( type = swimming pool ; choice = one ) } ",
+    "there is not a multiple sports event there , but there are 4 theatres and one swimming pool .",
+    "there is not a multiple sports event there , but there are 4 theatres and one swimming pool ."
+  ],
+  [
+    "attraction { recommend ( name = downing college ; postcode = cb21dq ; price = free ; address = regent street ) @ inform ( area = centre city ; choice = a number of ) } ",
+    "there are a number of colleges in centre city , i would recommend downing college on regent street , cb21dq , the entrance is free !",
+    "there are a number of colleges in centre city , i would recommend downing college on regent street , cb21dq , the entrance is free !"
+  ],
+  [
+    "attraction { inform ( area = west ; price = 3.50 ; type = museum ; choice = 7 ) @ select ( type = gallery ) } ",
+    "i have 7 museums in the west of the city , 6 are free entry and one is 3.50. do you have a preference for a museum or a gallery ?",
+    "i have 7 museums in the west of the city , 6 are free entry and one is 3.50. do you have a preference for a museum or a gallery ?"
+  ],
+  [
+    "attraction { inform ( type = museum ; name = museum of classical archaeology ; choice = two ) @ select ( none = none ) } ",
+    "there are two different museum which are cambridge and county folk museum and museum of classical archaeology . which one would you like information for ?",
+    "there are two different museum which are cambridge and county folk museum and museum of classical archaeology . which one would you like information for ?"
+  ],
+  [
+    "attraction { request ( name = ? ; type = ? ) } ",
+    "are you looking for a specific place ? or do you prefer a particular type of attraction ?",
+    "are you looking for a specific place ? or do you prefer a particular type of attraction ?"
+  ],
+  [
+    "attraction { recommend ( name = parkside pools ; phone = 01223446100 ; area = centre of town ; address = gonville place ) } ",
+    "ok , i recommend parkside pools in the centre of town , they are located on gonville place and are reachable at 01223446100 .",
+    "ok , i recommend parkside pools in the centre of town , they are located on gonville place and are reachable at 01223446100 ."
+  ],
+  [
+    "attraction { recommend ( name = wandlebury country park ; area = south side of town ) @ inform ( price = free ; postcode = cb223ae ) } ",
+    "i recommend wandlebury country park on the south side of town . entrance is free and the postcode is cb223ae .",
+    "i recommend wandlebury country park on the south side of town . entrance is free and the postcode is cb223ae ."
+  ],
+  [
+    "attraction { inform ( address = market square ; area = centre area ; price = 2 pounds ; type = architecture ) } ",
+    "yes , it is a beautiful place known for architecture located in the centre area . it is on market square and has an entrance fee of 2 pounds .",
+    "yes , it is a beautiful place known for architecture located in the centre area . it is on market square and has an entrance fee of 2 pounds ."
+  ],
+  [
+    "attraction { recommend ( name = the pembroke college ; price = free ; address = trumpington street ) @ inform ( choice = 13 ) } ",
+    "there are 13 to choose from . might i suggest the pembroke college . they have free entrance and are located on trumpington street .",
+    "there are 13 to choose from . might i suggest the pembroke college . they have free entrance and are located on trumpington street ."
+  ],
+  [
+    "attraction { inform ( address = gonville place ; area = centre of town ; name = parkside pools ; postcode = cb11ly ) } ",
+    "i have parkside pools in the centre of town on gonville place postbcode cb11ly .",
+    "i have parkside pools in the centre of town on gonville place postbcode cb11ly ."
+  ],
+  [
+    "attraction { inform ( address = trinity lane ; area = west part of town ; price = 2.50 pounds ; name = clare college ; postcode = cb21tl ) } ",
+    "clare college is in the west part of town . it is located on trinity lane . their entrance fee is 2.50 pounds . the postcode is cb21tl .",
+    "clare college is in the west part of town . it is located on trinity lane . their entrance fee is 2.50 pounds . the postcode is cb21tl ."
+  ],
+  [
+    "attraction { recommend ( name = cambridge university botanic gardens ; address = bateman street ) @ inform ( type = museum ) } ",
+    "other than the museum previously mentioned , i also suggest checking out the cambridge university botanic gardens on bateman street .",
+    "other than the museum previously mentioned , i also suggest checking out the cambridge university botanic gardens on bateman street ."
+  ],
+  [
+    "attraction { inform ( address = 2 norfolk street ; phone = 01223474144 ; type = concert hall ; name = man on the moon ; postcode = cb12lf ) } ",
+    "there 's a place called the man on the moon that is a great concert hall . they are located at 2 norfolk street . postcode is cb12lf . their phone number is 01223474144 .",
+    "there 's a place called the man on the moon that is a great concert hall . they are located at 2 norfolk street . postcode is cb12lf . their phone number is 01223474144 ."
+  ],
+  [
+    "attraction { inform ( address = babraham ; phone = 01223243830 ; price = free ; postcode = cb223ae ) } ",
+    "actually , they have free entrance . they are located at wandlebury ring , gog magog hills , babraham . their phone number is 01223243830. their postcode is cb223ae .",
+    "actually , they have free entrance . they are located at wandlebury ring , gog magog hills , babraham . their phone number is 01223243830. their postcode is cb223ae ."
+  ],
+  [
+    "attraction { inform ( name = wandlebury country park ; price = free ; type = parks ; choice = both ) } ",
+    "i have two parks in that area . there is sheep 's green and lammas land park and wandlebury country park . both offer free entrance .",
+    "i have two parks in that area . there is sheep 's green and lammas land park and wandlebury country park . both offer free entrance ."
+  ],
+  [
+    "attraction { inform ( address = 22 sidney street ; name = the place ; type = nightclub ) } ",
+    "the place is a nightclub located at 22 sidney street .",
+    "the place is a nightclub located at 22 sidney street ."
+  ],
+  [
+    "attraction { inform ( choice = wide selection ; type = college ) @ request ( price = ? ) } ",
+    "i am showing a wide selection for college attractions . to better assist me was there anything specific you were wanting to do , and was price a concern ?",
+    "i am showing a wide selection for college attractions . to better assist me was there anything specific you were wanting to do , and was price a concern ?"
+  ],
+  [
+    "attraction { inform ( price = free ; choice = several ) @ select ( type = the history of science ) } ",
+    "there are several . are interested in art , archaeology or the history of science ? all are free , by the way .",
+    "there are several . are interested in art , archaeology or the history of science ? all are free , by the way ."
+  ],
+  [
+    "attraction { select ( type = colleges and museums ) } ",
+    "i have colleges and museums here . do you have a preference ?",
+    "i have colleges and museums here . do you have a preference ?"
+  ],
+  [
+    "attraction { inform ( price = free ; type = park ) } ",
+    "it is a park and the fee is free",
+    "it is a park and the fee is free"
+  ],
+  [
+    "attraction { recommend ( name = whale of a time ; type = entertainment venue ) } ",
+    "might i recommend the whale of a time entertainment venue ?",
+    "might i recommend the whale of a time entertainment venue ?"
+  ],
+  [
+    "attraction { inform ( address = bar hill ; area = west ; name = whale of a time ; type = entertainment ; postcode = cb238el ; choice = only ) } ",
+    "the only entertainment attraction i have in the west is whale of a time . they are located at unit 8 , viking way , bar hill . the postcode is cb238el .",
+    "the only entertainment attraction i have in the west is whale of a time . they are located at unit 8 , viking way , bar hill . the postcode is cb238el ."
+  ],
+  [
+    "attraction { inform ( address = cherry hinton ; area = east part of town ; type = multiple sports ; postcode = cb19ej ) } ",
+    "yes , it is a multiple sports venue located in the east part of town , post code cb19ej . the address is colville road , cherry hinton .",
+    "yes , it is a multiple sports venue located in the east part of town , post code cb19ej . the address is colville road , cherry hinton ."
+  ],
+  [
+    "attraction { sorry ( none = none ) @ request ( area = ? ; type = ? ) @ inform ( area = centre ; type = entertainment ) } ",
+    "i 'm sorry there are no entertainment attractions in the centre . is there another area or attraction type you would be interested in ?",
+    "i 'm sorry there are no entertainment attractions in the centre . is there another area or attraction type you would be interested in ?"
+  ],
+  [
+    "attraction { inform ( address = trinity ln ; price = free ; name = old schools ; postcode = cb21tt ) @ select ( none = none ) } ",
+    "i found old schools on trinity ln , postcode cb21tt . entrance is free . would you like to go there ?",
+    "i found old schools on trinity ln , postcode cb21tt . entrance is free . would you like to go there ?"
+  ],
+  [
+    "attraction { inform ( address = trinity street ; area = centre part of town ; type = college ; phone = 01223332400 ) } ",
+    "yes , that is a college located in the centre part of town and is located on trinity street . their phone number is 01223332400 .",
+    "yes , that is a college located in the centre part of town and is located on trinity street . their phone number is 01223332400 ."
+  ],
+  [
+    "attraction { inform ( address = gonville place ; area = centre ; name = parkside pools ; type = swimming pool ; postcode = cb11ly ; phone = 01223446100 ) } ",
+    "parkside pools is a swimming pool located in the centre of town . they are located at gonville place . their postcode is cb11ly . they can be reached at 01223446100 .",
+    "parkside pools is a swimming pool located in the centre of town . they are located at gonville place . their postcode is cb11ly . they can be reached at 01223446100 ."
+  ],
+  [
+    "attraction { inform ( name = christ's college ; phone = 0122334900 ; price = free ; type = college ; postcode = cb23bu ) } ",
+    "the first college alphabetically is christ 's college , which is free to enter . the postcodee is cb23bu and the phone number is 0122334900",
+    "the first college alphabetically is christ 's college , which is free to enter . the postcodee is cb23bu and the phone number is 0122334900"
+  ],
+  [
+    "attraction { inform ( address = king's parade ; price = free ; name = corpus christi ; choice = other 3 ) } ",
+    "corpus christi is at king 's parade and costs 2 pounds . the other 3 are free . would you like their addresses ?",
+    "corpus christi is at king 's parade and costs 2 pounds . the other 3 are free . would you like their addresses ?"
+  ],
+  [
+    "attraction { inform ( address = king's parade ; area = center of town ) } ",
+    "ah yes , that college is in the center of town , on king 's parade . would you like more information ?",
+    "ah yes , that college is in the center of town , on king 's parade . would you like more information ?"
+  ],
+  [
+    "attraction { request ( area = ? ) @ inform ( price = free ; choice = most ) } ",
+    "i have 23 museums to choose from and most have a free entrance . can you narrow down where you want to go ?",
+    "i have 23 museums to choose from and most have a free entrance . can you narrow down where you want to go ?"
+  ],
+  [
+    "attraction { recommend ( name = clare hall ; price = free ; phone = 01223332360 ; type = college ) } ",
+    "clare hall is a great college and admission is free . the phone number is 01223332360 .",
+    "clare hall is a great college and admission is free . the phone number is 01223332360 ."
+  ],
+  [
+    "attraction { inform ( area = south ; name = the bryard art museum ; price = no entrance fee ) @ select ( none = none ) } ",
+    "the bryard art museum is also in the south and has no entrance fee . will that do ?",
+    "the bryard art museum is also in the south and has no entrance fee . will that do ?"
+  ],
+  [
+    "attraction { inform ( price = entrance fee ; type = theaters ; choice = none of ) } ",
+    "i 'm sorry , but none of the theaters list the entrance fee . would you like the phone number for any of them ?",
+    "i 'm sorry , but none of the theaters list the entrance fee . would you like the phone number for any of them ?"
+  ],
+  [
+    "attraction { recommend ( name = the castle galleries ) @ inform ( area = centre ; price = free ; type = museum ) } ",
+    "may i suggest the castle galleries , it 's a museum also in the centre area . admission is free .",
+    "may i suggest the castle galleries , it 's a museum also in the centre area . admission is free ."
+  ],
+  [
+    "attraction { inform ( name = churchill college ; area = west ; price = free ; type = college ) } ",
+    "the entrance fee is free and its located in the west area . churchill college is a college .",
+    "the entrance fee is free and its located in the west area . churchill college is a college ."
+  ],
+  [
+    "attraction { recommend ( name = christ's college ; price = free ) @ inform ( price = several pounds ; type = colleges ; choice = 13 ) } ",
+    "there are 13 colleges in the area ranging from free to several pounds admission . i 'd suggest christ 's college and it 's free !",
+    "there are 13 colleges in the area ranging from free to several pounds admission . i 'd suggest christ 's college and it 's free !"
+  ],
+  [
+    "attraction { inform ( name = the junction ; type = theatre ) @ select ( type = museum ) } ",
+    "how about a cinema or museum ? there 's also the place , which is a nightclub . or , the junction , which is a theatre . how about one of those ?",
+    "how about a cinema or museum ? there 's also the place , which is a nightclub . or , the junction , which is a theatre . how about one of those ?"
+  ],
+  [
+    "attraction { inform ( address = saint andrew's street ; area = centre ; name = christ's college ) @ request ( area = ? ) } ",
+    "is there a particular area you 're looking for a college in ? christ 's college is in the centre area , it is located on saint andrew 's street .",
+    "is there a particular area you 're looking for a college in ? christ 's college is in the centre area , it is located on saint andrew 's street ."
+  ],
+  [
+    "attraction { select ( area = center of town ) } ",
+    "did you want that museum to be in the center of town , as well ?",
+    "did you want that museum to be in the center of town , as well ?"
+  ],
+  [
+    "attraction { inform ( address = 14 king's parade ; area = south ; name = byard art ; type = museum ) } ",
+    "certainly , the byard art is a museum in the south part of town . their address is 14 king 's parade . would that work for you ?",
+    "certainly , the byard art is a museum in the south part of town . their address is 14 king 's parade . would that work for you ?"
+  ],
+  [
+    "attraction { request ( price = ? ) } ",
+    "any specific price range to help narrow down available options ?",
+    "any specific price range to help narrow down available options ?"
+  ],
+  [
+    "attraction { inform ( price = free ; choice = bot ) } ",
+    "bot museums are free , they do not have an entrance fee .",
+    "bot museums are free , they do not have an entrance fee ."
+  ],
+  [
+    "attraction { inform ( address = king's parade ; price = no entrance fee ; type = museum ; phone = 01223464646 ) } ",
+    "it 's a museum on king 's parade . there 's no entrance fee . the phone number is 01223464646 to check their current attractions .",
+    "it 's a museum on king 's parade . there 's no entrance fee . the phone number is 01223464646 to check their current attractions ."
+  ],
+  [
+    "attraction { sorry ( area = the centre ; type = entertainment ) @ inform ( area = west ; type = entertainment ) } ",
+    "i apologize . i have doubled checked and there is no entertainment venues in the centre . the entertainment venues that i do have are located in the east , south and west .",
+    "i apologize . i have doubled checked and there is no entertainment venues in the centre . the entertainment venues that i do have are located in the east , south and west ."
+  ],
+  [
+    "attraction { inform ( name = cambridge contemporary art ; area = centre area of town ; price = free ; type = museum ; phone = 01223324222 ) } ",
+    "cambridge contemporary art is a free museum located in the centre area of town . their number is 01223324222. do you need anymore information ?",
+    "cambridge contemporary art is a free museum located in the centre area of town . their number is 01223324222. do you need anymore information ?"
+  ],
+  [
+    "attraction { inform ( choice = many ) @ request ( price = ? ) } ",
+    "there are many attractions in that area . do you want something that is free to the public ?",
+    "there are many attractions in that area . do you want something that is free to the public ?"
+  ],
+  [
+    "attraction { inform ( type = boating ; area = north ; name = riverboat georgina ) @ select ( none = none ) } ",
+    "okay . riverboat georgina is a boating attraction in the north . how about that ?",
+    "okay . riverboat georgina is a boating attraction in the north . how about that ?"
+  ],
+  [
+    "attraction { recommend ( name = old schools ; postcode = cb21tt ; price = free ; area = centre ; type = architecture ; phone = 01223332320 ; address = trinity lane ) } ",
+    "old schools is an architecture in the centre , phone is 01223332320 , post code is , cb21tt and address is trinity lane , it is free to enter .",
+    "old schools is an architecture in the centre , phone is 01223332320 , post code is , cb21tt and address is trinity lane , it is free to enter ."
+  ],
+  [
+    "attraction { inform ( area = centre ; postcode = cb12lj ) } ",
+    "sure . it is located in the centre and their postcode is cb12lj .",
+    "sure . it is located in the centre and their postcode is cb12lj ."
+  ],
+  [
+    "attraction { recommend ( type = art museum ) @ inform ( choice = many ) } ",
+    "there are many too choose from ! would you like to visit an art museum ?",
+    "there are many too choose from ! would you like to visit an art museum ?"
+  ],
+  [
+    "attraction { inform ( area = west ; phone = 01223332360 ; postcode = cb39al ) } ",
+    "the phone number is 01223332360 , postcode is cb39al , and the area is west",
+    "the phone number is 01223332360 , postcode is cb39al , and the area is west"
+  ],
+  [
+    "attraction { select ( none = none ) @ inform ( type = nightclubs ) @ request ( type = ? ) } ",
+    "do you have a particular attraction type in mind ? there are colleges , cinemas , museums , nightclubs and more . do any of those interest you ?",
+    "do you have a particular attraction type in mind ? there are colleges , cinemas , museums , nightclubs and more . do any of those interest you ?"
+  ],
+  [
+    "attraction { inform ( address = 251a chesterton road ; name = the cambridge punter ) @ select ( none = none ) } ",
+    "the cambridge punter is located at 251a chesterton road . would that fit the bill ?",
+    "the cambridge punter is located at 251a chesterton road . would that fit the bill ?"
+  ],
+  [
+    "attraction { inform ( area = east ; name = the cherry hinton village centre ; type = sports center ; phone = 01223576412 ) } ",
+    "the only sports center in the east is the cherry hinton village centre . the phone number is 01223576412. would you like to know the address or postcode ?",
+    "the only sports center in the east is the cherry hinton village centre . the phone number is 01223576412. would you like to know the address or postcode ?"
+  ],
+  [
+    "attraction { recommend ( name = cafe jello gallery ; price = free ; area = west ) @ select ( none = none ) } ",
+    "cafe jello gallery is in the west and has free admission . is that better for you ?",
+    "cafe jello gallery is in the west and has free admission . is that better for you ?"
+  ],
+  [
+    "attraction { inform ( address = 6 saint edward's passage ; area = center of town ; phone = 01223503333 ) } ",
+    "sue it is the center of town and the phone number is 01223503333 and the address is 6 saint edward 's passage .",
+    "sue it is the center of town and the phone number is 01223503333 and the address is 6 saint edward 's passage ."
+  ],
+  [
+    "attraction { recommend ( name = downing college ; price = free ; area = centre ; address = regent street ) @ inform ( none = none ) } ",
+    "how about downing college on regent street ? it 's free and located in the centre area .",
+    "how about downing college on regent street ? it 's free and located in the centre area ."
+  ],
+  [
+    "attraction { select ( none = none ) @ inform ( name = funky fun house ) } ",
+    "i 've heard the camboats are fun , as well as the funky fun house . do either of those interest you ?",
+    "i 've heard the camboats are fun , as well as the funky fun house . do either of those interest you ?"
+  ],
+  [
+    "attraction { inform ( name = club salsa ; type = nightclub ; phone = 07782218745 ) } ",
+    "how about club salsa ? it 's a nightclub and their phone number is 07782218745 .",
+    "how about club salsa ? it 's a nightclub and their phone number is 07782218745 ."
+  ],
+  [
+    "attraction { inform ( address = magdalene street ; area = the west area ; price = free ; postcode = cb30ag ) } ",
+    "yes , it is located in the west area and has the postcode cb30ag . it is on magdalene street and has a free entrance fee .",
+    "yes , it is located in the west area and has the postcode cb30ag . it is on magdalene street and has a free entrance fee ."
+  ],
+  [
+    "attraction { request ( area = ? ) @ inform ( price = almost all of them are free ; name = christ's college ) } ",
+    "almost all of them are free . christ 's college is famous and free . what part of town do you prefer ?",
+    "almost all of them are free . christ 's college is famous and free . what part of town do you prefer ?"
+  ],
+  [
+    "attraction { inform ( price = i'm sorry; i don't have that information ; phone = 01223902088 ) } ",
+    "i 'm sorry ; i do n't have that information . if you 'd like to contact them , their phone number is 01223902088 .",
+    "i 'm sorry ; i do n't have that information . if you 'd like to contact them , their phone number is 01223902088 ."
+  ],
+  [
+    "attraction { inform ( area = centre ; choice = many ) @ request ( type = ? ) @ select ( type = something else ) } ",
+    "there are many things to do in a centre . are you most interested in a museum , a church , a college , or something else ?",
+    "there are many things to do in a centre . are you most interested in a museum , a church , a college , or something else ?"
+  ],
+  [
+    "attraction { recommend ( name = all saints church ) @ inform ( address = jesus lane ) } ",
+    "how about all saints church ? the address is jesus lane .",
+    "how about all saints church ? the address is jesus lane ."
+  ],
+  [
+    "attraction { inform ( type = college ; postcode = cb12ew ) } ",
+    "of course , it is a college and the post code is cb12ew .",
+    "of course , it is a college and the post code is cb12ew ."
+  ],
+  [
+    "attraction { recommend ( name = the castle galleries ; price = free ; phone = 01223307402 ; address = saint andrews street ) } ",
+    "how about the castle galleries ? they are located at unit su43 , grande arcade , saint andrews street . phone number is 01223307402. admission is free .",
+    "how about the castle galleries ? they are located at unit su43 , grande arcade , saint andrews street . phone number is 01223307402. admission is free ."
+  ],
+  [
+    "attraction { recommend ( name = corpus christi college ; area = west ) @ inform ( price = 2 pounds ; name = corpus christi ) @ select ( none = none ) } ",
+    "i would suggest christ 's college in the city centre or corpus christi college in the west . christ 's college is free and corpus christi costs 2 pounds ? which do you want ?",
+    "i would suggest christ 's college in the city centre or corpus christi college in the west . christ 's college is free and corpus christi costs 2 pounds ? which do you want ?"
+  ],
+  [
+    "attraction { inform ( phone = 01223300085 ; name = adc theatre ; postcode = cb58as ) } ",
+    "you can try adc theatre , phone number is 01223300085 and postcode cb58as",
+    "you can try adc theatre , phone number is 01223300085 and postcode cb58as"
+  ],
+  [
+    "attraction { recommend ( name = cambridge artworks ; address = 5 greens road ) @ inform ( choice = a few ) } ",
+    "there are a few available . i highly suggest cambridge artworks located on 5 greens road . do you need any information ?",
+    "there are a few available . i highly suggest cambridge artworks located on 5 greens road . do you need any information ?"
+  ],
+  [
+    "attraction { recommend ( name = kings hedges learner pool ; area = north ; address = kings hedges ) } ",
+    "kings hedges learner pool is located in the north , at jedburgh court , kings hedges .",
+    "kings hedges learner pool is located in the north , at jedburgh court , kings hedges ."
+  ],
+  [
+    "attraction { inform ( address = park street ; area = in cambridge ; choice = 4 others ; name = adc theatre ; postcode = cb58as ) } ",
+    "there is adc theatre in the post code cb58as on park street . there are 4 others in cambridge .",
+    "there is adc theatre in the post code cb58as on park street . there are 4 others in cambridge ."
+  ],
+  [
+    "attraction { recommend ( type = museum ) @ inform ( area = east end of town ) @ request ( type = ? ) } ",
+    "are you looking for a particular type of attraction on the east end of town ? perhaps a museum ?",
+    "are you looking for a particular type of attraction on the east end of town ? perhaps a museum ?"
+  ],
+  [
+    "attraction { select ( type = swimmingpool and park ) @ request ( type = ? ) } ",
+    "what kind of attraction interests you ? you can choose from boat , swimmingpool and park",
+    "what kind of attraction interests you ? you can choose from boat , swimmingpool and park"
+  ],
+  [
+    "attraction { recommend ( type = museums ; choice = four ; area = east ) @ inform ( none = none ) } ",
+    "i would recommend one of the four museums in the east .",
+    "i would recommend one of the four museums in the east ."
+  ],
+  [
+    "attraction { sorry ( area = centre ) @ inform ( area = east ; choice = one ) } ",
+    "there are not any in the centre , but i do have one in the east . would that be ok ?",
+    "there are not any in the centre , but i do have one in the east . would that be ok ?"
+  ],
+  [
+    "attraction { recommend ( name = primavera ; type = museum ; phone = 01223357708 ; area = centre ; address = 10 king s parade ) } ",
+    "primavera is a museum in the centre located at 10 king s parade . the phone number is 01223357708 .",
+    "primavera is a museum in the centre located at 10 king s parade . the phone number is 01223357708 ."
+  ],
+  [
+    "attraction { recommend ( name = parkside pools ; area = centre ) @ inform ( price = you would have to call about that ; phone = 01223446100 ) } ",
+    "i ca n't help you with the cost , you would have to call about that . i recommend parkside pools in the centre . you can call them at 01223446100 .",
+    "i ca n't help you with the cost , you would have to call about that . i recommend parkside pools in the centre . you can call them at 01223446100 ."
+  ],
+  [
+    "attraction { inform ( address = 6 saint edward's passage ; name = cambridge arts theatre ; postcode = cb23pj ) } ",
+    "the address of the cambridge arts theatre is 6 saint edward 's passage , postcode cb23pj .",
+    "the address of the cambridge arts theatre is 6 saint edward 's passage , postcode cb23pj ."
+  ],
+  [
+    "attraction { recommend ( name = clare hall ; area = west part of town ; type = college ) @ inform ( address = herschel rd ; postcode = cb39al ; phone = 01223332360 ) } ",
+    "i recommend clare hall , a college in the west part of town . the phone number is 01223332360. the address is herschel rd , and postcode is cb39al .",
+    "i recommend clare hall , a college in the west part of town . the phone number is 01223332360. the address is herschel rd , and postcode is cb39al ."
+  ],
+  [
+    "attraction { inform ( phone = 01223357851 ; name = the cambridge corn exchange ; type = theatre ; postcode = cb23qe ) } ",
+    "the cambridge corn exchange is a theatre . postcode is cb23qe and phone number is 01223357851 .",
+    "the cambridge corn exchange is a theatre . postcode is cb23qe and phone number is 01223357851 ."
+  ],
+  [
+    "attraction { recommend ( type = college's ; price = some are free some aren't ) } ",
+    "we have some lovely college 's in the area some are free some are n't",
+    "we have some lovely college 's in the area some are free some are n't"
+  ],
+  [
+    "attraction { recommend ( name = cambridge artworks ) @ inform ( address = 5 greens road ; phone = 01223902168 ; postcode = isn't in our database ) } ",
+    "i recommend cambridge artworks . the museum 's phone number is 01223902168 and the address is 5 greens road . the postcode is n't in our database but i can find it . will you hold ?",
+    "i recommend cambridge artworks . the museum 's phone number is 01223902168 and the address is 5 greens road . the postcode is n't in our database but i can find it . will you hold ?"
+  ],
+  [
+    "attraction { sorry ( none = none ) @ request ( type = ? ) } ",
+    "i 'm sorry , there is n't any entertainment in the centre . could you be more specific as to what you are looking for ?",
+    "i 'm sorry , there is n't any entertainment in the centre . could you be more specific as to what you are looking for ?"
+  ],
+  [
+    "attraction { sorry ( name = cherry hinton village ) } ",
+    "i am sorry but i actually am not finding any information for cherry hinton village . let me do another search for you .",
+    "i am sorry but i actually am not finding any information for cherry hinton village . let me do another search for you ."
+  ],
+  [
+    "attraction { inform ( area = centre ; price = 2 pounds ; name = great saint mary's church ; postcode = cb23pq ) } ",
+    "in the centre are the all saints church postcode cb58bs , the entrance is free . also , the great saint mary 's church postcode cb23pq entrance fee 2 pounds .",
+    "in the centre are the all saints church postcode cb58bs , the entrance is free . also , the great saint mary 's church postcode cb23pq entrance fee 2 pounds ."
+  ],
+  [
+    "attraction { inform ( phone = 01223902168 ; price = free ; postcode = cb13ef ) } ",
+    "they have free entrance . their phone number is 01223902168. their postcode is cb13ef .",
+    "they have free entrance . their phone number is 01223902168. their postcode is cb13ef ."
+  ],
+  [
+    "attraction { recommend ( name = churchill college ; postcode = cb30ds ; phone = 01223336233 ; address = storey's way ; price = free ) } ",
+    "how about churchill college ? it 's address is storey 's way , their postcode is cb30ds , phone number is 01223336233 , and entrance is free .",
+    "how about churchill college ? it 's address is storey 's way , their postcode is cb30ds , phone number is 01223336233 , and entrance is free ."
+  ],
+  [
+    "attraction { inform ( price = free ; type = museum ; postcode = cb21er ) } ",
+    "yes , it is a museum . the post code is cb21er , and admission is free .",
+    "yes , it is a museum . the post code is cb21er , and admission is free ."
+  ],
+  [
+    "attraction { inform ( address = east road ; area = centre of town ; phone = 08451962320 ; name = mumford theatre ; postcode = cb11pt ) } ",
+    "mumford theatre is in the centre of town their number is 08451962320 , their postcode is cb11pt , and their address is anglia ruskin enterprise , east road",
+    "mumford theatre is in the centre of town their number is 08451962320 , their postcode is cb11pt , and their address is anglia ruskin enterprise , east road"
+  ],
+  [
+    "attraction { inform ( area = west ; name = churchhill college ; type = college ; postcode = cb30ds ) } ",
+    "churchhill college is in west and its a college the post code is cb30ds",
+    "churchhill college is in west and its a college the post code is cb30ds"
+  ],
+  [
+    "attraction { inform ( address = king's parade ; type = college ) } ",
+    "it is a college located on king 's parade",
+    "it is a college located on king 's parade"
+  ],
+  [
+    "attraction { recommend ( name = funky fun house ; area = east side of town ) @ sorry ( area = center ; type = entertainment ) } ",
+    "no entertainment attractions in the center unfortunately . i usually recommend the funky fun house on the east side of town",
+    "no entertainment attractions in the center unfortunately . i usually recommend the funky fun house on the east side of town"
+  ],
+  [
+    "attraction { recommend ( name = byard art ) @ inform ( address = 14 king's parade ; area = south ; postcode = cb21sj ) } ",
+    "i suggest byard art . the address , postcode , and area are 14 king 's parade , cb21sj , and it is located in the south .",
+    "i suggest byard art . the address , postcode , and area are 14 king 's parade , cb21sj , and it is located in the south ."
+  ],
+  [
+    "attraction { recommend ( name = all saints church ; type = architecture ; price = free ) } ",
+    "all saints church has great architecture and is free .",
+    "all saints church has great architecture and is free ."
+  ],
+  [
+    "attraction { request ( type = ? ) @ select ( type = theatre ) @ inform ( choice = 44 ) } ",
+    "there are 44 great attractions to visit ! is there a certain type you were looking for ? perhaps a museum or theatre ?",
+    "there are 44 great attractions to visit ! is there a certain type you were looking for ? perhaps a museum or theatre ?"
+  ],
+  [
+    "attraction { recommend ( name = soul tree nightclub ) @ inform ( address = 1-6 corn exchange street ; price = 4 pound entrance fee ) } ",
+    "i recommend soul tree nightclub . it is located on 1-6 corn exchange street and has a 4 pound entrance fee .",
+    "i recommend soul tree nightclub . it is located on 1-6 corn exchange street and has a 4 pound entrance fee ."
+  ],
+  [
+    "attraction { inform ( address = chesterton road ; choice = two ) @ select ( none = none ) } ",
+    "there are two places you could go boating . one is on mill lane and one is on chesterton road . which would you prefer ?",
+    "there are two places you could go boating . one is on mill lane and one is on chesterton road . which would you prefer ?"
+  ],
+  [
+    "attraction { recommend ( name = museum of archaeology and anthropology ; postcode = cb23dz ; phone = 01223333516 ) } ",
+    "personally , i love the museum of archaeology and anthropology . the phone number is 01223333516 and the postcode is cb23dz . is there anything else i can help you with today ?",
+    "personally , i love the museum of archaeology and anthropology . the phone number is 01223333516 and the postcode is cb23dz . is there anything else i can help you with today ?"
+  ],
+  [
+    "attraction { select ( none = none ) @ request ( name = ? ) @ inform ( type = nightclubs ; choice = 5 ) } ",
+    "we have 5 nightclubs located in the centre of town . are you looking for a particular nightclub or do you want a recommendation ?",
+    "we have 5 nightclubs located in the centre of town . are you looking for a particular nightclub or do you want a recommendation ?"
+  ],
+  [
+    "attraction { recommend ( name = clare hall ; postcode = cb39al ; phone = 01223332360 ; address = herschel road ; type = college ) } ",
+    "clare hall is a great college to visit . their address is on herschel road . postcode is cb39al . their phone number is 01223332360 .",
+    "clare hall is a great college to visit . their address is on herschel road . postcode is cb39al . their phone number is 01223332360 ."
+  ],
+  [
+    "attraction { recommend ( type = gastropub ) } ",
+    "would a gastropub work for you ?",
+    "would a gastropub work for you ?"
+  ],
+  [
+    "attraction { recommend ( name = all saints church ; postcode = cb58bs ) } ",
+    "may i suggest all saints church ? the post code is cb58bs .",
+    "may i suggest all saints church ? the post code is cb58bs ."
+  ],
+  [
+    "attraction { recommend ( name = downing college ; postcode = cb21dq ; price = free ; type = college ) } ",
+    "downing college is a college , it is free . postcode : cb21dq .",
+    "downing college is a college , it is free . postcode : cb21dq ."
+  ],
+  [
+    "attraction { sorry ( area = center ; type = multiple sports ) @ select ( type = museum ) } ",
+    "unfortunately i can not find any multiple sports place in the center . do you want to try museum maybe ?",
+    "unfortunately i can not find any multiple sports place in the center . do you want to try museum maybe ?"
+  ],
+  [
+    "attraction { recommend ( name = broughton house gallery ; address = 98 king street ) @ inform ( area = centre ; choice = 11 ; none = free entrance ) } ",
+    "actually , i have 11 of them in the centre area . might i suggest the broughton house gallery . it has free entrance and is located at 98 king street .",
+    "actually , i have 11 of them in the centre area . might i suggest the broughton house gallery . it has free entrance and is located at 98 king street ."
+  ],
+  [
+    "attraction { recommend ( name = riverboat georgina ; choice = both ; area = north ) } ",
+    "milton country park is beautiful this time of year . or perhaps riverboat georgina ? they are both in the north .",
+    "milton country park is beautiful this time of year . or perhaps riverboat georgina ? they are both in the north ."
+  ],
+  [
+    "attraction { recommend ( name = kettle's yard ; address = castle street ) @ inform ( price = free ; phone = 01223748100 ) } ",
+    "you should try kettle 's yard on castle street . it is free . phone # 01223748100 .",
+    "you should try kettle 's yard on castle street . it is free . phone # 01223748100 ."
+  ],
+  [
+    "attraction { inform ( address = gonville place ; area = centre of town ; name = parkside pool ; phone = 01223445100 ) } ",
+    "parkside pool is in the centre of town . the address is gonville place and the phone number is 01223445100 .",
+    "parkside pool is in the centre of town . the address is gonville place and the phone number is 01223445100 ."
+  ],
+  [
+    "attraction { inform ( price = isn't listed ; type = swimmingpool ; phone = 01223446100 ) } ",
+    "the entrance fee is n't listed , but the attraction type is swimmingpool , and the number is 01223446100 .",
+    "the entrance fee is n't listed , but the attraction type is swimmingpool , and the number is 01223446100 ."
+  ],
+  [
+    "attraction { recommend ( name = byard art ; type = museum ; price = free ; choice = only ; area = south ) } ",
+    "the byard art is the only museum in the south and the entrance fee is free .",
+    "the byard art is the only museum in the south and the entrance fee is free ."
+  ],
+  [
+    "attraction { inform ( area = west ; name = cambridge book and print gallery ) @ request ( name = ? ) } ",
+    "cambridge book and print gallery is in the west , not the east . are you sure that was the name of the attraction ?",
+    "cambridge book and print gallery is in the west , not the east . are you sure that was the name of the attraction ?"
+  ],
+  [
+    "attraction { inform ( address = storey's way ; area = west ; price = free ) } ",
+    "yes , it is located in the west . address is storey 's way . it is free to enter .",
+    "yes , it is located in the west . address is storey 's way . it is free to enter ."
+  ],
+  [
+    "attraction { select ( none = none ) @ inform ( choice = 13 ) } ",
+    "there are 13 colleges near the restaurant . do you have a specific one you 'd like to visit ?",
+    "there are 13 colleges near the restaurant . do you have a specific one you 'd like to visit ?"
+  ],
+  [
+    "attraction { recommend ( name = clare hall ; type = college ; price = free ) @ inform ( phone = 01223332360 ) } ",
+    "clare hall is a college with free admission . their number is 01223332360 .",
+    "clare hall is a college with free admission . their number is 01223332360 ."
+  ],
+  [
+    "attraction { inform ( name = little saint mary's church ; price = no ; type = architecture ; phone = 01223366202 ) } ",
+    "little saint mary 's church is an architecture attraction with no entrance fee . their phone number is 01223366202 .",
+    "little saint mary 's church is an architecture attraction with no entrance fee . their phone number is 01223366202 ."
+  ],
+  [
+    "attraction { inform ( area = cambridge ; price = 4-5 pound ; choice = each ) } ",
+    "yes , there are six clubs in centre , cambridge . each location charges a 4-5 pound entrance fee . do you have transportation ?",
+    "yes , there are six clubs in centre , cambridge . each location charges a 4-5 pound entrance fee . do you have transportation ?"
+  ],
+  [
+    "attraction { inform ( name = all saints church ; none = free ) } ",
+    "all saints church is beautiful , and , better yet , it 's free !",
+    "all saints church is beautiful , and , better yet , it 's free !"
+  ],
+  [
+    "attraction { recommend ( name = churchill college ) @ inform ( address = storey's way ; price = free ; postcode = cb30ds ) } ",
+    "sure , churchill college is popular . it 's free admission and is located on storey 's way . the post code is cb30ds .",
+    "sure , churchill college is popular . it 's free admission and is located on storey 's way . the post code is cb30ds ."
+  ],
+  [
+    "attraction { inform ( address = trinity lane ; area = west side ; price = 2.50 pounds ; type = college ; postcode = cb21tl ; name = clare college ; phone = 01223333200 ) } ",
+    "clare college is , obviously , a college located on the west side . address is trinity lane , postcode cb21tl . phone is 01223333200. there is an entrance fee of 2.50 pounds for events there .",
+    "clare college is , obviously , a college located on the west side . address is trinity lane , postcode cb21tl . phone is 01223333200. there is an entrance fee of 2.50 pounds for events there ."
+  ],
+  [
+    "attraction { inform ( none = i don't know ; phone = 01223902112 ) } ",
+    "no i do n't know their business hours but i have a phone number you can use to check with them . it 's 01223902112 .",
+    "no i do n't know their business hours but i have a phone number you can use to check with them . it 's 01223902112 ."
+  ],
+  [
+    "attraction { recommend ( name = broughton house gallery ; area = centre of town ) @ inform ( price = free ) } ",
+    "broughton house gallery is a great place in the centre of town ! the entrance fee is free ! would you like their information ?",
+    "broughton house gallery is a great place in the centre of town ! the entrance fee is free ! would you like their information ?"
+  ],
+  [
+    "attraction { recommend ( name = fitzwilliam museum ; postcode = cb21rb ; phone = 01223332900 ; type = museum ; price = free ) } ",
+    "the fitzwilliam museum is a museum is free . postcode : cb21rb . phone : 01223332900 .",
+    "the fitzwilliam museum is a museum is free . postcode : cb21rb . phone : 01223332900 ."
+  ],
+  [
+    "attraction { recommend ( name = all saints church ; postcode = cb58bs ; phone = 01223452587 ; type = architecture ) } ",
+    "if you are interested in architecture , there is all saints church . the phone number is 01223452587 and the postcode is cb58bs .",
+    "if you are interested in architecture , there is all saints church . the phone number is 01223452587 and the postcode is cb58bs ."
+  ],
+  [
+    "attraction { recommend ( name = the broughton house gallery ; area = centre ; type = museum ) @ inform ( address = 98 king street ; price = free ) } ",
+    "the broughton house gallery is a great museum in the centre . it 's free to get in , and it 's located at 98 king street . can i help with anything else ?",
+    "the broughton house gallery is a great museum in the centre . it 's free to get in , and it 's located at 98 king street . can i help with anything else ?"
+  ],
+  [
+    "attraction { inform ( address = cambridge passenger cruisers at jubilee house ; price = don't have fee information ; postcode = cb43ax ) } ",
+    "the post code is cb43ax and the address for it is cambridge passenger cruisers at jubilee house . i do n't have fee information but i could get you their phone number .",
+    "the post code is cb43ax and the address for it is cambridge passenger cruisers at jubilee house . i do n't have fee information but i could get you their phone number ."
+  ],
+  [
+    "attraction { recommend ( name = cambridge artworks ; postcode = cb13ef ; price = free ; address = 5 greens road ) @ inform ( choice = 4 ) } ",
+    "i have 4 different ones . the best in that area is the cambridge artworks . it 's located at 5 greens road . their postcode is cb13ef . they offer free admission also .",
+    "i have 4 different ones . the best in that area is the cambridge artworks . it 's located at 5 greens road . their postcode is cb13ef . they offer free admission also ."
+  ],
+  [
+    "attraction { inform ( address = cherry hinton hall on cherry hinton road ; area = east ; price = free ; type = park ; phone = 01223446100 ) } ",
+    "that is a free park on the east side of town . they are located at cherry hinton hall on cherry hinton road . their phone number is 01223446100 .",
+    "that is a free park on the east side of town . they are located at cherry hinton hall on cherry hinton road . their phone number is 01223446100 ."
+  ],
+  [
+    "attraction { inform ( area = north ; type = swimmingpools ) @ select ( none = none ) } ",
+    "there is boating , a park , and some swimmingpools in the north . any preference ?",
+    "there is boating , a park , and some swimmingpools in the north . any preference ?"
+  ],
+  [
+    "attraction { inform ( type = parks ; price = free ; name = wandlebury country park ; choice = 2 ) @ select ( none = none ) } ",
+    "i have 2 parks to choose from . both are free to get in . there is sheep 's green and lammas land park and wandlebury country park . which do you prefer ?",
+    "i have 2 parks to choose from . both are free to get in . there is sheep 's green and lammas land park and wandlebury country park . which do you prefer ?"
+  ],
+  [
+    "attraction { recommend ( name = mumford theatre ) @ sorry ( type = multiple sports ) } ",
+    "there are no multiple sports places , might i recommend mumford theatre ?",
+    "there are no multiple sports places , might i recommend mumford theatre ?"
+  ],
+  [
+    "attraction { recommend ( name = cambridge museum of technology ) @ inform ( choice = 4 ; price = free ; type = art museums ; postcode = cb13lh ) } ",
+    "the hotel postcode is cb13lh . there are 4 museums in the area i recommend cambridge museum of technology . it cost 5 pounds but there are free art museums .",
+    "the hotel postcode is cb13lh . there are 4 museums in the area i recommend cambridge museum of technology . it cost 5 pounds but there are free art museums ."
+  ],
+  [
+    "attraction { recommend ( name = christ's college ; address = saint andrew's street ) @ inform ( price = free ; type = colleges ; choice = 13 ) } ",
+    "i 'd be glad to . we have 13 colleges in the centre . most are free to visit , such as christ 's college over on saint andrew 's street .",
+    "i 'd be glad to . we have 13 colleges in the centre . most are free to visit , such as christ 's college over on saint andrew 's street ."
+  ],
+  [
+    "attraction { recommend ( name = kings hedges learner pool ; address = kings hedges ) @ inform ( type = swimmingpools ; choice = two ) } ",
+    "we have two swimmingpools . i recommend kings hedges learner pool found at jedburgh court , kings hedges .",
+    "we have two swimmingpools . i recommend kings hedges learner pool found at jedburgh court , kings hedges ."
+  ],
+  [
+    "attraction { select ( area = centre ) @ inform ( choice = 4 ) } ",
+    "there are 4 to choose from . would you rather go to one located in the east , north , or centre ?",
+    "there are 4 to choose from . would you rather go to one located in the east , north , or centre ?"
+  ],
+  [
+    "attraction { inform ( area = west ) @ select ( none = none ) } ",
+    "we have choices in the south , east , and west . do you have a preference for any location ?",
+    "we have choices in the south , east , and west . do you have a preference for any location ?"
+  ],
+  [
+    "attraction { recommend ( name = the nusha ; phone = 01223902158 ; area = the south ) } ",
+    "try the nusha . it is in the south . their phone number is 01223902158",
+    "try the nusha . it is in the south . their phone number is 01223902158"
+  ],
+  [
+    "attraction { recommend ( name = byard art ) @ inform ( price = free ; phone = 01223464646 ) } ",
+    "how about byard art ? it 's phone number is 01223464646 and the entrance fee is free .",
+    "how about byard art ? it 's phone number is 01223464646 and the entrance fee is free ."
+  ],
+  [
+    "attraction { inform ( name = holy trinity church ; address = market street ; type = architecture ; price = free ) @ select ( none = none ) } ",
+    "my favorite thing to do is look at the architecture at holy trinity church . it 's located on market street and it 's free to get in . does this work ?",
+    "my favorite thing to do is look at the architecture at holy trinity church . it 's located on market street and it 's free to get in . does this work ?"
+  ],
+  [
+    "attraction { recommend ( name = vue ) @ select ( area = centre ) } ",
+    "cineworld and vue are both excellent . do you prefer the south or centre of town ?",
+    "cineworld and vue are both excellent . do you prefer the south or centre of town ?"
+  ],
+  [
+    "attraction { recommend ( name = kambar ; address = 1 wheeler st ) @ inform ( area = centre ; choice = quite a few ) } ",
+    "there are quite a few in the towns centre . the kambar is quite nice at 1 wheeler st",
+    "there are quite a few in the towns centre . the kambar is quite nice at 1 wheeler st"
+  ],
+  [
+    "attraction { inform ( area = centre of town ; price = there is no information available on their entrance fees ; type = theatre ; choice = four ) @ select ( none = none ) } ",
+    "there are four theatre 's in the centre of town . i am sorry but there is no information available on their entrance fees . would you like more information on one of them .",
+    "there are four theatre 's in the centre of town . i am sorry but there is no information available on their entrance fees . would you like more information on one of them ."
+  ],
+  [
+    "attraction { inform ( area = centre ; phone = 01223314960 ; name = the broughton house gallerty ; postcode = cb11ln ) } ",
+    "the broughton house gallerty is in centre . the phone number is 01223314960 , and the postcode is cb11ln .",
+    "the broughton house gallerty is in centre . the phone number is 01223314960 , and the postcode is cb11ln ."
+  ],
+  [
+    "attraction { inform ( price = free ; type = colleges ; choice = several ) @ request ( name = ? ) } ",
+    "yes , there several colleges available . most have free entry . do you have one in mind ?",
+    "yes , there several colleges available . most have free entry . do you have one in mind ?"
+  ],
+  [
+    "attraction { recommend ( name = clare college ; area = west ) @ request ( area = ? ) } ",
+    "is there a certain area you 're interested in ? if that does n't matter , i recommend clare college in the west .",
+    "is there a certain area you 're interested in ? if that does n't matter , i recommend clare college in the west ."
+  ],
+  [
+    "attraction { inform ( area = centre of town ; type = museums ; choice = quite a few ) @ select ( name = cambridge contemporary art ) } ",
+    "there are quite a few museums in the centre of town , would you be interested in the primavera or cambridge contemporary art ? if not there are others i can suggest .",
+    "there are quite a few museums in the centre of town , would you be interested in the primavera or cambridge contemporary art ? if not there are others i can suggest ."
+  ],
+  [
+    "attraction { sorry ( area = centre ; choice = none ) } ",
+    "i have none available in the centre . would you like a different area or attraction ?",
+    "i have none available in the centre . would you like a different area or attraction ?"
+  ],
+  [
+    "attraction { recommend ( name = hughes hall ) @ inform ( address = jesus lane ; price = free ; type = college ) } ",
+    "i would recommend hughes hall . it is a college on jesus lane and the entrance is free .",
+    "i would recommend hughes hall . it is a college on jesus lane and the entrance is free ."
+  ],
+  [
+    "attraction { inform ( name = cambridge artworks ; address = 5 greens road ; price = free ; type = museums ; choice = 4 ) } ",
+    "we have 4 great museums in the east , but my favorite is cambridge artworks , at 5 greens road . it 's free to get in !",
+    "we have 4 great museums in the east , but my favorite is cambridge artworks , at 5 greens road . it 's free to get in !"
+  ],
+  [
+    "attraction { select ( phone = 01223902112 ; name = camboats ) @ inform ( price = don't have entrance fee information ) } ",
+    "i do n't have entrance fee information , but you could try camboats . their phone number is 01223902112. can i help you with anything else ?",
+    "i do n't have entrance fee information , but you could try camboats . their phone number is 01223902112. can i help you with anything else ?"
+  ],
+  [
+    "attraction { recommend ( name = the funky fun house ; area = east side of town ) @ sorry ( none = none ) @ inform ( area = centre of town ) } ",
+    "there are actually no entertainment attractions in the centre of town . i would recommend the funky fun house in the east side of town",
+    "there are actually no entertainment attractions in the centre of town . i would recommend the funky fun house in the east side of town"
+  ],
+  [
+    "attraction { recommend ( name = cambridge museum of technology ; postcode = cb58ld ; address = cheddars lane ) @ inform ( price = five pounds ; type = museum ; choice = four ) } ",
+    "there are four museums matching your criteria , 3 of them are free and one has an admission fee of five pounds . how about the cambridge museum of technology , their postcode is cb58ld , and the address is the old pumping station , cheddars lane .",
+    "there are four museums matching your criteria , 3 of them are free and one has an admission fee of five pounds . how about the cambridge museum of technology , their postcode is cb58ld , and the address is the old pumping station , cheddars lane ."
+  ],
+  [
+    "attraction { inform ( area = city center ; name = all saints church ; postcode = cb58bs ) } ",
+    "the postcode for all saints church is cb58bs and it is located in the city center .",
+    "the postcode for all saints church is cb58bs and it is located in the city center ."
+  ],
+  [
+    "attraction { recommend ( name = parkside pools ) @ inform ( address = gonville place ; area = center of town ) } ",
+    "i personally like parkside pools . it 's in the center of town , on gonville place .",
+    "i personally like parkside pools . it 's in the center of town , on gonville place ."
+  ],
+  [
+    "attraction { recommend ( name = club salsa ; postcode = cb12jb ; price = 5 pounds ) } ",
+    "okay , i recommend club salsa . it 's 5 pounds to get in . the post code is cb12jb .",
+    "okay , i recommend club salsa . it 's 5 pounds to get in . the post code is cb12jb ."
+  ],
+  [
+    "attraction { recommend ( name = corpus christi ) @ inform ( address = king's parade ; phone = 01223338000 ; choice = 13 ; postcode = cb21rh ) } ",
+    "yes , there are 13. i personally recommend corpus christi . entrance costs 2 pounds . the address is king 's parade , postcode is cb21rh , and phone number 01223338000 .",
+    "yes , there are 13. i personally recommend corpus christi . entrance costs 2 pounds . the address is king 's parade , postcode is cb21rh , and phone number 01223338000 ."
+  ],
+  [
+    "attraction { inform ( address = king's parade ; price = 2 pounds ; name = corpus christi college ) @ request ( price = ? ) } ",
+    "is an entrance fee okay ? if so , the corpus christi college located at king 's parade . fee is 2 pounds . would you like the phone number ?",
+    "is an entrance fee okay ? if so , the corpus christi college located at king 's parade . fee is 2 pounds . would you like the phone number ?"
+  ],
+  [
+    "attraction { select ( choice = two ; type = colleges ) } ",
+    "first , let 's determine which of the two colleges you would like to be your destination after the restaurant .",
+    "first , let 's determine which of the two colleges you would like to be your destination after the restaurant ."
+  ],
+  [
+    "attraction { select ( none = none ) @ inform ( area = south ; type = theatres ; choice = one ) @ request ( area = ? ) } ",
+    "i have several theatres in town ; most are in the center and there 's one on the south side . do you have a preference ?",
+    "i have several theatres in town ; most are in the center and there 's one on the south side . do you have a preference ?"
+  ],
+  [
+    "attraction { inform ( address = jesus lane ; price = free entrance ; type = architecture ; postcode = cb58bs ; name = all saints church ; phone = 01223452587 ) } ",
+    "you should check out all saints church . it has great architecture and free entrance . it 's located on jesus lane cb58bs . the phone is 01223452587. would that work for you ?",
+    "you should check out all saints church . it has great architecture and free entrance . it 's located on jesus lane cb58bs . the phone is 01223452587. would that work for you ?"
+  ],
+  [
+    "attraction { inform ( area = centre ; price = two pounds ; choice = one ) @ select ( none = none ) } ",
+    "there are five architecture attractions located in the centre . there are four that are free and one that costs two pounds , which price would you prefer ?",
+    "there are five architecture attractions located in the centre . there are four that are free and one that costs two pounds , which price would you prefer ?"
+  ],
+  [
+    "attraction { inform ( name = old schools ; address = trinity lane ; price = free ; type = architecture ) } ",
+    "old schools is a popular architecture attraction located on trinity lane . it is free to enter .",
+    "old schools is a popular architecture attraction located on trinity lane . it is free to enter ."
+  ],
+  [
+    "attraction { inform ( price = free ; name = gonville and caius college ; choice = 13 ) @ select ( none = none ) } ",
+    "there are 13 colleges in the centre . gonville and caius college is fascinating and it is free . does this appeal to you ?",
+    "there are 13 colleges in the centre . gonville and caius college is fascinating and it is free . does this appeal to you ?"
+  ],
+  [
+    "attraction { recommend ( name = people's portraits exhibition at girton college ; postcode = cb3ojg ; phone = 01223338901 ; price = free ) } ",
+    "i would recommend people 's portraits exhibition at girton college . they offer free entrance . their postcode is cb3ojg . their phone number is 01223338901 .",
+    "i would recommend people 's portraits exhibition at girton college . they offer free entrance . their postcode is cb3ojg . their phone number is 01223338901 ."
+  ],
+  [
+    "attraction { recommend ( name = christ's college ; postcode = cb23bu ; area = centre ) @ inform ( type = colleges ; choice = 18 ) } ",
+    "there are 18 colleges in town . i recommend christ 's college in the centre . the postcode is cb23bu .",
+    "there are 18 colleges in town . i recommend christ 's college in the centre . the postcode is cb23bu ."
+  ],
+  [
+    "attraction { recommend ( type = architecture ) @ request ( price = ? ) } ",
+    "i would suggest architecture as there are several churches in the area . do you prefer something with free entry ?",
+    "i would suggest architecture as there are several churches in the area . do you prefer something with free entry ?"
+  ],
+  [
+    "attraction { request ( name = ? ) @ inform ( type = college ) } ",
+    "any particular college you are looking for ?",
+    "any particular college you are looking for ?"
+  ],
+  [
+    "attraction { select ( price = cost money ) @ inform ( area = centre ; choice = many ) @ request ( type = ? ) } ",
+    "there are many places to go in the centre . what type of activity would you like ? are you interested in activities that are free or cost money ?",
+    "there are many places to go in the centre . what type of activity would you like ? are you interested in activities that are free or cost money ?"
+  ],
+  [
+    "attraction { inform ( address = storey's way ; name = churchill college ; type = college ; phone = 01223336233 ) } ",
+    "churchill college is a college , their phone number is 01223336233 , and address is storey 's way",
+    "churchill college is a college , their phone number is 01223336233 , and address is storey 's way"
+  ],
+  [
+    "attraction { recommend ( name = churchill college ; price = free ; area = west ) @ request ( area = ? ) @ inform ( type = colleges ; choice = 18 ) } ",
+    "there are 18 colleges , do you have a preference on which area it is in ? churchill college is in the west with free entrance .",
+    "there are 18 colleges , do you have a preference on which area it is in ? churchill college is in the west with free entrance ."
+  ],
+  [
+    "attraction { inform ( area = west end ; choice = 5 ; name = clare hall ; type = colleges ; postcode = cb39al ) } ",
+    "we have 5 colleges on the west end of town . clare hall seems a good fit and is at cb39al .",
+    "we have 5 colleges on the west end of town . clare hall seems a good fit and is at cb39al ."
+  ],
+  [
+    "attraction { sorry ( area = centre of town ; type = multiple sport ) @ request ( area = ? ; name = ? ) } ",
+    "unfortunately there are no multiple sport type attractions in the centre of town ? would you like info on another attraction or in another area ?",
+    "unfortunately there are no multiple sport type attractions in the centre of town ? would you like info on another attraction or in another area ?"
+  ],
+  [
+    "attraction { sorry ( none = none ) @ inform ( area = east ; choice = one ) } ",
+    "there no places that match those criteria , but there is one in east .",
+    "there no places that match those criteria , but there is one in east ."
+  ],
+  [
+    "attraction { recommend ( name = old school ) @ inform ( none = 01223332320 ) } ",
+    "i recommend old school 01223332320",
+    "i recommend old school 01223332320"
+  ],
+  [
+    "attraction { recommend ( name = jesus college ) @ sorry ( area = center ) } ",
+    "noone in the center appears to b open . you would be more than pleased with jesus college which is and is beautiful .",
+    "noone in the center appears to b open . you would be more than pleased with jesus college which is and is beautiful ."
+  ],
+  [
+    "attraction { inform ( area = south ; name = sheeps green ; choice = two ) @ select ( none = none ) } ",
+    "there are two parks in the south , the wandlebury and sheeps green . which are you more interested in ?",
+    "there are two parks in the south , the wandlebury and sheeps green . which are you more interested in ?"
+  ],
+  [
+    "attraction { select ( area = south ) @ inform ( area = centre ) } ",
+    "yes , would you like to find a nightclub in the centre or south part of town ? most of them are in the centre .",
+    "yes , would you like to find a nightclub in the centre or south part of town ? most of them are in the centre ."
+  ],
+  [
+    "attraction { recommend ( type = churches ; choice = many ; area = the area ) } ",
+    "there are many churches in the area to check out .",
+    "there are many churches in the area to check out ."
+  ],
+  [
+    "attraction { inform ( address = 2-3 castle street ; name = cambridge and county folk museum ; choice = plenty ) @ recommend ( none = none ) } ",
+    "yep there are plenty of it . i would recommend the cambridge and county folk museum , which is located at 2-3 castle street .",
+    "yep there are plenty of it . i would recommend the cambridge and county folk museum , which is located at 2-3 castle street ."
+  ],
+  [
+    "attraction { recommend ( name = the fez club ; postcode = cb23hx ; address = 8 market passage ; type = nightclub ) } ",
+    "how about the fez club ? it 's a nightclub at cb23hx , 8 market passage .",
+    "how about the fez club ? it 's a nightclub at cb23hx , 8 market passage ."
+  ],
+  [
+    "attraction { recommend ( name = mumford theatre ; postcode = cb1pt ; phone = 08451962320 ; area = centre of town ; price = don't have entrance fee info ) } ",
+    "the mumford theatre in the centre of town is well known . their number is 08451962320 and they are in the cb1pt postcode . i 'm sorry , i do n't have entrance fee info .",
+    "the mumford theatre in the centre of town is well known . their number is 08451962320 and they are in the cb1pt postcode . i 'm sorry , i do n't have entrance fee info ."
+  ],
+  [
+    "attraction { recommend ( name = great saint mary's church ) @ inform ( area = center ; postcode = cb23pq ) } ",
+    "i recommend great saint mary 's church . it is in the center . postcode is cb23pq .",
+    "i recommend great saint mary 's church . it is in the center . postcode is cb23pq ."
+  ],
+  [
+    "attraction { select ( name = clare college ) @ inform ( type = colleges ; choice = 5 ) } ",
+    "i have 5 colleges in that area . would you like queens college or maybe clare college ?",
+    "i have 5 colleges in that area . would you like queens college or maybe clare college ?"
+  ],
+  [
+    "attraction { recommend ( name = primavera museum ; postcode = cb21sj ; phone = 01223357708 ; area = centre of town ; address = 10 king s parade ) } ",
+    "may i recommend the primavera museum in the centre of town located at 10 king s parade in post code cb21sj . their phone number is 01223357708",
+    "may i recommend the primavera museum in the centre of town located at 10 king s parade in post code cb21sj . their phone number is 01223357708"
+  ],
+  [
+    "attraction { inform ( address = clifton way ; area = south ; name = tenpin ; type = entertainment ; postcode = cb17dy ) } ",
+    "tenpin is an entertainment venue in the south . they are located at cambridge leisure park , clifton way . their postcode is cb17dy . their phone number is 08715501010 .",
+    "tenpin is an entertainment venue in the south . they are located at cambridge leisure park , clifton way . their postcode is cb17dy . their phone number is 08715501010 ."
+  ],
+  [
+    "attraction { recommend ( type = museum ) @ request ( name = ? ) @ inform ( choice = 13 ) } ",
+    "there are 13 great places you could visit . do you have a particular attraction in mind ? i would recommend a museum .",
+    "there are 13 great places you could visit . do you have a particular attraction in mind ? i would recommend a museum ."
+  ],
+  [
+    "attraction { inform ( area = north ; price = no entrance fee ; type = park ; phone = 01223420060 ) } ",
+    "of course , it 's a park located in the north area of town and has no entrance fee . the phone number there is 01223420060",
+    "of course , it 's a park located in the north area of town and has no entrance fee . the phone number there is 01223420060"
+  ],
+  [
+    "attraction { select ( price = free ) @ inform ( area = centre ; choice = 5 ) } ",
+    "there are 5 located in the centre . would you prefer one that is free ?",
+    "there are 5 located in the centre . would you prefer one that is free ?"
+  ],
+  [
+    "attraction { recommend ( name = the cafe jello gallery ; price = free ; phone = 01223312112 ) } ",
+    "the cafe jello gallery is great , the phone number is 01223312112 and the entrance fee is free .",
+    "the cafe jello gallery is great , the phone number is 01223312112 and the entrance fee is free ."
+  ],
+  [
+    "attraction { inform ( name = byard art ; address = 14 king's parade ; price = free ; type = museum ; postcode = cb21sj ) } ",
+    "byard art is a museum that has free admission . the address is 14 king 's parade and the postcode is cb21sj .",
+    "byard art is a museum that has free admission . the address is 14 king 's parade and the postcode is cb21sj ."
+  ],
+  [
+    "attraction { recommend ( name = funky fun house ; postcode = cb13ef ; area = east ; address = mercers row industrial estate ) } ",
+    "how about the funky fun house ? it is in the east at 8 mercers row , mercers row industrial estate . the post code is cb13ef .",
+    "how about the funky fun house ? it is in the east at 8 mercers row , mercers row industrial estate . the post code is cb13ef ."
+  ],
+  [
+    "attraction { sorry ( area = west ; type = concert hall ) @ inform ( price = free ; type = museums ; choice = most ) } ",
+    "i 'm sorry , there is not a concert hall in the west . there are 7 museums , though , and most of them are free to enter .",
+    "i 'm sorry , there is not a concert hall in the west . there are 7 museums , though , and most of them are free to enter ."
+  ],
+  [
+    "attraction { select ( choice = plenty ; area = centre ; type = theatre? museums? ) @ request ( type = ? ) } ",
+    "what are you into ? do you like theatre ? museums ? we have plenty of attractions in the centre and if you tell me what you enjoy i can recommend one",
+    "what are you into ? do you like theatre ? museums ? we have plenty of attractions in the centre and if you tell me what you enjoy i can recommend one"
+  ],
+  [
+    "attraction { sorry ( none = none ) @ request ( area = ? ; name = ? ) } ",
+    "i do n't see anything in that area . can i search a different area or venue for you ?",
+    "i do n't see anything in that area . can i search a different area or venue for you ?"
+  ],
+  [
+    "attraction { recommend ( name = christ's college ; postcode = cb23bu ; phone = 01223334900 ; area = city centre ) } ",
+    "christ 's college is in the city centre and is highly acclaimed . their phone number is 01223334900 and they 're in postcode cb23bu .",
+    "christ 's college is in the city centre and is highly acclaimed . their phone number is 01223334900 and they 're in postcode cb23bu ."
+  ],
+  [
+    "attraction { recommend ( name = broughton house gallery ; postcode = cb11in ; price = free ; area = centre of town ; phone = 01223314960 ; address = 98 king street ) } ",
+    "i would suggest the broughton house gallery in the centre of town . their address is 98 king street , the post code cb11in , and the phone is 01223314960. it is free .",
+    "i would suggest the broughton house gallery in the centre of town . their address is 98 king street , the post code cb11in , and the phone is 01223314960. it is free ."
+  ]
+]

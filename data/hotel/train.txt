@@ -1,0 +1,51 @@
+inform_no_match ( pricerange = pricey ; acceptscreditcards = no ) & there are no hotel -s in pricey price range that do not accept card -s
+confirm ( pricerange = inexpensive ) & just to make sure , you are looking for a inexpensive hotel
+request ( near = ? ) & what area are you looking for
+inform_no_match ( area = ashbury heights ) & there is no match for a hotel near ashbury heights
+inform ( name = hilton san francisco financial district ; area = chinatown ) & the hilton san francisco financial district is near chinatown
+inform ( name = stanford court san francisco ; pricerange = pricey ; address = 905 california street ) & stanford court san francisco is pricey . here is the address 905 california st
+goodbye (  = ? ) & goodbye
+inform ( name = twin peaks hotel ; pricerange = inexpensive ; dogsallowed = none ) & twin peaks hotel is an inexpensive hotel that does not allow dogs
+inform ( name = hotel drisco ; address = 2901 pacific avenue ; phone = 4153462880 ) & the address for hotel drisco is 2901 pacific avenue . and the phone number is 4153462880
+inform ( name = ocean park motel ; dogsallowed = none ; phone = 4155667020 ) & ocean park motel will not allow dogs . they can be reached at this number , 4155667020
+inform ( name = casa melissa ; postcode = 94133 ) & the postcode for casa melissa is 94133
+select ( acceptscreditcards = yes ; acceptscreditcards = no ) & would you like a hotel that accepts credit card -s
+request ( area = ? ) & may i ask which area
+inform ( name = grand hyatt san francisco ; pricerange = pricey ) & grand hyatt san francisco is in the pricey price range
+inform ( name = chateau tivoli bed and breakfast inn ; phone = 4157765462 ) & chateau tivoli bed and breakfast inn phone number is 4157765462
+inform ( name = san francisco inn civic center ; hasinternet = yes ; pricerange = moderate ) & the san francisco inn civic center has internet and is in the moderate price range
+inform ( name = harbor court hotel c a kimpton hotel ; near = embarcadero ; hasinternet = yes ) & the harbor court hotel c a kimpton hotel are near embarcadero and have internet
+inform ( name = san francisco inn civic center ; address = 385 9th street ) & the san francisco inn civic center is located at 385 9th st
+confirm ( near = haight ) & can i confirm that it needs to be near haight
+inform ( name = civic center motor inn ; type = hotel ) & the name of the hotel is civic center motor inn
+reqmore (  = ? ) & can i help you with anything else
+inform ( name = the coventry motor inn ; hasinternet = yes ; area = cow hollow ) & the coventry motor inn is located in cow hollow
+inform ( name = seal rock inn ; address = 545 point lobos avenue ; postcode = 94121 ) & the address of the seal rock inn is 545 point lobos avenue and the postcode of the seal rock inn is 94121
+request ( pricerange = ? ) & what price range are you looking for
+select ( dogsallowed = yes ; dogsallowed = no ) & do you want a hotel that allows dogs
+inform_count ( type = hotel ; count = 182 ; dogsallowed = dont_care ) & there are 182 hotel -s that do not care if dogs are allowed
+inform ( name = the carriage inn ; near = soma ; area = south of market ; address = 140 7th street ; phone = 4155528600 ) & the carriage inn is near soma in south of market . the address is 140 7th street , and the phone number is 4155528600
+inform ( name = san remo hotel ; hasinternet = yes ; phone = 4157768688 ) & yes they have internet access and the san remo hotel 's phone number is 4157768688
+select ( hasinternet = yes ; hasinternet = no ) & would you like a hotel that offers internet service
+inform ( name = seaside inn ; hasinternet = yes ) & the seaside inn does have internet
+inform ( name = executive hotel vintage court ; dogsallowed = no ) & there is an executive hotel vintage court that does not allow dogs
+inform ( name = the inn san francisco ; pricerange = moderate ; address = 943 s van ness avenue ; phone = 4156410188 ) & the inn san francisco is priced moderate -ly and is at 943 s van ness avenue . their phone number is 4156410188
+inform ( name = red victorian bed breakfast and arts cafe ; near = haight ) & okay well i have got the red victorian bed breakfast and arts cafe near haight
+inform_only_match ( name = carl hotel ; near = inner sunset ) & the carl hotel is the only hotel near inner sunset
+inform_no_match ( pricerange = pricey ; dogsallowed = no ) & there is no pricey hotel -s that do not allow dogs
+inform ( name = intercontinental san francisco ; dogsallowed = yes ; hasinternet = yes ; pricerange = pricey ) & the intercontinental san francisco allows dogs and has internet and is pricey
+inform ( name = hotel kabuki ; near = japantown ; dogsallowed = yes ) & hotel kabuki is near japantown and they allow dogs
+inform_count ( type = hotel ; count = 13 ; near = north beach telegraph hill ) & there are 13 hotel -s near north beach telegraph hill
+inform ( name = park hotel ; phone = 8005476561 ; postcode = 94108 ) & park hotel 's number is 8005476561 and is at postcode 94108
+confirm ( dogsallowed = dont_care ) & dogs allowed is not an issue
+inform_only_match ( name = casa loma hotel and metro hotel ; area = alamo square ) & there is a casa loma hotel and metro hotel near alamo square
+bye (  = ? ) & bye
+inform_count ( type = hotel ; count = 17 ; area = noma ) & there are 17 hotel -s in the noma area
+inform ( name = days inn san francisco downtown fcivic center area ; area = hayes valley ; pricerange = inexpensive ) & the days inn san francisco downtown fcivic center area , it is in the hayes valley area , and the price range in inexpensive
+inform ( name = pickwick hotel ; area = noma ; dogsallowed = no ) & pickwick hotel is in noma and does not allow dogs
+inform ( name = parker guest house ; area = mastro ; address = 520 church street ; phone = 4156213222 ) & the parker guest house in mastro 's address is 520 church street . the phone number is 4156213222
+inform_count ( type = hotel ; count = 34 ; pricerange = pricey ) & there are 34 hotel -s in the area that are pricey
+inform ( name = intercontinental san francisco ; address = 888 howard street ; phone = 4156166500 ; postcode = 94103 ) & intercontinental san francisco is located at 888 howard street , 94103 . phone number 4156166500
+inform_no_match ( near = mission ; dogsallowed = yes ) & no hotel -s near mission allow dogs
+select ( pricerange = moderate or inexpensive ) & would you like moderate or inexpensive price range
+inform ( name = hotel kabuki ; acceptscreditcards = yes ; area = little osaka ) & the hotel kabuki accepts credit card -s and is in the area of little osaka
