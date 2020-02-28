@@ -78,7 +78,6 @@ def main():
         # score= template_ranks[-1][0]
         score = 1
         
-        # gen_strs = results_from_gpt[test_seen_id[idx]]
         gen_strs = results_from_gpt[idx]
         gen_strs_single = []
         gen_strs_ = []
@@ -87,16 +86,10 @@ def main():
             gen_str = gen_str[:cl_idx].strip().lower()
             gen_str = ' '.join(word_tokenize(gen_str))
             gen_str.replace('-s','')
-            # print(gen_str)
-            # gen_str = gen_str.replace(',','')
-            # gen_str = reader.lexicalise(gen_str, dact)
-            # print(gen_str)
             gen_str = gen_str.replace('watts','watt -s').replace('televisions','television -s').replace('ports', 'port -s').replace('includes', 'include -s').replace('restaurants','restaurant -s').replace('kids','kid -s').replace('childs','child -s').replace('prices','price -s').replace('range','range -s').\
                 replace('laptops','laptop -s').replace('familys','family -s').replace('specifications','specification -s').replace('ratings','rating -s').replace('products','product -s').\
                     replace('constraints','constraint -s').replace('drives','drive -s').replace('dimensions','dimension -s')
             gen_strs_single.append(gen_str)
-            # if gen_str[-1] == '.':
-                # gen_str = gen_str[:-1]
             gen_strs_.append(gen_str)                    
             
 
@@ -105,8 +98,6 @@ def main():
         gens = gen_strs_
         idx += 1
         topk = 1
-        # gens = gens[:topk] if len(gens)>topk else gens
-        # for slot error rate scoring
         felements = [reader.cardinality[x+reader.dfs[1]]\
                 for x in sv]
         gens_with_penalty = []
@@ -131,11 +122,7 @@ def main():
             gencnts[0]  += cnt
             gencnts[1]  += total
             gencnts[2]  += caty
-            # gens_with_penalty.append((caty, gens[i]))
-            # print ('%.4f\t%d\t%d\t%s\t%s\t%s' % (score,total,caty,gens[i], delexed, felements))
-        # print ('\n')
         
-
         # compute gold standard slot error rate
         for sent in sents:
             # score slot error rate
@@ -145,15 +132,7 @@ def main():
             refcnts[0]  += cnt
             refcnts[1]  += total
             refcnts[2]  += caty
-        # accumulate score for bleu score computation
-        # sents_tok = []
 
-        # for s in sents:
-            # gen_str = ' '.join(word_tokenize(s.lower()))
-            # sents_tok.append(gen_str)
-        
-        # import pdb
-        # pdb.set_trace()
         parallel_corpus.append([[g for g in gens], sents])
         hdc_corpus.append([bases[:1],sents])
     
@@ -161,11 +140,6 @@ def main():
     
     for i in parallel_corpus:
         predicted_sentences.append(i[0][0])
-    # json.dump(predicted_sentences, open(f'{f}.res.amt.txt','w'))
-    # dist1 = distinct_n_corpus_level(predicted_sentences, 1)
-    # dist2 = distinct_n_corpus_level(predicted_sentences, 2)
-
-    # print(f'Dist-1:{dist1}; Dist-2:{dist2}')
 
     bleuModel   = gentscorer.scoreSBLEU(parallel_corpus)
     bleuHDC     = gentscorer.scoreSBLEU(hdc_corpus)
