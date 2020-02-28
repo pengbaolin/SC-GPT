@@ -4,7 +4,8 @@ This repository contains the dataset, source code and trained model for the foll
 
 [Few-shot Natural Language Generation for Task-Oriented Dialog](http://google.com)
 Baolin Peng, Chenguang Zhu, Chunyuan Li, Xiujun Li, Jinchao Li, Michael Zeng and Jianfeng Gao
-ArXiv paper: [https://arxiv.org/](https://arxiv.org/)
+
+ArXiv paper: [https://arxiv.org/abs/2002.12328](https://arxiv.org/abs/2002.12328)
 
 This repository is based on hugginface transformer package and OpenAI GPT-2, containing model training code and pretrained medium model checkpoint. Some evaluation scripts are adapted from [RNNLG]([https://github.com/shawnwun/RNNLG](https://github.com/shawnwun/RNNLG)). The results indicate that with minimal training examples, SC-GPT is able to generate natural language response given dialog acts naturally and adequately. It can be used to train an NLG model in new domains with very limited examples.
 
@@ -60,8 +61,11 @@ export CUDA_VISIBLE_DEVICES=0
 python train.py --output_dir=MODEL_SAVE_PATH --model_type=gpt2 --model_name_or_path=PRE_TRINED_MODEL_PATH --do_train --do_eval --eval_data_file=data/restaurant/train.txt --per_gpu_train_batch_size 1 --num_train_epochs EPOCH --learning_rate LR --overwrite_cache --use_tokenize --train_data_file=data/restaurant/train.txt --overwrite_output_dir
 ```
 <code>MODEL_SAVE_PATH </code>: Path of the saving model .
+
 <code>PRE_TRAINED_MODEL_PATH </code>: Initial checkpoint; Could start from gpt2, gpt2-meidum or our provided scgpt folder.
+
 <code>EPOCH </code>: Number of training epochs;  5 is enough for a reasonable performance
+
 <code>LR </code>: Learning rate; 5e-5, 1e-5, or 1e-4
 
 **Decoding**
@@ -74,6 +78,8 @@ python generate.py --model_type=gpt2 --model_name_or_path=MODEL_SAVE_PATH --num_
 ```bash
 python evaluator.py --domain restaurant results.json
 ```
+*script for attraction/train/taxi will be provided soon*
+
 **Interact**
 ```
 python interact.py --model_type=gpt2 --model_name_or_path=MODEL_SAVE_PATH --length 50 --num_samples 5
