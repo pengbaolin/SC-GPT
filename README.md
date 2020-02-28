@@ -98,8 +98,10 @@ if you use this code and data in your research, please cite our arxiv paper:
 @misc{peng2020scgpt,
       title={Few-shot Natural Language Generation for Task-Oriented Dialog},
       author={Baolin Peng, Chenguang Zhu, Chunyuan Li, Xiujun Li, Jinchao Li, Michael Zeng, Jianfeng Gao},
-      booktitle ={Arxiv},
-      year={2020}
+      archivePrefix={arXiv},
+      year={2020},
+      eprint={2002.12328},
+      primaryClass={cs.CL}
 }
 ```
 
