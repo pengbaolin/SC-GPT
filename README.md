@@ -48,7 +48,7 @@ Please use the below command to clone and install the requirements.
 ```bash
 git clone https://github.com/pengbaolin/SC-GPT.git
 cd SC-GPT
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 Fetch and unzip the checkpoint
 ```bash
