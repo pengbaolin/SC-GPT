@@ -28,6 +28,6 @@ pythainlp==2.1.4
 scikit_learn==0.22.1
 seqeval==0.0.12
 tensorboardX==2.0
-tensorflow==2.1.0
+tensorflow==2.3.1
 tensorflow_datasets==2.1.0
 transformers==2.1.1
